@@ -1,0 +1,7 @@
+2025-04-29 12:05:05 | INFO | Worker1 initialized and ready to process messages
+2025-04-29 12:05:05 | INFO | Worker instance created
+2025-04-29 12:05:07 | INFO | Connected to existing queue: d92a8ee6-33bc-491a-96e3-b33e31a85063_xvx
+2025-04-29 12:05:07 | INFO | Consumer ready on queue: d92a8ee6-33bc-491a-96e3-b33e31a85063_xvx
+2025-04-29 12:05:08 | INFO | Started url_rewriter_para_worker on queue: d92a8ee6-33bc-491a-96e3-b33e31a85063_xvx
+2025-04-29 12:05:08 | INFO | Worker started
+2025-04-29 12:05:08 | INFO | Started url_rewriter_para_worker with PID: 960, queue: d92a8ee6-33bc-491a-96e3-b33e31a85063_xvx

@@ -1,0 +1,164 @@
+2025-04-09 09:49:29 | ERROR | PID:25584 | Error in list_queues: HTTPConnectionPool(host='rabbitmq', port=15672): Max retries exceeded with url: /api/queues (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020E18F19B40>: Failed to resolve 'rabbitmq' ([Errno 11001] getaddrinfo failed)"))
+2025-04-09 09:50:01 | ERROR | PID:25584 | Error in list_queues: HTTPConnectionPool(host='rabbitmq', port=15672): Max retries exceeded with url: /api/queues (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020E18F1AE30>: Failed to resolve 'rabbitmq' ([Errno 11001] getaddrinfo failed)"))
+2025-04-09 09:50:29 | ERROR | PID:25584 | Error in list_queues: HTTPConnectionPool(host='rabbitmq', port=15672): Max retries exceeded with url: /api/queues (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020E18F1B010>: Failed to resolve 'rabbitmq' ([Errno 11001] getaddrinfo failed)"))
+2025-04-09 09:50:52 | ERROR | PID:25584 | Error in list_queues: HTTPConnectionPool(host='rabbitmq', port=15672): Max retries exceeded with url: /api/queues (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020E18F6C3A0>: Failed to resolve 'rabbitmq' ([Errno 11001] getaddrinfo failed)"))
+2025-04-09 09:51:15 | ERROR | PID:5736 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D772F492D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 09:51:39 | ERROR | PID:5736 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D772F4AE30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 09:51:58 | ERROR | PID:5736 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D772F49A80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 09:55:41 | ERROR | PID:5736 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D772F49B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 09:57:06 | ERROR | PID:6208 | Error in list_queues: HTTPConnectionPool(host='rabbitmq', port=15672): Max retries exceeded with url: /api/queues (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000018D24A29B10>: Failed to resolve 'rabbitmq' ([Errno 11001] getaddrinfo failed)"))
+2025-04-09 09:59:03 | ERROR | PID:26360 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA4B2292A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 10:03:35 | ERROR | PID:20968 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011B6E619B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 10:07:10 | ERROR | PID:25212 | Error in list_queues: HTTPConnectionPool(host='localhost', port=15672): Max retries exceeded with url: /api/queues (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCA0599A80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-09 10:10:08 | INFO | PID:25212 | Queue 'article-input-queue' created successfully
+2025-04-09 10:19:13 | INFO | PID:10056 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:19:16 | INFO | PID:10056 | Started worker process 21604
+2025-04-09 10:22:19 | INFO | PID:12912 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:22:22 | INFO | PID:12912 | Started worker process 23244
+2025-04-09 10:35:48 | ERROR | PID:13364 | Error loading worker module url_rewriter_para_worker: invalid syntax (url_rewriter_para_worker.py, line 5)
+2025-04-09 10:36:13 | ERROR | PID:13364 | Error loading worker module url_rewriter_para_worker: invalid syntax (url_rewriter_para_worker.py, line 5)
+2025-04-09 10:36:34 | ERROR | PID:13364 | Error loading worker module url_rewriter_para_worker: invalid syntax (url_rewriter_para_worker.py, line 5)
+2025-04-09 10:36:57 | INFO | PID:23044 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:37:00 | INFO | PID:23044 | Started worker process 18412
+2025-04-09 10:37:22 | ERROR | PID:10660 | Error loading worker module url_rewriter_para_worker: invalid syntax (url_rewriter_para_worker.py, line 5)
+2025-04-09 10:37:25 | ERROR | PID:10660 | Error loading worker module url_rewriter_para_worker: invalid syntax (url_rewriter_para_worker.py, line 5)
+2025-04-09 10:38:19 | INFO | PID:14564 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:38:22 | INFO | PID:14564 | Started worker process 11848
+2025-04-09 10:39:18 | INFO | PID:9652 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:39:21 | INFO | PID:9652 | Started worker process 21796
+2025-04-09 10:43:03 | INFO | PID:16072 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:43:06 | INFO | PID:16072 | Started worker process 18200
+2025-04-09 10:44:36 | INFO | PID:20968 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:44:39 | INFO | PID:20968 | Started worker process 19312
+2025-04-09 10:44:50 | INFO | PID:20968 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:44:53 | INFO | PID:20968 | Started worker process 5736
+2025-04-09 10:44:56 | INFO | PID:20968 | Started worker process 23744
+2025-04-09 10:44:59 | INFO | PID:20968 | Started worker process 23672
+2025-04-09 10:45:02 | INFO | PID:20968 | Started worker process 24508
+2025-04-09 10:45:05 | INFO | PID:20968 | Started worker process 26224
+2025-04-09 10:45:08 | INFO | PID:20968 | Started worker process 25012
+2025-04-09 10:45:11 | INFO | PID:20968 | Started worker process 19296
+2025-04-09 10:45:14 | INFO | PID:20968 | Started worker process 6992
+2025-04-09 10:45:18 | INFO | PID:20968 | Started worker process 16944
+2025-04-09 10:45:21 | INFO | PID:20968 | Started worker process 17116
+2025-04-09 10:45:24 | INFO | PID:20968 | Started worker process 21676
+2025-04-09 10:45:27 | INFO | PID:20968 | Started worker process 24876
+2025-04-09 10:45:28 | INFO | PID:20968 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:45:30 | INFO | PID:20968 | Started worker process 22076
+2025-04-09 10:45:31 | INFO | PID:20968 | Started worker process 8740
+2025-04-09 10:45:33 | INFO | PID:20968 | Started worker process 13280
+2025-04-09 10:45:34 | INFO | PID:20968 | Started worker process 11308
+2025-04-09 10:45:36 | INFO | PID:20968 | Started worker process 21212
+2025-04-09 10:45:37 | INFO | PID:20968 | Started worker process 12952
+2025-04-09 10:45:39 | INFO | PID:20968 | Started worker process 14060
+2025-04-09 10:45:40 | INFO | PID:20968 | Started worker process 19740
+2025-04-09 10:45:42 | INFO | PID:20968 | Started worker process 21116
+2025-04-09 10:45:43 | INFO | PID:20968 | Started worker process 13136
+2025-04-09 10:45:45 | INFO | PID:20968 | Started worker process 23208
+2025-04-09 10:45:46 | INFO | PID:20968 | Started worker process 15548
+2025-04-09 10:45:48 | INFO | PID:20968 | Started worker process 24440
+2025-04-09 10:45:49 | INFO | PID:20968 | Started worker process 4700
+2025-04-09 10:45:51 | INFO | PID:20968 | Started worker process 25460
+2025-04-09 10:45:52 | INFO | PID:20968 | Started worker process 1584
+2025-04-09 10:45:54 | INFO | PID:20968 | Started worker process 22360
+2025-04-09 10:45:55 | INFO | PID:20968 | Started worker process 10140
+2025-04-09 10:45:57 | INFO | PID:20968 | Started worker process 21604
+2025-04-09 10:45:58 | INFO | PID:20968 | Started worker process 23316
+2025-04-09 10:46:00 | INFO | PID:20968 | Started worker process 18112
+2025-04-09 10:46:03 | INFO | PID:20968 | Started worker process 17836
+2025-04-09 10:46:06 | INFO | PID:20968 | Started worker process 12936
+2025-04-09 10:46:09 | INFO | PID:20968 | Started worker process 25804
+2025-04-09 10:46:12 | INFO | PID:20968 | Started worker process 9008
+2025-04-09 10:46:15 | INFO | PID:20968 | Started worker process 16600
+2025-04-09 10:46:18 | INFO | PID:20968 | Started worker process 10300
+2025-04-09 10:46:21 | INFO | PID:20968 | Started worker process 4332
+2025-04-09 10:46:24 | INFO | PID:20968 | Started worker process 14504
+2025-04-09 10:46:27 | INFO | PID:20968 | Started worker process 7156
+2025-04-09 10:46:30 | INFO | PID:20968 | Started worker process 3968
+2025-04-09 10:46:33 | INFO | PID:20968 | Started worker process 28184
+2025-04-09 10:46:36 | INFO | PID:20968 | Started worker process 24796
+2025-04-09 10:46:40 | INFO | PID:20968 | Started worker process 15352
+2025-04-09 10:46:43 | INFO | PID:20968 | Started worker process 11848
+2025-04-09 10:46:46 | INFO | PID:20968 | Started worker process 27176
+2025-04-09 10:46:49 | INFO | PID:20968 | Started worker process 19948
+2025-04-09 10:46:52 | INFO | PID:20968 | Started worker process 21552
+2025-04-09 10:46:55 | INFO | PID:20968 | Started worker process 14360
+2025-04-09 10:46:58 | INFO | PID:20968 | Started worker process 26484
+2025-04-09 10:47:01 | INFO | PID:20968 | Started worker process 17176
+2025-04-09 10:47:04 | INFO | PID:20968 | Started worker process 4768
+2025-04-09 10:47:07 | INFO | PID:20968 | Started worker process 27796
+2025-04-09 10:47:10 | INFO | PID:20968 | Started worker process 18080
+2025-04-09 10:47:13 | INFO | PID:20968 | Started worker process 9960
+2025-04-09 10:47:16 | INFO | PID:20968 | Started worker process 24388
+2025-04-09 10:47:19 | INFO | PID:20968 | Started worker process 10708
+2025-04-09 10:47:22 | INFO | PID:20968 | Started worker process 28348
+2025-04-09 10:47:25 | INFO | PID:20968 | Started worker process 27200
+2025-04-09 10:47:28 | INFO | PID:20968 | Started worker process 23840
+2025-04-09 10:47:31 | INFO | PID:20968 | Started worker process 3460
+2025-04-09 10:47:34 | INFO | PID:20968 | Started worker process 2880
+2025-04-09 10:47:37 | INFO | PID:20968 | Started worker process 16548
+2025-04-09 10:47:40 | INFO | PID:20968 | Started worker process 26320
+2025-04-09 10:47:43 | INFO | PID:20968 | Started worker process 1872
+2025-04-09 10:47:46 | INFO | PID:20968 | Started worker process 7884
+2025-04-09 10:47:49 | INFO | PID:20968 | Started worker process 12808
+2025-04-09 10:47:52 | INFO | PID:20968 | Started worker process 26864
+2025-04-09 10:47:55 | INFO | PID:20968 | Started worker process 8832
+2025-04-09 10:47:58 | INFO | PID:20968 | Started worker process 6192
+2025-04-09 10:48:01 | INFO | PID:20968 | Started worker process 26360
+2025-04-09 10:48:05 | INFO | PID:20968 | Started worker process 26112
+2025-04-09 10:48:08 | INFO | PID:20968 | Started worker process 14660
+2025-04-09 10:48:11 | INFO | PID:20968 | Started worker process 28140
+2025-04-09 10:48:14 | INFO | PID:20968 | Started worker process 14264
+2025-04-09 10:48:17 | INFO | PID:20968 | Started worker process 9628
+2025-04-09 10:48:20 | INFO | PID:20968 | Started worker process 16856
+2025-04-09 10:48:23 | INFO | PID:20968 | Started worker process 21016
+2025-04-09 10:48:26 | INFO | PID:20968 | Started worker process 23476
+2025-04-09 10:48:29 | INFO | PID:20968 | Started worker process 19800
+2025-04-09 10:48:32 | INFO | PID:20968 | Started worker process 28416
+2025-04-09 10:48:35 | INFO | PID:20968 | Started worker process 13808
+2025-04-09 10:48:38 | INFO | PID:20968 | Started worker process 22048
+2025-04-09 10:48:41 | INFO | PID:20968 | Started worker process 22180
+2025-04-09 10:48:44 | INFO | PID:20968 | Started worker process 15996
+2025-04-09 10:48:47 | INFO | PID:20968 | Started worker process 6892
+2025-04-09 10:48:50 | INFO | PID:20968 | Started worker process 12712
+2025-04-09 10:48:53 | INFO | PID:20968 | Started worker process 26656
+2025-04-09 10:48:56 | INFO | PID:20968 | Started worker process 12032
+2025-04-09 10:48:59 | INFO | PID:20968 | Started worker process 15056
+2025-04-09 10:49:02 | INFO | PID:20968 | Started worker process 17576
+2025-04-09 10:49:05 | INFO | PID:20968 | Started worker process 21992
+2025-04-09 10:49:08 | INFO | PID:20968 | Started worker process 3832
+2025-04-09 10:49:11 | INFO | PID:20968 | Started worker process 16000
+2025-04-09 10:49:14 | INFO | PID:20968 | Started worker process 11756
+2025-04-09 10:49:17 | INFO | PID:20968 | Started worker process 8732
+2025-04-09 10:49:21 | INFO | PID:20968 | Started worker process 10508
+2025-04-09 10:49:24 | INFO | PID:20968 | Started worker process 29256
+2025-04-09 10:49:27 | INFO | PID:20968 | Started worker process 9476
+2025-04-09 10:49:30 | INFO | PID:20968 | Started worker process 29880
+2025-04-09 10:49:33 | INFO | PID:20968 | Started worker process 30352
+2025-04-09 10:49:36 | INFO | PID:20968 | Started worker process 30492
+2025-04-09 10:49:39 | INFO | PID:20968 | Started worker process 30588
+2025-04-09 10:49:42 | INFO | PID:20968 | Started worker process 4396
+2025-04-09 10:49:45 | INFO | PID:20968 | Started worker process 29192
+2025-04-09 10:49:49 | INFO | PID:20968 | Started worker process 25984
+2025-04-09 10:49:52 | INFO | PID:20968 | Started worker process 29748
+2025-04-09 10:49:55 | INFO | PID:20968 | Started worker process 28780
+2025-04-09 10:58:42 | INFO | PID:27700 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:58:45 | INFO | PID:27700 | Started worker process 10204
+2025-04-09 10:59:43 | INFO | PID:26364 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 10:59:46 | INFO | PID:26364 | Started worker process 25232
+2025-04-09 11:02:21 | INFO | PID:28196 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 11:02:24 | INFO | PID:28196 | Started worker process 30588
+2025-04-09 11:06:55 | INFO | PID:21212 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 11:06:58 | INFO | PID:21212 | Started worker process 30196
+2025-04-09 11:07:45 | INFO | PID:29636 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 11:07:48 | INFO | PID:29636 | Started worker process 2440
+2025-04-09 11:10:39 | INFO | PID:16600 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 11:10:42 | INFO | PID:16600 | Started worker process 28884
+2025-04-09 11:25:13 | INFO | PID:23836 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 11:25:16 | INFO | PID:23836 | Started worker process 5820
+2025-04-09 11:28:15 | INFO | PID:30704 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 11:28:18 | INFO | PID:30704 | Started worker process 5736
+2025-04-09 12:53:21 | INFO | PID:21292 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 12:53:24 | INFO | PID:21292 | Started worker process 28532
+2025-04-09 12:57:29 | INFO | PID:13532 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-09 12:57:32 | INFO | PID:13532 | Started worker process 16736

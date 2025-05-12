@@ -1,0 +1,20 @@
+2025-04-30 12:24:02 | INFO | PID:6000 | Starting worker url_rewriter_para_worker for queue article-input-queue2
+2025-04-30 12:24:02 | INFO | PID:6000 | Created new channel
+2025-04-30 12:24:02 | INFO | PID:6000 | Declared queue: article-input-queue2
+2025-04-30 12:24:02 | INFO | PID:6000 | Available workers: ['testworker', 'url_rewriter_para_worker']
+2025-04-30 12:24:02 | INFO | PID:6000 | Found worker class: UrlRewriterParallelWorker
+2025-04-30 12:24:56 | INFO | PID:20616 | Starting worker url_rewriter_para_worker for queue article-input-queue2
+2025-04-30 12:24:56 | INFO | PID:20616 | Created new channel
+2025-04-30 12:24:56 | INFO | PID:20616 | Declared queue: article-input-queue2
+2025-04-30 12:24:56 | INFO | PID:20616 | Available workers: ['testworker', 'url_rewriter_para_worker']
+2025-04-30 12:24:56 | INFO | PID:20616 | Found worker class: UrlRewriterParallelWorker
+2025-04-30 12:25:03 | INFO | PID:37236 | Starting worker url_rewriter_para_worker for queue article-input-queue2
+2025-04-30 12:25:03 | INFO | PID:37236 | Created new channel
+2025-04-30 12:25:03 | INFO | PID:37236 | Declared queue: article-input-queue2
+2025-04-30 12:25:04 | INFO | PID:37236 | Available workers: ['testworker', 'url_rewriter_para_worker']
+2025-04-30 12:25:04 | INFO | PID:37236 | Found worker class: UrlRewriterParallelWorker
+2025-04-30 12:42:46 | INFO | PID:1700 | Starting worker url_rewriter_para_worker for queue article-input-queue2
+2025-04-30 12:42:46 | INFO | PID:1700 | Created new channel
+2025-04-30 12:42:46 | INFO | PID:1700 | Declared queue: article-input-queue2
+2025-04-30 12:42:46 | INFO | PID:1700 | Available workers: ['testworker', 'url_rewriter_para_worker']
+2025-04-30 12:42:46 | INFO | PID:1700 | Found worker class: UrlRewriterParallelWorker

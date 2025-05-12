@@ -1,0 +1,5 @@
+2025-04-14 09:15:36 | INFO | PID:15288 | Queue 'article-input-queue' created successfully
+2025-04-14 09:15:40 | INFO | PID:15288 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-14 09:15:44 | INFO | PID:15288 | Started worker process 20052
+2025-04-14 09:18:23 | INFO | PID:4728 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-14 09:18:26 | INFO | PID:4728 | Started worker process 14824

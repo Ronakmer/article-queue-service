@@ -1,0 +1,67 @@
+http:127.0.0.1:8501
+
+
+docker-compose down && docker-compose build && docker-compose up -d 
+
+
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management            ---------------
+
+article-input-queue
+
+
+
+worker_url_rewriter_para
+
+url_rewriter_para_worker
+
+
+create q 
+    list q 
+        worker scale
+            message scale 
+
+
+
+
+
+
+# Update second step to processing
+self.api_client.crud(
+    'process-step',
+    'update',
+    data={"status": "processing"},
+    item_id=step_slugs[1]
+)
+
+
+
+
+# for add time 
+step_result = self.api_client.crud('process-step', 'create', data=step_data)
+
+
+
+
+
+
+
+
+
+
+todo:
+        
+
+    0)  add wordpress table in direv_by and created_by filed ( photo tems ma che ) 
+
+    1)  pela prince no code add kar va no 
+
+    1.1)    add read fucitoin in prince code complet kar va o che code  
+
+    2)  wp_prompt_data ma wp_categories_prompt_data hashe aeno use kari ne ek final wp_prompt kar vo
+            (aema supotive varibal hashe ano use kari ne pela aeno data get ( filter karvo ) and pachi json kar vi)
+            ae ma lsit categoy no use kari ne badho data levo and ae ni ouput json kar vi 
+
+    3)  cat male to ok baki new kari ne article innovert ma add karvi 
+
+    4) final badho data marger kari ne article ne add kar va ni api call kar va ni 
+

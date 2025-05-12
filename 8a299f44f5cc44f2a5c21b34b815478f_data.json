@@ -1,0 +1,346 @@
+{
+    "article_id": "8bc77bcc-f717-43b5-a70a-def37194002c",
+    "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+    "ai_response": [
+        {
+            "message_id": "7a9a9267-d4de-4c88-9e1b-88ed0e69d37f",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: Demands For Side Hustlers Season 2: Is it Officially Renewed? Everything You Need To Know!",
+                "processing_time": 2.013481855549253,
+                "tokens": {
+                    "completion_tokens": 110,
+                    "prompt_tokens": 177,
+                    "total_tokens": 287
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "title",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-0"
+        },
+        {
+            "message_id": "86bb2e41-2372-491c-a78b-962f733b06c5",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the para:",
+                "processing_time": 1.678775291954719,
+                "tokens": {
+                    "completion_tokens": 178,
+                    "prompt_tokens": 238,
+                    "total_tokens": 416
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-1"
+        },
+        {
+            "message_id": "3c8bc3e2-04a0-4dce-82b4-d927066f9409",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "GPT simulation analyzing your input: Emma Grede and Ashley Graham, your teachers, will lead you on an exciting journey full of business knowledge and a bit of drama.",
+                "processing_time": 3.380591735867834,
+                "tokens": {
+                    "completion_tokens": 183,
+                    "prompt_tokens": 100,
+                    "total_tokens": 283
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-2"
+        },
+        {
+            "message_id": "c485c83b-81e4-42bc-a223-64b67ec0ad86",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Simulated gpt-4 response to your prompt: Rewrite the para:",
+                "processing_time": 3.911621927467051,
+                "tokens": {
+                    "completion_tokens": 162,
+                    "prompt_tokens": 383,
+                    "total_tokens": 545
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-3"
+        },
+        {
+            "message_id": "5d4bc19c-9758-47fa-9fcf-cc707b5d47ae",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Simulated gpt-4 response to your prompt: Rewrite the heading:",
+                "processing_time": 2.0333934933494047,
+                "tokens": {
+                    "completion_tokens": 95,
+                    "prompt_tokens": 201,
+                    "total_tokens": 296
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-4"
+        },
+        {
+            "message_id": "b87917e2-e2b3-4725-a0a3-d6a474a79491",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "I am a simulated version of gpt-4, processing your request with system context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 2.9565614149185895,
+                "tokens": {
+                    "completion_tokens": 137,
+                    "prompt_tokens": 140,
+                    "total_tokens": 277
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-5"
+        },
+        {
+            "message_id": "d8fc4044-cd10-430c-ab5b-9289f258053c",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Here's a mock response based on your input: Demands For Side Hustlers Season 2 Release Date",
+                "processing_time": 3.240645691439549,
+                "tokens": {
+                    "completion_tokens": 151,
+                    "prompt_tokens": 327,
+                    "total_tokens": 478
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-6"
+        },
+        {
+            "message_id": "862cd691-5538-41c8-87b2-f994181d2f9f",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: According to LiveAkhtar, the creators of Side Hustlers have not yet said when Season 2 will be out. The first season of the show started on March 1, 2024.",
+                "processing_time": 2.9113330837728175,
+                "tokens": {
+                    "completion_tokens": 124,
+                    "prompt_tokens": 241,
+                    "total_tokens": 365
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-7"
+        },
+        {
+            "message_id": "db5eecb9-938c-4f22-8641-18af38abd31e",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Simulated gpt-4 response to your prompt: Rewrite the para:",
+                "processing_time": 4.91574114457153,
+                "tokens": {
+                    "completion_tokens": 159,
+                    "prompt_tokens": 365,
+                    "total_tokens": 524
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-8"
+        },
+        {
+            "message_id": "1b421b92-1313-48d4-8db5-3472c96c8122",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the list:",
+                "processing_time": 4.949358165468501,
+                "tokens": {
+                    "completion_tokens": 121,
+                    "prompt_tokens": 228,
+                    "total_tokens": 349
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "ul",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-9"
+        },
+        {
+            "message_id": "92161fa2-d8f9-43ec-8c4c-7551124044ef",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "I am a simulated version of gpt-4, processing your request with system context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 2.97340804566868,
+                "tokens": {
+                    "completion_tokens": 139,
+                    "prompt_tokens": 378,
+                    "total_tokens": 517
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-10"
+        },
+        {
+            "message_id": "cf97754f-8cf5-4c75-aa47-185186774b2e",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "GPT simulation analyzing your input: A reality  TV show called “Side Hustlers” follows female business owners as they build their side businesses with the help of partners Emma Grede and Ashley Graham.",
+                "processing_time": 3.8386436081673097,
+                "tokens": {
+                    "completion_tokens": 54,
+                    "prompt_tokens": 474,
+                    "total_tokens": 528
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-11"
+        },
+        {
+            "message_id": "6892a958-f137-4b0f-900c-b5ce954c6581",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 4.093928940576865,
+                "tokens": {
+                    "completion_tokens": 185,
+                    "prompt_tokens": 103,
+                    "total_tokens": 288
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-12"
+        },
+        {
+            "message_id": "647b1d5e-aa49-41c8-bfcd-024d1f4f3408",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 1.3529582600806211,
+                "tokens": {
+                    "completion_tokens": 95,
+                    "prompt_tokens": 182,
+                    "total_tokens": 277
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-13"
+        },
+        {
+            "message_id": "38fb51da-00a9-4a34-b64b-eda87f2c5f27",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "I am a simulated version of gpt-4, processing your request with system context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 4.515488166548868,
+                "tokens": {
+                    "completion_tokens": 75,
+                    "prompt_tokens": 384,
+                    "total_tokens": 459
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-14"
+        },
+        {
+            "message_id": "f5e585ba-7bce-4ba1-ade5-4d088c825e46",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Here's a mock response based on your input: Demands For Side Hustlers Season 2 Cast Details",
+                "processing_time": 4.867800429669084,
+                "tokens": {
+                    "completion_tokens": 186,
+                    "prompt_tokens": 449,
+                    "total_tokens": 635
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-15"
+        },
+        {
+            "message_id": "b05dc02d-9faa-4367-8898-95c14518177c",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Here's a mock response based on your input: Menik Gooneratne plays Sophia Fugazi on Season 2 of Side Hustle. Regina Fernandez plays Morgan, Kapri Ladd plays Holly, Pono Say plays Jerome, Curt Mega plays Pete, Jack Stanton plays Rex, and Reyn Doi plays Rex.",
+                "processing_time": 4.099017275034983,
+                "tokens": {
+                    "completion_tokens": 171,
+                    "prompt_tokens": 132,
+                    "total_tokens": 303
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-16"
+        },
+        {
+            "message_id": "2e90ca4e-9168-4f49-801c-105285fc159d",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: Where can we watch Demands For Side Hustlers?",
+                "processing_time": 2.3164282987725247,
+                "tokens": {
+                    "completion_tokens": 136,
+                    "prompt_tokens": 299,
+                    "total_tokens": 435
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-17"
+        },
+        {
+            "message_id": "758ce311-f032-41b2-aca7-c50555476e70",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the para:",
+                "processing_time": 1.3861412867827525,
+                "tokens": {
+                    "completion_tokens": 66,
+                    "prompt_tokens": 333,
+                    "total_tokens": 399
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-18"
+        },
+        {
+            "message_id": "b38ab494-e0c7-4179-b0b8-14c02aab4287",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Simulated gpt-4 response to your prompt: Rewrite the para:",
+                "processing_time": 2.60587654609443,
+                "tokens": {
+                    "completion_tokens": 186,
+                    "prompt_tokens": 152,
+                    "total_tokens": 338
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8bc77bcc-f717-43b5-a70a-def37194002c-19"
+        }
+    ]
+}

@@ -1,0 +1,352 @@
+[
+    {
+        "message": "Message queued for processing",
+        "message_id": "118d7540-f475-4f67-b55b-42ece660be9d",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-0",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006"
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "6232e5c6-9e48-4db4-9b12-345b6b0ae369",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-1",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "GPT simulation analyzing your input: Before Side Hustler comes out on March 1, 2024, get ready for some exciting business events! Watch with interest as determined women business owners fight for investment success while juggling their personal and professional lives.",
+            "processing_time": 3.012067343203114,
+            "tokens": {
+                "completion_tokens": 93,
+                "prompt_tokens": 109,
+                "total_tokens": 202
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "389d99da-017d-442f-989e-d14b168046d4",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-2",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 4.125005260540878,
+            "tokens": {
+                "completion_tokens": 190,
+                "prompt_tokens": 213,
+                "total_tokens": 403
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "0e372cda-bd45-4b61-844f-8d1a6eba8ed8",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-3",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 4.784816702078169,
+            "tokens": {
+                "completion_tokens": 166,
+                "prompt_tokens": 176,
+                "total_tokens": 342
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "35589c93-e26a-4fe6-9fe2-aa00327d8441",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-4",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "GPT simulation analyzing your input: Will there be a Season 2 of Demands For Side Hustlers?",
+            "processing_time": 3.8191986178878548,
+            "tokens": {
+                "completion_tokens": 168,
+                "prompt_tokens": 365,
+                "total_tokens": 533
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "2f1b249b-01ac-4865-83d2-c82da8d7121d",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-5",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 2.0398853525169134,
+            "tokens": {
+                "completion_tokens": 150,
+                "prompt_tokens": 306,
+                "total_tokens": 456
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "50bf8737-10c5-4018-8ba0-d3208c3ee36e",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-6",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "Here's a mock response based on your input: Demands For Side Hustlers Season 2 Release Date",
+            "processing_time": 2.2461469927993547,
+            "tokens": {
+                "completion_tokens": 73,
+                "prompt_tokens": 275,
+                "total_tokens": 348
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "9b25ddef-5274-46d0-8b96-1e41fde2817c",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-7",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "GPT simulation analyzing your input: According to LiveAkhtar, the creators of Side Hustlers have not yet said when Season 2 will be out. The first season of the show started on March 1, 2024.",
+            "processing_time": 3.471579075927698,
+            "tokens": {
+                "completion_tokens": 122,
+                "prompt_tokens": 149,
+                "total_tokens": 271
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "14bcf270-d976-4e1e-8513-1d5e2640eca0",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-8",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "Here's a mock response based on your input: For those desiring more information and insights about celebrities and entertainment, take a look at our past articles where we’ve extensively covered all the nuances.",
+            "processing_time": 1.9227180289157295,
+            "tokens": {
+                "completion_tokens": 199,
+                "prompt_tokens": 325,
+                "total_tokens": 524
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "4ca07bda-b9ac-4359-b3b3-b16e5790675b",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-9",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 3.8971260232111464,
+            "tokens": {
+                "completion_tokens": 73,
+                "prompt_tokens": 436,
+                "total_tokens": 509
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "aad34198-665a-4e14-be48-26d517e01cd3",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-10",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "GPT simulation analyzing your input: What is Demands For Side Hustlers about?",
+            "processing_time": 2.185408416301306,
+            "tokens": {
+                "completion_tokens": 148,
+                "prompt_tokens": 342,
+                "total_tokens": 490
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "a1e8e7b1-19de-4d8b-a60e-02b225e521b2",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-11",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "I am a simulated version of gpt-4, processing your request with system context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 2.7860205908422184,
+            "tokens": {
+                "completion_tokens": 111,
+                "prompt_tokens": 261,
+                "total_tokens": 372
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "d6b40346-d4fd-41c6-bd92-c1b12e889082",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-12",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "OpenAI model gpt-4 mock response with context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 3.4226993601501268,
+            "tokens": {
+                "completion_tokens": 189,
+                "prompt_tokens": 276,
+                "total_tokens": 465
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "22ac55b2-f16f-4d86-a8df-f4726a29ee2b",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-13",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 3.24589996597973,
+            "tokens": {
+                "completion_tokens": 68,
+                "prompt_tokens": 384,
+                "total_tokens": 452
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "3bcad3d0-e994-4ce1-9257-f3d52b0d478e",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-14",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "Here's a mock response based on your input: Nick, the network that airs Side Hustlers, has announced that Season 2 will be the second and final season of the show. The search results do not, however, give specific information about the story.",
+            "processing_time": 3.5590775831003336,
+            "tokens": {
+                "completion_tokens": 151,
+                "prompt_tokens": 351,
+                "total_tokens": 502
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "9c117d35-1f56-4604-969a-1b4102849e04",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-15",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "OpenAI model gpt-4 mock response with context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "processing_time": 1.6302816330973262,
+            "tokens": {
+                "completion_tokens": 119,
+                "prompt_tokens": 136,
+                "total_tokens": 255
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "f9d849ae-e3a8-4804-86db-c79a3ed5af8a",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-16",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "Simulated gpt-4 response to your prompt: Rewrite the para:",
+            "processing_time": 4.427066742576409,
+            "tokens": {
+                "completion_tokens": 121,
+                "prompt_tokens": 354,
+                "total_tokens": 475
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "962a694a-c63a-4d55-a969-b4efec911a5a",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-17",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "As GPT, I would respond: Rewrite the heading:",
+            "processing_time": 3.375566615700515,
+            "tokens": {
+                "completion_tokens": 136,
+                "prompt_tokens": 140,
+                "total_tokens": 276
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "f71fcf88-076c-45c4-93c6-f673c8edc4b0",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-18",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "As GPT, I would respond: Rewrite the para:",
+            "processing_time": 1.4351470617013136,
+            "tokens": {
+                "completion_tokens": 95,
+                "prompt_tokens": 433,
+                "total_tokens": 528
+            }
+        }
+    },
+    {
+        "message": "Message queued for processing",
+        "message_id": "ae256bc6-2b80-44fe-98c2-0b3226370012",
+        "provider": "openai",
+        "sequence_index": "2a6bbdd4-601b-47a0-aea7-5faecbc09537-19",
+        "status": "success",
+        "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+        "result": {
+            "model": "gpt-4",
+            "processed_text": "As GPT, I would respond: Rewrite the para:",
+            "processing_time": 1.4736165791767513,
+            "tokens": {
+                "completion_tokens": 193,
+                "prompt_tokens": 213,
+                "total_tokens": 406
+            }
+        }
+    }
+]

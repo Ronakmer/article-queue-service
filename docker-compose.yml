@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    depends_on:
+      - rabbitmq
+    networks:
+      - rabbitmq-flask-service-network
+    volumes:
+      - .:/app
+
+  rabbitmq:
+    image: rabbitmq:4.0-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - rabbitmq-flask-service-network
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+
+networks:
+  rabbitmq-flask-service-network:
+    driver: bridge
+
+volumes:
+  rabbitmq_data:

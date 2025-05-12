@@ -1,0 +1,346 @@
+{
+    "article_id": "8c6eace2-7c44-4055-aabf-9c60674b4bbd",
+    "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+    "ai_response": [
+        {
+            "message_id": "46c195ac-5df1-436b-8a6a-afa158c3d694",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "This is a simulated response from gpt-4. The system prompt was: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 3.1444720980532703,
+                "tokens": {
+                    "completion_tokens": 100,
+                    "prompt_tokens": 175,
+                    "total_tokens": 275
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "title",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-0"
+        },
+        {
+            "message_id": "043ed570-a237-4736-8aca-78a549020407",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "GPT simulation analyzing your input: Before Side Hustler comes out on March 1, 2024, get ready for some exciting business events! Watch with interest as determined women business owners fight for investment success while juggling their personal and professional lives.",
+                "processing_time": 3.215561736684718,
+                "tokens": {
+                    "completion_tokens": 116,
+                    "prompt_tokens": 305,
+                    "total_tokens": 421
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-1"
+        },
+        {
+            "message_id": "d7fc3ac6-52b2-4d32-8b7a-3b63df3be4b8",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "OpenAI model gpt-4 mock response with context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 3.2751524829572145,
+                "tokens": {
+                    "completion_tokens": 144,
+                    "prompt_tokens": 494,
+                    "total_tokens": 638
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-2"
+        },
+        {
+            "message_id": "41058028-e852-41fc-b040-709230be1d27",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the para:",
+                "processing_time": 4.968592207004624,
+                "tokens": {
+                    "completion_tokens": 54,
+                    "prompt_tokens": 480,
+                    "total_tokens": 534
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-3"
+        },
+        {
+            "message_id": "05dc4e44-17bf-4a44-ac8c-634d0de7698d",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the heading:",
+                "processing_time": 1.2895488453247475,
+                "tokens": {
+                    "completion_tokens": 149,
+                    "prompt_tokens": 247,
+                    "total_tokens": 396
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-4"
+        },
+        {
+            "message_id": "d7b9bd72-179c-4a13-82d4-ea973ebfacaa",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Simulated gpt-4 response to your prompt: Rewrite the heading:",
+                "processing_time": 4.123795707333275,
+                "tokens": {
+                    "completion_tokens": 167,
+                    "prompt_tokens": 418,
+                    "total_tokens": 585
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-5"
+        },
+        {
+            "message_id": "42361ee9-817b-48b3-a294-a8a54f47662c",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "GPT simulation analyzing your input: According to LiveAkhtar, the creators of Side Hustlers have not yet said when Season 2 will be out. The first season of the show started on March 1, 2024.",
+                "processing_time": 4.905744459607064,
+                "tokens": {
+                    "completion_tokens": 107,
+                    "prompt_tokens": 177,
+                    "total_tokens": 284
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-6"
+        },
+        {
+            "message_id": "db513328-aeb4-44b4-a56c-2c4d83353ba5",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "GPT simulation analyzing your input: For those desiring more information and insights about celebrities and entertainment, take a look at our past articles where we’ve extensively covered all the nuances.",
+                "processing_time": 1.3522030217356553,
+                "tokens": {
+                    "completion_tokens": 105,
+                    "prompt_tokens": 480,
+                    "total_tokens": 585
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-7"
+        },
+        {
+            "message_id": "81a6e2f4-4a23-4de9-93e7-b18b1141bc58",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Here's a mock response based on your input: - Blue Lights Season 4\n- Marry My Husband Season 2\n- ‘The Penguin’ TV Series Release Date\n- 9-1-1 Season 7",
+                "processing_time": 1.0179478976471619,
+                "tokens": {
+                    "completion_tokens": 106,
+                    "prompt_tokens": 427,
+                    "total_tokens": 533
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-8"
+        },
+        {
+            "message_id": "daf59907-3be6-4338-bfc5-bb4d417a6758",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: What is Demands For Side Hustlers about?",
+                "processing_time": 2.6686152714840126,
+                "tokens": {
+                    "completion_tokens": 127,
+                    "prompt_tokens": 489,
+                    "total_tokens": 616
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "ul",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-9"
+        },
+        {
+            "message_id": "b1a5522b-3cc4-47f3-a870-e581efaafcda",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Here's a mock response based on your input: The show’s goal is to help these driven women grow their businesses while still working full-time. A “side hustle” is a project or business that someone does in addition to their main job. The first episode aired on March 1, 2024.",
+                "processing_time": 2.834529341644092,
+                "tokens": {
+                    "completion_tokens": 60,
+                    "prompt_tokens": 447,
+                    "total_tokens": 507
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-10"
+        },
+        {
+            "message_id": "b61ead17-eec7-4e4a-8081-391e0742eba6",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the heading:",
+                "processing_time": 1.671396405259399,
+                "tokens": {
+                    "completion_tokens": 140,
+                    "prompt_tokens": 135,
+                    "total_tokens": 275
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-11"
+        },
+        {
+            "message_id": "9e7aabaf-29cb-4864-9456-9d683cbfb13b",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: Nick, the network that airs Side Hustlers, has announced that Season 2 will be the second and final season of the show. The search results do not, however, give specific information about the story.",
+                "processing_time": 4.5907878643983935,
+                "tokens": {
+                    "completion_tokens": 61,
+                    "prompt_tokens": 397,
+                    "total_tokens": 458
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-12"
+        },
+        {
+            "message_id": "cf57a1a2-32b3-4015-bbb7-3f880845abff",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: Demands For Side Hustlers Season 2 Cast Details",
+                "processing_time": 4.027595883683072,
+                "tokens": {
+                    "completion_tokens": 85,
+                    "prompt_tokens": 293,
+                    "total_tokens": 378
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-13"
+        },
+        {
+            "message_id": "f3ceaad4-50e7-4441-b865-7cd30e9c0e5a",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Here's a mock response based on your input: Where can we watch Demands For Side Hustlers?",
+                "processing_time": 4.16400473442381,
+                "tokens": {
+                    "completion_tokens": 53,
+                    "prompt_tokens": 163,
+                    "total_tokens": 216
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-14"
+        },
+        {
+            "message_id": "79a3232b-deda-4eef-a0f0-1ed088c2c665",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: You can watch “Side Hustlers” online for free on The Roku Channel. The show follows ambitious female entrepreneurs mentored by investors Emma Grede and Ashley Graham as they build their side hustles with the goal of leaving their day jobs.",
+                "processing_time": 1.6581240958941854,
+                "tokens": {
+                    "completion_tokens": 91,
+                    "prompt_tokens": 147,
+                    "total_tokens": 238
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-15"
+        },
+        {
+            "message_id": "67f10047-34d8-40dd-80dd-e2b527ef7d96",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the para:",
+                "processing_time": 1.9519139754567365,
+                "tokens": {
+                    "completion_tokens": 124,
+                    "prompt_tokens": 385,
+                    "total_tokens": 509
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-16"
+        },
+        {
+            "message_id": "5efc4cf6-6f22-40dc-9e00-b2e135df4c10",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "Mock AI response from gpt-4 considering your input: Yes, Nickelodeon has announced that Side Hustle Season 2 will be the second and final season of the show. The makers of the show have not yet announced when Season 2 will be out.",
+                "processing_time": 2.5546998154824085,
+                "tokens": {
+                    "completion_tokens": 196,
+                    "prompt_tokens": 113,
+                    "total_tokens": 309
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "h2",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-17"
+        },
+        {
+            "message_id": "317fbd11-a559-4973-93c8-a111c58a9f32",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "I am a simulated version of gpt-4, processing your request with system context: I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\n\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\n\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                "processing_time": 1.4670451898339238,
+                "tokens": {
+                    "completion_tokens": 102,
+                    "prompt_tokens": 115,
+                    "total_tokens": 217
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-18"
+        },
+        {
+            "message_id": "877579d1-81dc-4ad3-8be8-b3dfc1257d6d",
+            "result": {
+                "model": "gpt-4",
+                "processed_text": "As GPT, I would respond: Rewrite the para:",
+                "processing_time": 2.652784413080144,
+                "tokens": {
+                    "completion_tokens": 54,
+                    "prompt_tokens": 223,
+                    "total_tokens": 277
+                }
+            },
+            "status": "success",
+            "workspace_id": "4f79ba74-84cc-43ec-bc4f-000000000006",
+            "html_tag": "paragraph",
+            "sequence_index": "8c6eace2-7c44-4055-aabf-9c60674b4bbd-19"
+        }
+    ]
+}
