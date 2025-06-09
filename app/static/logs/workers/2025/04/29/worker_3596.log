@@ -1,0 +1,7 @@
+2025-04-29 12:51:42 | INFO | Worker1 initialized and ready to process messages
+2025-04-29 12:51:42 | INFO | Worker instance created
+2025-04-29 12:51:44 | INFO | Connected to existing queue: f46ce330-0a31-49e4-986d-b3e3b42801bc_manual
+2025-04-29 12:51:44 | INFO | Consumer ready on queue: f46ce330-0a31-49e4-986d-b3e3b42801bc_manual
+2025-04-29 12:51:44 | INFO | Started url_rewriter_para_worker on queue: f46ce330-0a31-49e4-986d-b3e3b42801bc_manual
+2025-04-29 12:51:44 | INFO | Worker started
+2025-04-29 12:51:44 | INFO | Started url_rewriter_para_worker with PID: 3596, queue: f46ce330-0a31-49e4-986d-b3e3b42801bc_manual

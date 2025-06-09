@@ -1,0 +1,28 @@
+2025-06-09 11:36:35 | INFO | PID:9716 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 11:36:35 | INFO | PID:9716 | Created new channel
+2025-06-09 11:36:35 | INFO | PID:9716 | Declared queue: article-output-queue
+2025-06-09 11:36:36 | INFO | PID:9716 | Available workers: ['testworker', 'url_rewriter_para_response_worker', 'url_rewriter_para_worker']
+2025-06-09 11:36:36 | INFO | PID:9716 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 11:36:36 | WARNING | PID:9716 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 11:36:36 | WARNING | PID:9716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 11:36:36 | INFO | PID:9716 | Worker instance created
+2025-06-09 11:36:36 | INFO | PID:9716 | Registered worker process 9716 in registry
+2025-06-09 11:36:36 | INFO | PID:9716 | Starting consuming on article-output-queue
+2025-06-09 11:36:36 | INFO | PID:9716 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 11:36:36 | INFO | PID:9716 | Started url_rewriter_para_response_worker with PID: 9716, queue: article-output-queue
+2025-06-09 11:36:41 | WARNING | PID:9716 | No open connection/channel: connecting...
+2025-06-09 11:36:41 | INFO | PID:9716 | Successfully connected on attempt 1
+2025-06-09 11:36:41 | INFO | PID:9716 | Consumer registered on queue: article-output-queue
+2025-06-09 11:36:41 | INFO | PID:9716 | Starting consuming on article-output-queue
+2025-06-09 11:36:56 | INFO | PID:9716 | Processing message from queue: article-output-queue
+2025-06-09 11:36:56 | INFO | PID:9716 | Processing message: {'message': {'prompt': 'What is the capital of Idian?', 'content': "I need to know about India's capital city.", 'workspace_id': '57dc902e-4449-4083-9b56-000000000004', 'model': 'gpt-4', 'system_prompt': 'You are a helpful assistant.', 'sequence_index': 1, 'html_tag': 'p', 'response_format': 'json', 'article_id': '123', 'message_id': '321', 'article_message_count': 10, 'article_message_total_count': 1, 'use_simulation': False}, 'timestamp': '2025-06-09T11:36:56.118943', 'message_id': 'a26b5f07-f547-4a95-9a64-abe2bafc65cb'}
+2025-06-09 11:36:56 | INFO | PID:9716 | Making update request to endpoint: /message-service-api/ai-message/update/123/321/
+2025-06-09 11:36:57 | INFO | PID:9716 | Successfully authenticated with API
+2025-06-09 11:36:57 | INFO | PID:9716 | Making PATCH request to /message-service-api/ai-message/update/123/321/ (Attempt 1/3)
+2025-06-09 11:36:57 | INFO | PID:9716 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 11:36:57 | INFO | PID:9716 | Message processed in 1.61 seconds
+2025-06-09 11:36:57 | INFO | PID:9716 | Message acknowledged
+2025-06-09 11:37:02 | WARNING | PID:9716 | No open connection/channel: connecting...
+2025-06-09 11:37:02 | INFO | PID:9716 | Successfully connected on attempt 1
+2025-06-09 11:37:02 | INFO | PID:9716 | Consumer registered on queue: article-output-queue
+2025-06-09 11:37:02 | INFO | PID:9716 | Starting consuming on article-output-queue

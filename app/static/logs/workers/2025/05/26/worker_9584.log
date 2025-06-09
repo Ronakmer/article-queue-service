@@ -1,0 +1,3 @@
+2025-05-26 11:06:53 | INFO | Initializing url_rewriter_para_worker worker with PID 9584
+2025-05-26 11:06:53 | INFO | Successfully connected on attempt 1
+2025-05-26 11:06:53 | INFO | url_rewriter_para_worker initialized and ready to process messages

@@ -1,0 +1,11 @@
+2025-04-16 10:26:29 | INFO | PID:19656 | Queue 'article-input-queue' created successfully
+2025-04-16 10:26:34 | INFO | PID:19656 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-16 10:26:37 | INFO | PID:19656 | Started worker process 9192
+2025-04-16 10:28:23 | INFO | PID:19656 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-16 10:28:26 | INFO | PID:19656 | Started worker process 18492
+2025-04-16 14:51:40 | INFO | PID:4976 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-16 14:51:43 | INFO | PID:4976 | Started worker process 5492
+2025-04-16 14:59:14 | INFO | PID:11012 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-16 14:59:17 | INFO | PID:11012 | Started worker process 28000
+2025-04-16 15:03:55 | INFO | PID:12172 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-16 15:03:58 | INFO | PID:12172 | Started worker process 26016

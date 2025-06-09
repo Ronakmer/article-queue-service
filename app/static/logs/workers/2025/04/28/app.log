@@ -1,0 +1,30 @@
+2025-04-28 10:14:21 | INFO | PID:15340 | Queue 'article-input-queue' created successfully
+2025-04-28 10:14:26 | INFO | PID:15340 | Queue 'article-input-queue1' created successfully
+2025-04-28 10:14:33 | INFO | PID:15340 | Queue 'article-input-queue2' created successfully
+2025-04-28 11:32:28 | INFO | PID:692 | Queue 'article-input-queue2' created successfully
+2025-04-28 11:34:43 | INFO | PID:26828 | Queue 'article-input-queue2' created successfully
+2025-04-28 11:35:15 | INFO | PID:14108 | Updated worker name after removing '.py': url_rewriter_para_worker
+2025-04-28 11:35:15 | INFO | PID:14108 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-28 11:35:16 | INFO | PID:21712 | Starting worker url_rewriter_para_worker for queue article-input-queue
+2025-04-28 11:35:16 | INFO | PID:21712 | Created new channel
+2025-04-28 11:35:16 | INFO | PID:21712 | Declared queue: article-input-queue
+2025-04-28 11:35:16 | INFO | PID:21712 | Available workers: ['url_rewriter_para_worker']
+2025-04-28 11:35:16 | INFO | PID:21712 | Found worker class: UrlRewriterParallelWorker
+2025-04-28 11:35:18 | INFO | PID:14108 | Started worker process 21712
+2025-04-28 11:35:31 | INFO | PID:14108 | Found 0 existing workers for url_rewriter_para_worker on article-input-queue
+2025-04-28 11:35:32 | INFO | PID:25836 | Starting worker url_rewriter_para_worker for queue article-input-queue
+2025-04-28 11:35:32 | INFO | PID:25836 | Created new channel
+2025-04-28 11:35:32 | INFO | PID:25836 | Declared queue: article-input-queue
+2025-04-28 11:35:32 | INFO | PID:25836 | Available workers: ['url_rewriter_para_worker']
+2025-04-28 11:35:32 | INFO | PID:25836 | Found worker class: UrlRewriterParallelWorker
+2025-04-28 11:35:34 | INFO | PID:14108 | Started worker process 25836
+2025-04-28 13:12:44 | INFO | PID:3816 | Queue '972a4e69-cb0f-49aa-aeba-f24826703a8b_manual' created successfully
+2025-04-28 16:29:26 | INFO | PID:31848 | Queue 'd6b31858-5d01-4ab9-8b79-db62a6c91689_manual' created successfully
+2025-04-28 18:07:34 | INFO | PID:17652 | Queue '0178ad7e-e362-484e-a368-51cf24371097_manual' created successfully
+2025-04-28 18:09:01 | INFO | PID:17652 | Queue '9e1d1fd1-b9c4-4112-933f-4af6dcf16399_manual' created successfully
+2025-04-28 18:10:52 | INFO | PID:17652 | Queue 'a6ccc2bc-b738-4986-a047-f9010778f485_manual' created successfully
+2025-04-28 18:11:26 | INFO | PID:17652 | Queue '193778f2-0651-4c43-a513-b2b2c49d2e76_manual' created successfully
+2025-04-28 18:12:34 | INFO | PID:17652 | Queue '36f3c751-75fc-480a-b998-41999f885c6a_manual' created successfully
+2025-04-28 18:12:35 | INFO | PID:17652 | Queue '36f3c751-75fc-480a-b998-41999f885c6a_url-re' created successfully
+2025-04-28 18:12:35 | INFO | PID:17652 | Queue '36f3c751-75fc-480a-b998-41999f885c6a_aa' created successfully
+2025-04-28 18:12:35 | INFO | PID:17652 | Queue '36f3c751-75fc-480a-b998-41999f885c6a_sdsdfsdf' created successfully

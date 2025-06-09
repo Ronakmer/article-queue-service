@@ -1,0 +1,11 @@
+2025-04-29 13:13:36 | INFO | Worker1 initialized and ready to process messages
+2025-04-29 13:13:36 | INFO | Worker instance created
+2025-04-29 13:13:38 | INFO | Connected to existing queue: article-input-queue2
+2025-04-29 13:13:38 | INFO | Consumer ready on queue: article-input-queue2
+2025-04-29 13:13:38 | INFO | Started url_rewriter_para_worker on queue: article-input-queue2
+2025-04-29 13:13:38 | INFO | Worker started
+2025-04-29 13:13:38 | INFO | Started url_rewriter_para_worker with PID: 25696, queue: article-input-queue2
+2025-04-29 13:17:52 | ERROR | Connection/channel closed: (320, "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'")
+2025-04-29 13:17:52 | INFO | Attempting to reconnect...
+2025-04-29 13:17:52 | INFO | Connected to existing queue: article-input-queue2
+2025-04-29 13:17:52 | INFO | Consumer ready on queue: article-input-queue2
