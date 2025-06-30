@@ -1,0 +1,1124 @@
+2025-06-23 08:29:59 | INFO | PID:19344 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 08:29:59 | INFO | PID:19344 | Created new channel
+2025-06-23 08:29:59 | INFO | PID:19344 | Declared queue: article-request-queue
+2025-06-23 08:30:00 | INFO | PID:19344 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 08:30:00 | INFO | PID:19344 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | WARNING | PID:19344 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 08:30:00 | WARNING | PID:19344 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 08:30:00 | INFO | PID:19344 | Worker instance created
+2025-06-23 08:30:00 | INFO | PID:19344 | Registered worker process 19344 in registry
+2025-06-23 08:30:00 | INFO | PID:19344 | Starting consuming on article-request-queue
+2025-06-23 08:30:00 | INFO | PID:19344 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 08:30:00 | INFO | PID:19344 | Started url_rewriter_para_request_worker with PID: 19344, queue: article-request-queue
+2025-06-23 08:30:05 | WARNING | PID:19344 | No open connection/channel: connecting...
+2025-06-23 08:30:05 | INFO | PID:19344 | Successfully connected on attempt 1
+2025-06-23 08:30:05 | INFO | PID:19344 | Consumer registered on queue: article-request-queue
+2025-06-23 08:30:05 | INFO | PID:19344 | Starting consuming on article-request-queue
+2025-06-23 08:30:18 | INFO | PID:19344 | Processing message from queue: article-request-queue
+2025-06-23 08:30:34 | INFO | PID:19344 | Successfully authenticated with API
+2025-06-23 08:30:34 | INFO | PID:19344 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 08:30:34 | INFO | PID:19344 | Successfully authenticated with API
+2025-06-23 08:30:34 | INFO | PID:19344 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 08:30:40 | INFO | PID:19344 | Successfully authenticated with API
+2025-06-23 08:30:40 | INFO | PID:19344 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 08:31:02 | INFO | PID:19344 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 08:31:02 | INFO | PID:19344 | Message processed in 44.00 seconds
+2025-06-23 08:31:02 | INFO | PID:19344 | Message acknowledged
+2025-06-23 08:31:07 | WARNING | PID:19344 | No open connection/channel: connecting...
+2025-06-23 08:31:07 | INFO | PID:19344 | Successfully connected on attempt 1
+2025-06-23 08:31:07 | INFO | PID:19344 | Consumer registered on queue: article-request-queue
+2025-06-23 08:31:07 | INFO | PID:19344 | Starting consuming on article-request-queue
+2025-06-23 09:04:01 | INFO | PID:24908 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:04:01 | INFO | PID:24908 | Created new channel
+2025-06-23 09:04:01 | INFO | PID:24908 | Declared queue: article-request-queue
+2025-06-23 09:04:02 | INFO | PID:24908 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:04:02 | INFO | PID:24908 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | WARNING | PID:24908 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:04:02 | WARNING | PID:24908 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:04:02 | INFO | PID:24908 | Worker instance created
+2025-06-23 09:04:02 | INFO | PID:24908 | Registered worker process 24908 in registry
+2025-06-23 09:04:02 | INFO | PID:24908 | Starting consuming on article-request-queue
+2025-06-23 09:04:03 | INFO | PID:24908 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:04:03 | INFO | PID:24908 | Started url_rewriter_para_request_worker with PID: 24908, queue: article-request-queue
+2025-06-23 09:04:07 | WARNING | PID:24908 | No open connection/channel: connecting...
+2025-06-23 09:04:07 | INFO | PID:24908 | Successfully connected on attempt 1
+2025-06-23 09:04:07 | INFO | PID:24908 | Consumer registered on queue: article-request-queue
+2025-06-23 09:04:07 | INFO | PID:24908 | Starting consuming on article-request-queue
+2025-06-23 09:04:24 | INFO | PID:24908 | Processing message from queue: article-request-queue
+2025-06-23 09:04:42 | INFO | PID:24908 | Successfully authenticated with API
+2025-06-23 09:04:42 | INFO | PID:24908 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:04:44 | INFO | PID:24908 | Successfully authenticated with API
+2025-06-23 09:04:44 | INFO | PID:24908 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:04:49 | INFO | PID:24908 | Successfully authenticated with API
+2025-06-23 09:04:49 | INFO | PID:24908 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:06:37 | INFO | PID:24908 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/ae3b85fb-0742-42e6-a5ac-acf3f2f034e9/
+2025-06-23 09:06:38 | INFO | PID:24908 | Successfully authenticated with API
+2025-06-23 09:06:38 | INFO | PID:24908 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/ae3b85fb-0742-42e6-a5ac-acf3f2f034e9/ (Attempt 1/3)
+2025-06-23 09:06:39 | INFO | PID:24908 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:06:39 | INFO | PID:24908 | Message processed in 134.72 seconds
+2025-06-23 09:06:39 | INFO | PID:24908 | Message acknowledged
+2025-06-23 09:06:44 | WARNING | PID:24908 | No open connection/channel: connecting...
+2025-06-23 09:06:44 | INFO | PID:24908 | Successfully connected on attempt 1
+2025-06-23 09:06:44 | INFO | PID:24908 | Consumer registered on queue: article-request-queue
+2025-06-23 09:06:44 | INFO | PID:24908 | Starting consuming on article-request-queue
+2025-06-23 09:19:14 | INFO | PID:37008 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:19:14 | INFO | PID:37008 | Created new channel
+2025-06-23 09:19:14 | INFO | PID:37008 | Declared queue: article-request-queue
+2025-06-23 09:19:15 | INFO | PID:37008 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:19:15 | INFO | PID:37008 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | WARNING | PID:37008 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:19:15 | WARNING | PID:37008 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:19:15 | INFO | PID:37008 | Worker instance created
+2025-06-23 09:19:15 | INFO | PID:37008 | Registered worker process 37008 in registry
+2025-06-23 09:19:15 | INFO | PID:37008 | Starting consuming on article-request-queue
+2025-06-23 09:19:15 | INFO | PID:37008 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:19:15 | INFO | PID:37008 | Started url_rewriter_para_request_worker with PID: 37008, queue: article-request-queue
+2025-06-23 09:19:20 | WARNING | PID:37008 | No open connection/channel: connecting...
+2025-06-23 09:19:20 | INFO | PID:37008 | Successfully connected on attempt 1
+2025-06-23 09:19:20 | INFO | PID:37008 | Consumer registered on queue: article-request-queue
+2025-06-23 09:19:20 | INFO | PID:37008 | Starting consuming on article-request-queue
+2025-06-23 09:19:38 | INFO | PID:37008 | Processing message from queue: article-request-queue
+2025-06-23 09:19:54 | INFO | PID:37008 | Successfully authenticated with API
+2025-06-23 09:19:54 | INFO | PID:37008 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:19:56 | INFO | PID:37008 | Successfully authenticated with API
+2025-06-23 09:19:56 | INFO | PID:37008 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:20:04 | INFO | PID:37008 | Successfully authenticated with API
+2025-06-23 09:20:04 | INFO | PID:37008 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:21:46 | INFO | PID:19788 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:21:46 | INFO | PID:19788 | Created new channel
+2025-06-23 09:21:46 | INFO | PID:19788 | Declared queue: article-request-queue
+2025-06-23 09:21:46 | INFO | PID:19788 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:21:46 | INFO | PID:19788 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | WARNING | PID:19788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:21:46 | WARNING | PID:19788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:21:46 | INFO | PID:19788 | Worker instance created
+2025-06-23 09:21:46 | INFO | PID:19788 | Registered worker process 19788 in registry
+2025-06-23 09:21:46 | INFO | PID:19788 | Starting consuming on article-request-queue
+2025-06-23 09:21:47 | INFO | PID:19788 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:21:47 | INFO | PID:19788 | Started url_rewriter_para_request_worker with PID: 19788, queue: article-request-queue
+2025-06-23 09:21:51 | WARNING | PID:19788 | No open connection/channel: connecting...
+2025-06-23 09:21:51 | INFO | PID:19788 | Successfully connected on attempt 1
+2025-06-23 09:21:51 | INFO | PID:19788 | Consumer registered on queue: article-request-queue
+2025-06-23 09:21:51 | INFO | PID:19788 | Starting consuming on article-request-queue
+2025-06-23 09:21:51 | INFO | PID:19788 | Processing message from queue: article-request-queue
+2025-06-23 09:22:01 | INFO | PID:19788 | Successfully authenticated with API
+2025-06-23 09:22:01 | INFO | PID:19788 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:22:03 | INFO | PID:19788 | Successfully authenticated with API
+2025-06-23 09:22:03 | INFO | PID:19788 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:22:08 | INFO | PID:19788 | Successfully authenticated with API
+2025-06-23 09:22:08 | INFO | PID:19788 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:23:41 | INFO | PID:19788 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/496b32d5-9cf9-4815-82cf-84120d0a038f/
+2025-06-23 09:23:43 | INFO | PID:19788 | Successfully authenticated with API
+2025-06-23 09:23:43 | INFO | PID:19788 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/496b32d5-9cf9-4815-82cf-84120d0a038f/ (Attempt 1/3)
+2025-06-23 09:23:43 | INFO | PID:19788 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:23:43 | INFO | PID:19788 | Message processed in 111.96 seconds
+2025-06-23 09:23:43 | INFO | PID:19788 | Message acknowledged
+2025-06-23 09:23:43 | INFO | PID:19788 | Processing message from queue: article-request-queue
+2025-06-23 09:23:52 | INFO | PID:19788 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:23:52 | INFO | PID:19788 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:23:57 | INFO | PID:19788 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:25:30 | INFO | PID:19788 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/8229871c-4d3c-4e65-9ee7-0d8c11937e0d/
+2025-06-23 09:25:30 | INFO | PID:19788 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/8229871c-4d3c-4e65-9ee7-0d8c11937e0d/ (Attempt 1/3)
+2025-06-23 09:25:30 | INFO | PID:19788 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:25:30 | ERROR | PID:19788 | Message processing failed for data: b'{"message": {"article_slug_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c", "url": "https://topmovierankings.com/web-series/demands-for-side-hustlers-season-2", "wp_status": "publish", "article_status": "initiate", "wp_schedule_time": null, "article_priority": 200, "ai_content_flags": {"is_wp_tags_selected_by_ai": false, "is_wp_tags_generated_by_ai": true, "is_wp_authors_selected_by_ai": true, "is_meta_title_generated_by_ai": true, "is_wp_authors_generated_by_ai": true, "is_wp_categories_selected_by_ai": true, "is_meta_keywords_generated_by_ai": true, "is_wp_categories_generated_by_ai": true, "is_primary_keyword_generated_by_ai": true, "is_meta_description_generated_by_ai": true}, "wp_author": null, "wp_category": [], "wp_tag": ["01355529-3fd2-45eb-b74e-0cf759ef2f0c"], "prompt": {"slug_id": "99e2f755-64cf-466b-b02b-5c6b23fcf556", "name": "URL Rewriter By Para", "ai_rate_model": "deepseek/deepseek_v3", "prompt_data": {"list_rephrase": "Rewrite the list:", "para_rephrase": "Rewrite the para:", "table_rephrase": "Rewrite the table:", "title_rephrase": "Rewrite the title base on [[source_title]] and include the primary keyword as [[primary_keyword]]:", "system_rephrase": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\\\n\\\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\\\n\\\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf\'s law.", "heading_rephrase": "Rewrite the heading:", "blockquote_rephrase": "Rewrite the Blockquote:"}, "supportive_prompt_json_data": {"supportive_prompt_wp_tags_selected_by_ai_id": "bb57a0a2-65d3-4330-bbb9-6d1ad4c15b49", "supportive_prompt_wp_tags_generated_by_ai_id": "223c6a85-2962-443a-ac58-1b40ecc197d6", "supportive_prompt_wp_authors_selected_by_ai_id": "1e943c84-3eb5-4a4e-8c67-c63d2e38e64b", "supportive_prompt_meta_title_generated_by_ai_id": "071f19b7-6668-4cff-92a7-40dd8c80dfbd", "supportive_prompt_wp_authors_generated_by_ai_id": "ebe74136-40c6-4d82-a90e-dbef69c2159f", "supportive_prompt_wp_categories_selected_by_ai_id": "5fbcef44-c403-48f3-b48d-fc8097c6ab60", "supportive_prompt_meta_keywords_generated_by_ai_id": "288031a0-83d4-4fbb-904b-1e2761e888eb", "supportive_prompt_wp_categories_generated_by_ai_id": "c1018168-b4a6-47b3-b1f5-f19ed706718b", "supportive_prompt_primary_keyword_generated_by_ai_id": "d61d2528-4856-4421-aecd-8c2c96be85aa", "supportive_prompt_meta_description_generated_by_ai_id": "71937c7a-0f47-4869-9604-02c98236a33c"}, "article_type": {"slug_id": "c82a41f0-9d99-4bc7-bf68-580d4b144d16", "category": "url", "article_category": "rephrase", "title": "Url Rewriter By Para", "description": "This prompt helps rewriting the paragraph", "article_type_field": [{"slug_id": "8dbd1c5d-5246-4f50-8ee6-a1e9fb9092fc", "label": "system_rephrase", "name": "system_rephrase", "type": "textarea", "placeholder": "Enter system_rephrase", "required": true}, {"slug_id": "67983f6e-ea60-499d-a0c3-34ac5253dbe7", "label": "title_rephrase", "name": "title_rephrase", "type": "textarea", "placeholder": "enter title_rephrase", "required": true}, {"slug_id": "6b2bb0e7-c287-4ccd-9e47-e4545ed29aee", "label": "heading_rephrase", "name": "heading_rephrase", "type": "textarea", "placeholder": "enter heading_rephrase", "required": true}, {"slug_id": "3fef4a69-5cf8-4b5c-abeb-c0fa5ca62138", "label": "para_rephrase", "name": "para_rephrase", "type": "textarea", "placeholder": "enter para_rephrase", "required": true}, {"slug_id": "973b3b84-ae2e-4706-86f1-f34c9a75180b", "label": "table_rephrase", "name": "table_rephrase", "type": "textarea", "placeholder": "enter table_rephrase", "required": true}, {"slug_id": "d24b9b05-0ca6-4ef1-8261-c65f9f9ea875", "label": "blockquote_rephrase", "name": "blockquote_rephrase", "type": "textarea", "placeholder": "enter blockquote_rephrase", "required": true}, {"slug_id": "7ca73bb7-7b26-4605-9fae-7acaf5c8f740", "label": "list_rephrase", "name": "list_rephrase", "type": "textarea", "placeholder": "enter list_rephrase", "required": true}]}}, "article_type_variables_data": [{"slug_id": "24cbd6dc-6cbb-4ef1-8f80-273f6aecdc1a", "name": "output", "value": "{\\"wp_cat_id\\":1, \\"name\\":\\"xx\\"}", "required": true}, {"slug_id": "6812b942-9937-4337-9e65-f12a0446b011", "name": "wp_all_tags", "value": "[{\\"wp_tag_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_tag_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "7b7b68f4-b2e8-462a-a697-6c47ca0fa15b", "name": "wp_all_categories", "value": "[{\\"wp_cat_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_cat_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "7049976d-0822-4a3e-93bd-2b099f2f4dda", "name": "source_article_content", "value": "This is source article content.", "required": true}, {"slug_id": "93f613da-18c5-4f4e-b461-500cc9fd5374", "name": "source_article_title", "value": "This is Source Article Title.", "required": true}, {"slug_id": "6e43885f-b444-46c8-aae1-22e2e25c1221", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "f6931042-0e67-4d1f-9d9c-70fec97c02a6", "name": "generated_article_title", "value": "This is article Title.", "required": true}], "supportive_prompt_variables_data": [{"slug_id": "73d907bf-f56d-45bf-9a09-d03cda2d81e2", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "465e4ec2-cc49-476d-ab21-ed2a21dca133", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "bcaba6df-790d-4789-94a2-4b7c3a501298", "name": "wp_tags_generated_by_ai", "value": "[{\\"wp_tags_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_tags_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "3a251604-e252-40eb-be48-24e8ae902bb4", "name": "primary_keyword", "value": "This is article primary keyword.", "required": true}, {"slug_id": "c6331e9f-5e6f-4ca3-9a20-9c9699a46e31", "name": "source_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "757f4b71-5997-4d4d-b190-aa2cdc33759f", "name": "source_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "095a7220-5084-4d6b-9bfe-971188617994", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "4d8d8a38-9395-4e19-b117-5a43c0784c1e", "name": "meta_description_generated_by_ai", "value": "This is article meta description.", "required": true}, {"slug_id": "c544cf19-8c32-468e-9b83-c93e6306865f", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "78329b00-91d5-4689-85a7-d192b44e9029", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "2977f840-32e6-470b-b035-befb50e49606", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "efaf66ae-4baa-4a0a-95b4-683ccc383fa2", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "666568d2-e828-4eaa-8e2c-09f8012f79ca", "name": "meta_keywords_generated_by_ai", "value": "This is Source Article keywords.", "required": true}, {"slug_id": "95b0a924-80e7-4d0a-b823-df426e282470", "name": "wp_authors_selected_by_ai", "value": "[{\\"wp_authors_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_authors_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "d3db9ab4-66c9-4f69-aefe-aa1af7e8218f", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "88135893-1d4f-4c65-a7d1-c01cff800849", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "8cf9c4fb-a35d-4dfc-bdf7-a2f8ff8ad6bd", "name": "wp_categories_selected_by_ai", "value": "[{\\"wp_categories_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_categories_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "d57a3865-cc91-4dc9-bf96-c6b7e69a3ed8", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "01f432c9-1290-491f-b395-54a6932e3252", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "8ea58cbb-c0e4-4f03-aeab-1c57be13b8b8", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "cf47df39-020c-45ea-a579-34bcc8eaa8a4", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "87aeab87-cf18-4313-b248-61c4fc65b5b4", "name": "wp_authors_generated_by_ai", "value": "[{\\"wp_authors_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_authors_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "52e9b3a7-00d0-43ac-af41-dc204ad44311", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "2b21441a-4a0a-4788-bf06-a941ff176e66", "name": "wp_tags_selected_by_ai", "value": "[{\\"wp_tags_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_tags_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "6c411389-6260-4d78-80bf-ce2661236835", "name": "generated_article_content", "value": "This is article Content.", "required": true}, {"slug_id": "4e12fa09-8679-4a8a-b058-8fceda806e5f", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "52617170-e2e6-4291-b1b4-c1c522b0fae0", "name": "wp_categories_selected_by_ai", "value": "[{\\"wp_categories_id\\":1, \\"name\\":\\"xx\\", \\"description\\": \\"this is description\\"}, {\\"wp_categories_id\\":2, \\"name\\":\\"xy\\", \\"description\\": \\"this is description\\"}]", "required": true}, {"slug_id": "bbff92d6-e845-4fba-9f40-1c21b83c922c", "name": "generated_article_content", "value": "This is article content.", "required": true}, {"slug_id": "d89af89e-603e-48be-957e-b0057e78c480", "name": "generated_article_title", "value": "This is article Title.", "required": true}, {"slug_id": "42049135-bc28-4663-b679-6c7d132b3a0a", "name": "meta_title_generated_by_ai", "value": "This is article meta Title.", "required": true}], "domain": {"slug_id": "25fca9b7-d9a3-42b9-be7b-eadf062716d6", "name": "ronak-wolf.botxbyte.com", "permalinks": "/%year%/%hour%/%postname%/"}, "workspace": {"slug_id": "57dc902e-4449-4083-9b56-328eb9d16334", "name": "bxb-1"}}, "timestamp": "2025-06-23T09:22:06.144535", "message_id": "22d50fec-b8ac-4ffd-8ec0-9e815c5e28d7"}'. Error: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2025-06-23 09:25:30 | ERROR | PID:19788 | Error in callback: Channel is closed.
+2025-06-23 09:25:30 | WARNING | PID:19788 | Channel wrong state: Channel is closed.
+2025-06-23 09:25:35 | WARNING | PID:19788 | No open connection/channel: connecting...
+2025-06-23 09:25:35 | INFO | PID:19788 | Successfully connected on attempt 1
+2025-06-23 09:25:35 | INFO | PID:19788 | Consumer registered on queue: article-request-queue
+2025-06-23 09:25:35 | INFO | PID:19788 | Starting consuming on article-request-queue
+2025-06-23 09:25:35 | INFO | PID:19788 | Processing message from queue: article-request-queue
+2025-06-23 09:25:44 | INFO | PID:19788 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:25:44 | INFO | PID:19788 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:25:52 | INFO | PID:19788 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:27:25 | INFO | PID:19788 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/fbb5c229-1d74-4a2a-b1b7-23ed6c48e2c4/
+2025-06-23 09:27:25 | INFO | PID:19788 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/fbb5c229-1d74-4a2a-b1b7-23ed6c48e2c4/ (Attempt 1/3)
+2025-06-23 09:27:25 | INFO | PID:19788 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:27:25 | INFO | PID:19788 | Message processed in 109.89 seconds
+2025-06-23 09:27:25 | INFO | PID:19788 | Message acknowledged
+2025-06-23 09:27:30 | WARNING | PID:19788 | No open connection/channel: connecting...
+2025-06-23 09:27:30 | INFO | PID:19788 | Successfully connected on attempt 1
+2025-06-23 09:27:30 | INFO | PID:19788 | Consumer registered on queue: article-request-queue
+2025-06-23 09:27:30 | INFO | PID:19788 | Starting consuming on article-request-queue
+2025-06-23 09:33:30 | INFO | PID:29788 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:33:30 | INFO | PID:29788 | Created new channel
+2025-06-23 09:33:30 | INFO | PID:29788 | Declared queue: article-request-queue
+2025-06-23 09:33:30 | INFO | PID:29788 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:33:30 | INFO | PID:29788 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | WARNING | PID:29788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:33:30 | WARNING | PID:29788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:33:30 | INFO | PID:29788 | Worker instance created
+2025-06-23 09:33:30 | INFO | PID:29788 | Registered worker process 29788 in registry
+2025-06-23 09:33:30 | INFO | PID:29788 | Starting consuming on article-request-queue
+2025-06-23 09:33:31 | INFO | PID:29788 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:33:31 | INFO | PID:29788 | Started url_rewriter_para_request_worker with PID: 29788, queue: article-request-queue
+2025-06-23 09:33:35 | WARNING | PID:29788 | No open connection/channel: connecting...
+2025-06-23 09:33:35 | INFO | PID:29788 | Successfully connected on attempt 1
+2025-06-23 09:33:35 | INFO | PID:29788 | Consumer registered on queue: article-request-queue
+2025-06-23 09:33:35 | INFO | PID:29788 | Starting consuming on article-request-queue
+2025-06-23 09:33:51 | INFO | PID:29788 | Processing message from queue: article-request-queue
+2025-06-23 09:34:09 | INFO | PID:29788 | Successfully authenticated with API
+2025-06-23 09:34:09 | INFO | PID:29788 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:34:11 | INFO | PID:29788 | Successfully authenticated with API
+2025-06-23 09:34:11 | INFO | PID:29788 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:34:17 | INFO | PID:29788 | Successfully authenticated with API
+2025-06-23 09:34:17 | INFO | PID:29788 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:35:50 | INFO | PID:29788 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/e7b4a238-7c3f-4c47-98fe-535ccc0a49e7/
+2025-06-23 09:35:51 | INFO | PID:29788 | Successfully authenticated with API
+2025-06-23 09:35:51 | INFO | PID:29788 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/e7b4a238-7c3f-4c47-98fe-535ccc0a49e7/ (Attempt 1/3)
+2025-06-23 09:35:52 | INFO | PID:29788 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:35:52 | INFO | PID:29788 | Message processed in 120.52 seconds
+2025-06-23 09:35:52 | INFO | PID:29788 | Message acknowledged
+2025-06-23 09:35:57 | WARNING | PID:29788 | No open connection/channel: connecting...
+2025-06-23 09:35:57 | INFO | PID:29788 | Successfully connected on attempt 1
+2025-06-23 09:35:57 | INFO | PID:29788 | Consumer registered on queue: article-request-queue
+2025-06-23 09:35:57 | INFO | PID:29788 | Starting consuming on article-request-queue
+2025-06-23 09:39:13 | INFO | PID:32180 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:39:13 | INFO | PID:32180 | Created new channel
+2025-06-23 09:39:13 | INFO | PID:32180 | Declared queue: article-request-queue
+2025-06-23 09:39:13 | INFO | PID:32180 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:39:13 | INFO | PID:32180 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:39:13 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:13 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:13 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:13 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:13 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:13 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:13 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | WARNING | PID:32180 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:39:14 | WARNING | PID:32180 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:39:14 | INFO | PID:32180 | Worker instance created
+2025-06-23 09:39:14 | INFO | PID:32180 | Registered worker process 32180 in registry
+2025-06-23 09:39:14 | INFO | PID:32180 | Starting consuming on article-request-queue
+2025-06-23 09:39:14 | INFO | PID:32180 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:39:14 | INFO | PID:32180 | Started url_rewriter_para_request_worker with PID: 32180, queue: article-request-queue
+2025-06-23 09:39:19 | WARNING | PID:32180 | No open connection/channel: connecting...
+2025-06-23 09:39:19 | INFO | PID:32180 | Successfully connected on attempt 1
+2025-06-23 09:39:19 | INFO | PID:32180 | Consumer registered on queue: article-request-queue
+2025-06-23 09:39:19 | INFO | PID:32180 | Starting consuming on article-request-queue
+2025-06-23 09:39:37 | INFO | PID:32180 | Processing message from queue: article-request-queue
+2025-06-23 09:39:53 | INFO | PID:32180 | Successfully authenticated with API
+2025-06-23 09:39:53 | INFO | PID:32180 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:39:55 | INFO | PID:32180 | Successfully authenticated with API
+2025-06-23 09:39:55 | INFO | PID:32180 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:40:06 | INFO | PID:32180 | Successfully authenticated with API
+2025-06-23 09:40:06 | INFO | PID:32180 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:41:49 | INFO | PID:32180 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/05f02644-c990-4c57-82a5-da581bc72bfe/
+2025-06-23 09:41:50 | INFO | PID:32180 | Successfully authenticated with API
+2025-06-23 09:41:50 | INFO | PID:32180 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/05f02644-c990-4c57-82a5-da581bc72bfe/ (Attempt 1/3)
+2025-06-23 09:41:51 | INFO | PID:32180 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:41:51 | INFO | PID:32180 | Message processed in 134.04 seconds
+2025-06-23 09:41:51 | INFO | PID:32180 | Message acknowledged
+2025-06-23 09:41:56 | WARNING | PID:32180 | No open connection/channel: connecting...
+2025-06-23 09:41:56 | INFO | PID:32180 | Successfully connected on attempt 1
+2025-06-23 09:41:56 | INFO | PID:32180 | Consumer registered on queue: article-request-queue
+2025-06-23 09:41:56 | INFO | PID:32180 | Starting consuming on article-request-queue
+2025-06-23 09:43:11 | INFO | PID:30120 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:43:11 | INFO | PID:30120 | Created new channel
+2025-06-23 09:43:11 | INFO | PID:30120 | Declared queue: article-request-queue
+2025-06-23 09:43:12 | INFO | PID:30120 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:43:12 | INFO | PID:30120 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | WARNING | PID:30120 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:43:12 | WARNING | PID:30120 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:43:12 | INFO | PID:30120 | Worker instance created
+2025-06-23 09:43:12 | INFO | PID:30120 | Registered worker process 30120 in registry
+2025-06-23 09:43:12 | INFO | PID:30120 | Starting consuming on article-request-queue
+2025-06-23 09:43:12 | INFO | PID:30120 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:43:12 | INFO | PID:30120 | Started url_rewriter_para_request_worker with PID: 30120, queue: article-request-queue
+2025-06-23 09:43:17 | WARNING | PID:30120 | No open connection/channel: connecting...
+2025-06-23 09:43:17 | INFO | PID:30120 | Successfully connected on attempt 1
+2025-06-23 09:43:17 | INFO | PID:30120 | Consumer registered on queue: article-request-queue
+2025-06-23 09:43:17 | INFO | PID:30120 | Starting consuming on article-request-queue
+2025-06-23 09:43:32 | INFO | PID:30120 | Processing message from queue: article-request-queue
+2025-06-23 09:43:43 | INFO | PID:30120 | Successfully authenticated with API
+2025-06-23 09:43:43 | INFO | PID:30120 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:43:44 | INFO | PID:30120 | Successfully authenticated with API
+2025-06-23 09:43:44 | INFO | PID:30120 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:43:53 | INFO | PID:30120 | Successfully authenticated with API
+2025-06-23 09:43:53 | INFO | PID:30120 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:45:26 | INFO | PID:30120 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/1ac5caa8-dcf9-45f5-8160-e02b3eb14ccd/
+2025-06-23 09:45:27 | INFO | PID:30120 | Successfully authenticated with API
+2025-06-23 09:45:27 | INFO | PID:30120 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/1ac5caa8-dcf9-45f5-8160-e02b3eb14ccd/ (Attempt 1/3)
+2025-06-23 09:45:28 | INFO | PID:30120 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:45:28 | INFO | PID:30120 | Message processed in 115.44 seconds
+2025-06-23 09:45:28 | INFO | PID:30120 | Message acknowledged
+2025-06-23 09:45:33 | WARNING | PID:30120 | No open connection/channel: connecting...
+2025-06-23 09:45:33 | INFO | PID:30120 | Successfully connected on attempt 1
+2025-06-23 09:45:33 | INFO | PID:30120 | Consumer registered on queue: article-request-queue
+2025-06-23 09:45:33 | INFO | PID:30120 | Starting consuming on article-request-queue
+2025-06-23 09:49:40 | INFO | PID:15676 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:49:40 | INFO | PID:15676 | Created new channel
+2025-06-23 09:49:40 | INFO | PID:15676 | Declared queue: article-request-queue
+2025-06-23 09:49:40 | INFO | PID:15676 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:49:40 | INFO | PID:15676 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | WARNING | PID:15676 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:49:40 | WARNING | PID:15676 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:49:40 | INFO | PID:15676 | Worker instance created
+2025-06-23 09:49:41 | INFO | PID:15676 | Registered worker process 15676 in registry
+2025-06-23 09:49:41 | INFO | PID:15676 | Starting consuming on article-request-queue
+2025-06-23 09:49:41 | INFO | PID:15676 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:49:41 | INFO | PID:15676 | Started url_rewriter_para_request_worker with PID: 15676, queue: article-request-queue
+2025-06-23 09:49:46 | WARNING | PID:15676 | No open connection/channel: connecting...
+2025-06-23 09:49:46 | INFO | PID:15676 | Successfully connected on attempt 1
+2025-06-23 09:49:46 | INFO | PID:15676 | Consumer registered on queue: article-request-queue
+2025-06-23 09:49:46 | INFO | PID:15676 | Starting consuming on article-request-queue
+2025-06-23 09:50:04 | INFO | PID:15676 | Processing message from queue: article-request-queue
+2025-06-23 09:50:20 | INFO | PID:15676 | Successfully authenticated with API
+2025-06-23 09:50:20 | INFO | PID:15676 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:50:22 | INFO | PID:15676 | Successfully authenticated with API
+2025-06-23 09:50:22 | INFO | PID:15676 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:50:30 | INFO | PID:15676 | Successfully authenticated with API
+2025-06-23 09:50:30 | INFO | PID:15676 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:52:05 | INFO | PID:15676 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/ffb5fa2e-e0ae-47d7-8511-dae8e0b93add/
+2025-06-23 09:52:06 | INFO | PID:15676 | Successfully authenticated with API
+2025-06-23 09:52:06 | INFO | PID:15676 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/ffb5fa2e-e0ae-47d7-8511-dae8e0b93add/ (Attempt 1/3)
+2025-06-23 09:52:07 | INFO | PID:15676 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:52:07 | INFO | PID:15676 | Message processed in 122.67 seconds
+2025-06-23 09:52:07 | INFO | PID:15676 | Message acknowledged
+2025-06-23 09:52:12 | WARNING | PID:15676 | No open connection/channel: connecting...
+2025-06-23 09:52:12 | INFO | PID:15676 | Successfully connected on attempt 1
+2025-06-23 09:52:12 | INFO | PID:15676 | Consumer registered on queue: article-request-queue
+2025-06-23 09:52:12 | INFO | PID:15676 | Starting consuming on article-request-queue
+2025-06-23 09:54:44 | INFO | PID:27140 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 09:54:44 | INFO | PID:27140 | Created new channel
+2025-06-23 09:54:44 | INFO | PID:27140 | Declared queue: article-request-queue
+2025-06-23 09:54:44 | INFO | PID:27140 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 09:54:44 | INFO | PID:27140 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | WARNING | PID:27140 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 09:54:44 | WARNING | PID:27140 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 09:54:44 | INFO | PID:27140 | Worker instance created
+2025-06-23 09:54:44 | INFO | PID:27140 | Registered worker process 27140 in registry
+2025-06-23 09:54:44 | INFO | PID:27140 | Starting consuming on article-request-queue
+2025-06-23 09:54:45 | INFO | PID:27140 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 09:54:45 | INFO | PID:27140 | Started url_rewriter_para_request_worker with PID: 27140, queue: article-request-queue
+2025-06-23 09:54:49 | WARNING | PID:27140 | No open connection/channel: connecting...
+2025-06-23 09:54:49 | INFO | PID:27140 | Successfully connected on attempt 1
+2025-06-23 09:54:49 | INFO | PID:27140 | Consumer registered on queue: article-request-queue
+2025-06-23 09:54:49 | INFO | PID:27140 | Starting consuming on article-request-queue
+2025-06-23 09:55:04 | INFO | PID:27140 | Processing message from queue: article-request-queue
+2025-06-23 09:55:14 | INFO | PID:27140 | Successfully authenticated with API
+2025-06-23 09:55:14 | INFO | PID:27140 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:55:16 | INFO | PID:27140 | Successfully authenticated with API
+2025-06-23 09:55:16 | INFO | PID:27140 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 09:55:28 | INFO | PID:27140 | Successfully authenticated with API
+2025-06-23 09:55:28 | INFO | PID:27140 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 09:57:01 | INFO | PID:27140 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/3c4e25c1-d983-4e62-8d32-ba50bfee7a91/
+2025-06-23 09:57:03 | INFO | PID:27140 | Successfully authenticated with API
+2025-06-23 09:57:03 | INFO | PID:27140 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/3c4e25c1-d983-4e62-8d32-ba50bfee7a91/ (Attempt 1/3)
+2025-06-23 09:57:03 | INFO | PID:27140 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 09:57:03 | INFO | PID:27140 | Message processed in 119.55 seconds
+2025-06-23 09:57:03 | INFO | PID:27140 | Message acknowledged
+2025-06-23 09:57:08 | WARNING | PID:27140 | No open connection/channel: connecting...
+2025-06-23 09:57:08 | INFO | PID:27140 | Successfully connected on attempt 1
+2025-06-23 09:57:08 | INFO | PID:27140 | Consumer registered on queue: article-request-queue
+2025-06-23 09:57:09 | INFO | PID:27140 | Starting consuming on article-request-queue
+2025-06-23 10:02:38 | INFO | PID:864 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 10:02:38 | INFO | PID:864 | Created new channel
+2025-06-23 10:02:38 | INFO | PID:864 | Declared queue: article-request-queue
+2025-06-23 10:02:38 | INFO | PID:864 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 10:02:38 | INFO | PID:864 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | WARNING | PID:864 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:02:38 | WARNING | PID:864 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:02:38 | INFO | PID:864 | Worker instance created
+2025-06-23 10:02:38 | INFO | PID:864 | Registered worker process 864 in registry
+2025-06-23 10:02:38 | INFO | PID:864 | Starting consuming on article-request-queue
+2025-06-23 10:02:39 | INFO | PID:864 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 10:02:39 | INFO | PID:864 | Started url_rewriter_para_request_worker with PID: 864, queue: article-request-queue
+2025-06-23 10:02:43 | WARNING | PID:864 | No open connection/channel: connecting...
+2025-06-23 10:02:43 | INFO | PID:864 | Successfully connected on attempt 1
+2025-06-23 10:02:43 | INFO | PID:864 | Consumer registered on queue: article-request-queue
+2025-06-23 10:02:43 | INFO | PID:864 | Starting consuming on article-request-queue
+2025-06-23 10:03:04 | INFO | PID:864 | Processing message from queue: article-request-queue
+2025-06-23 10:03:18 | INFO | PID:864 | Successfully authenticated with API
+2025-06-23 10:03:18 | INFO | PID:864 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 10:03:20 | INFO | PID:864 | Successfully authenticated with API
+2025-06-23 10:03:20 | INFO | PID:864 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 10:03:28 | INFO | PID:864 | Successfully authenticated with API
+2025-06-23 10:03:28 | INFO | PID:864 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 10:05:01 | INFO | PID:864 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/6958c747-80a0-49b6-aba5-db5d7fa38fb9/
+2025-06-23 10:05:03 | INFO | PID:864 | Successfully authenticated with API
+2025-06-23 10:05:03 | INFO | PID:864 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/6958c747-80a0-49b6-aba5-db5d7fa38fb9/ (Attempt 1/3)
+2025-06-23 10:05:09 | INFO | PID:864 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 10:05:09 | INFO | PID:864 | Message processed in 125.21 seconds
+2025-06-23 10:05:09 | INFO | PID:864 | Message acknowledged
+2025-06-23 10:05:14 | WARNING | PID:864 | No open connection/channel: connecting...
+2025-06-23 10:05:14 | INFO | PID:864 | Successfully connected on attempt 1
+2025-06-23 10:05:14 | INFO | PID:864 | Consumer registered on queue: article-request-queue
+2025-06-23 10:05:14 | INFO | PID:864 | Starting consuming on article-request-queue
+2025-06-23 10:12:27 | INFO | PID:2708 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 10:12:27 | INFO | PID:2708 | Created new channel
+2025-06-23 10:12:27 | INFO | PID:2708 | Declared queue: article-request-queue
+2025-06-23 10:12:28 | INFO | PID:2708 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 10:12:28 | INFO | PID:2708 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | WARNING | PID:2708 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 10:12:28 | WARNING | PID:2708 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 10:12:28 | INFO | PID:2708 | Worker instance created
+2025-06-23 10:12:28 | INFO | PID:2708 | Registered worker process 2708 in registry
+2025-06-23 10:12:28 | INFO | PID:2708 | Starting consuming on article-request-queue
+2025-06-23 10:12:28 | INFO | PID:2708 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 10:12:28 | INFO | PID:2708 | Started url_rewriter_para_request_worker with PID: 2708, queue: article-request-queue
+2025-06-23 10:12:33 | WARNING | PID:2708 | No open connection/channel: connecting...
+2025-06-23 10:12:33 | INFO | PID:2708 | Successfully connected on attempt 1
+2025-06-23 10:12:33 | INFO | PID:2708 | Consumer registered on queue: article-request-queue
+2025-06-23 10:12:33 | INFO | PID:2708 | Starting consuming on article-request-queue
+2025-06-23 10:12:50 | INFO | PID:2708 | Processing message from queue: article-request-queue
+2025-06-23 10:13:07 | INFO | PID:2708 | Successfully authenticated with API
+2025-06-23 10:13:07 | INFO | PID:2708 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 10:13:08 | INFO | PID:2708 | Successfully authenticated with API
+2025-06-23 10:13:08 | INFO | PID:2708 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 10:13:14 | INFO | PID:2708 | Successfully authenticated with API
+2025-06-23 10:13:14 | INFO | PID:2708 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 10:14:48 | INFO | PID:2708 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/f58e26d8-2036-4ea1-960a-397faf0ad407/
+2025-06-23 10:14:49 | INFO | PID:2708 | Successfully authenticated with API
+2025-06-23 10:14:49 | INFO | PID:2708 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/f58e26d8-2036-4ea1-960a-397faf0ad407/ (Attempt 1/3)
+2025-06-23 10:15:00 | INFO | PID:2708 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 10:15:00 | INFO | PID:2708 | Message processed in 130.18 seconds
+2025-06-23 10:15:00 | INFO | PID:2708 | Message acknowledged
+2025-06-23 10:15:05 | WARNING | PID:2708 | No open connection/channel: connecting...
+2025-06-23 10:15:05 | INFO | PID:2708 | Successfully connected on attempt 1
+2025-06-23 10:15:05 | INFO | PID:2708 | Consumer registered on queue: article-request-queue
+2025-06-23 10:15:05 | INFO | PID:2708 | Starting consuming on article-request-queue
+2025-06-23 11:15:39 | INFO | PID:2708 | Processing message from queue: article-request-queue
+2025-06-23 11:15:54 | INFO | PID:2708 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 11:15:55 | INFO | PID:2708 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 11:16:00 | INFO | PID:2708 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 11:16:20 | INFO | PID:2708 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 11:16:20 | INFO | PID:2708 | Message processed in 41.64 seconds
+2025-06-23 11:16:20 | INFO | PID:2708 | Message acknowledged
+2025-06-23 11:16:25 | WARNING | PID:2708 | No open connection/channel: connecting...
+2025-06-23 11:16:25 | INFO | PID:2708 | Successfully connected on attempt 1
+2025-06-23 11:16:25 | INFO | PID:2708 | Consumer registered on queue: article-request-queue
+2025-06-23 11:16:25 | INFO | PID:2708 | Starting consuming on article-request-queue
+2025-06-23 12:05:48 | INFO | PID:31660 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 12:05:48 | INFO | PID:31660 | Created new channel
+2025-06-23 12:05:48 | INFO | PID:31660 | Declared queue: article-request-queue
+2025-06-23 12:05:49 | INFO | PID:31660 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 12:05:49 | INFO | PID:31660 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | WARNING | PID:31660 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:05:49 | WARNING | PID:31660 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:05:49 | INFO | PID:31660 | Worker instance created
+2025-06-23 12:05:49 | INFO | PID:31660 | Registered worker process 31660 in registry
+2025-06-23 12:05:49 | INFO | PID:31660 | Starting consuming on article-request-queue
+2025-06-23 12:05:50 | INFO | PID:31660 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 12:05:50 | INFO | PID:31660 | Started url_rewriter_para_request_worker with PID: 31660, queue: article-request-queue
+2025-06-23 12:05:54 | WARNING | PID:31660 | No open connection/channel: connecting...
+2025-06-23 12:05:54 | INFO | PID:31660 | Successfully connected on attempt 1
+2025-06-23 12:05:54 | INFO | PID:31660 | Consumer registered on queue: article-request-queue
+2025-06-23 12:05:54 | INFO | PID:31660 | Starting consuming on article-request-queue
+2025-06-23 12:06:09 | INFO | PID:31660 | Processing message from queue: article-request-queue
+2025-06-23 12:06:26 | INFO | PID:31660 | Successfully authenticated with API
+2025-06-23 12:06:26 | INFO | PID:31660 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:06:28 | INFO | PID:31660 | Successfully authenticated with API
+2025-06-23 12:06:28 | INFO | PID:31660 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:06:35 | INFO | PID:31660 | Successfully authenticated with API
+2025-06-23 12:06:35 | INFO | PID:31660 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 12:06:49 | INFO | PID:31660 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 12:06:49 | INFO | PID:31660 | Message processed in 39.44 seconds
+2025-06-23 12:06:49 | INFO | PID:31660 | Message acknowledged
+2025-06-23 12:06:54 | WARNING | PID:31660 | No open connection/channel: connecting...
+2025-06-23 12:06:54 | INFO | PID:31660 | Successfully connected on attempt 1
+2025-06-23 12:06:54 | INFO | PID:31660 | Consumer registered on queue: article-request-queue
+2025-06-23 12:06:54 | INFO | PID:31660 | Starting consuming on article-request-queue
+2025-06-23 12:21:31 | INFO | PID:21788 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 12:21:31 | INFO | PID:21788 | Created new channel
+2025-06-23 12:21:31 | INFO | PID:21788 | Declared queue: article-request-queue
+2025-06-23 12:21:31 | INFO | PID:21788 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 12:21:31 | INFO | PID:21788 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:31 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:31 | WARNING | PID:21788 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:21:32 | WARNING | PID:21788 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:21:32 | INFO | PID:21788 | Worker instance created
+2025-06-23 12:21:32 | INFO | PID:21788 | Registered worker process 21788 in registry
+2025-06-23 12:21:32 | INFO | PID:21788 | Starting consuming on article-request-queue
+2025-06-23 12:21:32 | INFO | PID:21788 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 12:21:32 | INFO | PID:21788 | Started url_rewriter_para_request_worker with PID: 21788, queue: article-request-queue
+2025-06-23 12:21:37 | WARNING | PID:21788 | No open connection/channel: connecting...
+2025-06-23 12:21:37 | INFO | PID:21788 | Successfully connected on attempt 1
+2025-06-23 12:21:37 | INFO | PID:21788 | Consumer registered on queue: article-request-queue
+2025-06-23 12:21:37 | INFO | PID:21788 | Starting consuming on article-request-queue
+2025-06-23 12:21:59 | INFO | PID:21788 | Processing message from queue: article-request-queue
+2025-06-23 12:22:15 | INFO | PID:21788 | Successfully authenticated with API
+2025-06-23 12:22:15 | INFO | PID:21788 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:22:16 | INFO | PID:21788 | Successfully authenticated with API
+2025-06-23 12:22:16 | INFO | PID:21788 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:22:23 | INFO | PID:21788 | Successfully authenticated with API
+2025-06-23 12:22:23 | INFO | PID:21788 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 12:22:34 | INFO | PID:21788 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 12:22:34 | INFO | PID:21788 | Message processed in 34.44 seconds
+2025-06-23 12:22:34 | INFO | PID:21788 | Message acknowledged
+2025-06-23 12:22:39 | WARNING | PID:21788 | No open connection/channel: connecting...
+2025-06-23 12:22:39 | INFO | PID:21788 | Successfully connected on attempt 1
+2025-06-23 12:22:39 | INFO | PID:21788 | Consumer registered on queue: article-request-queue
+2025-06-23 12:22:39 | INFO | PID:21788 | Starting consuming on article-request-queue
+2025-06-23 12:26:45 | INFO | PID:6900 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 12:26:45 | INFO | PID:6900 | Created new channel
+2025-06-23 12:26:45 | INFO | PID:6900 | Declared queue: article-request-queue
+2025-06-23 12:26:45 | INFO | PID:6900 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 12:26:45 | INFO | PID:6900 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | WARNING | PID:6900 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:26:45 | WARNING | PID:6900 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:26:45 | INFO | PID:6900 | Worker instance created
+2025-06-23 12:26:45 | INFO | PID:6900 | Registered worker process 6900 in registry
+2025-06-23 12:26:45 | INFO | PID:6900 | Starting consuming on article-request-queue
+2025-06-23 12:26:46 | INFO | PID:6900 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 12:26:46 | INFO | PID:6900 | Started url_rewriter_para_request_worker with PID: 6900, queue: article-request-queue
+2025-06-23 12:26:50 | WARNING | PID:6900 | No open connection/channel: connecting...
+2025-06-23 12:26:50 | INFO | PID:6900 | Successfully connected on attempt 1
+2025-06-23 12:26:50 | INFO | PID:6900 | Consumer registered on queue: article-request-queue
+2025-06-23 12:26:50 | INFO | PID:6900 | Starting consuming on article-request-queue
+2025-06-23 12:27:08 | INFO | PID:6900 | Processing message from queue: article-request-queue
+2025-06-23 12:27:17 | INFO | PID:6900 | Successfully authenticated with API
+2025-06-23 12:27:17 | INFO | PID:6900 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:27:18 | INFO | PID:6900 | Successfully authenticated with API
+2025-06-23 12:27:18 | INFO | PID:6900 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:27:26 | INFO | PID:6900 | Successfully authenticated with API
+2025-06-23 12:27:26 | INFO | PID:6900 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 12:27:36 | INFO | PID:6900 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 12:27:36 | INFO | PID:6900 | Message processed in 27.92 seconds
+2025-06-23 12:27:36 | INFO | PID:6900 | Message acknowledged
+2025-06-23 12:27:41 | WARNING | PID:6900 | No open connection/channel: connecting...
+2025-06-23 12:27:41 | INFO | PID:6900 | Successfully connected on attempt 1
+2025-06-23 12:27:41 | INFO | PID:6900 | Consumer registered on queue: article-request-queue
+2025-06-23 12:27:41 | INFO | PID:6900 | Starting consuming on article-request-queue
+2025-06-23 12:37:50 | INFO | PID:10456 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 12:37:50 | INFO | PID:10456 | Created new channel
+2025-06-23 12:37:50 | INFO | PID:10456 | Declared queue: article-request-queue
+2025-06-23 12:37:50 | INFO | PID:10456 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 12:37:50 | INFO | PID:10456 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | WARNING | PID:10456 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:37:51 | WARNING | PID:10456 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:37:51 | INFO | PID:10456 | Worker instance created
+2025-06-23 12:37:51 | INFO | PID:10456 | Registered worker process 10456 in registry
+2025-06-23 12:37:51 | INFO | PID:10456 | Starting consuming on article-request-queue
+2025-06-23 12:37:51 | INFO | PID:10456 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 12:37:51 | INFO | PID:10456 | Started url_rewriter_para_request_worker with PID: 10456, queue: article-request-queue
+2025-06-23 12:37:56 | WARNING | PID:10456 | No open connection/channel: connecting...
+2025-06-23 12:37:56 | INFO | PID:10456 | Successfully connected on attempt 1
+2025-06-23 12:37:56 | INFO | PID:10456 | Consumer registered on queue: article-request-queue
+2025-06-23 12:37:56 | INFO | PID:10456 | Starting consuming on article-request-queue
+2025-06-23 12:38:16 | INFO | PID:10456 | Processing message from queue: article-request-queue
+2025-06-23 12:38:32 | INFO | PID:10456 | Successfully authenticated with API
+2025-06-23 12:38:32 | INFO | PID:10456 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:38:33 | INFO | PID:10456 | Successfully authenticated with API
+2025-06-23 12:38:33 | INFO | PID:10456 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:38:40 | INFO | PID:10456 | Successfully authenticated with API
+2025-06-23 12:38:40 | INFO | PID:10456 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 12:38:59 | INFO | PID:10456 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 12:38:59 | INFO | PID:10456 | Message processed in 43.21 seconds
+2025-06-23 12:38:59 | INFO | PID:10456 | Message acknowledged
+2025-06-23 12:39:04 | WARNING | PID:10456 | No open connection/channel: connecting...
+2025-06-23 12:39:05 | INFO | PID:10456 | Successfully connected on attempt 1
+2025-06-23 12:39:05 | INFO | PID:10456 | Consumer registered on queue: article-request-queue
+2025-06-23 12:39:05 | INFO | PID:10456 | Starting consuming on article-request-queue
+2025-06-23 12:44:57 | INFO | PID:32080 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 12:44:57 | INFO | PID:32080 | Created new channel
+2025-06-23 12:44:57 | INFO | PID:32080 | Declared queue: article-request-queue
+2025-06-23 12:44:58 | INFO | PID:32080 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 12:44:58 | INFO | PID:32080 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | WARNING | PID:32080 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:44:58 | WARNING | PID:32080 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:44:58 | INFO | PID:32080 | Worker instance created
+2025-06-23 12:44:58 | INFO | PID:32080 | Registered worker process 32080 in registry
+2025-06-23 12:44:58 | INFO | PID:32080 | Starting consuming on article-request-queue
+2025-06-23 12:44:59 | INFO | PID:32080 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 12:44:59 | INFO | PID:32080 | Started url_rewriter_para_request_worker with PID: 32080, queue: article-request-queue
+2025-06-23 12:45:03 | WARNING | PID:32080 | No open connection/channel: connecting...
+2025-06-23 12:45:03 | INFO | PID:32080 | Successfully connected on attempt 1
+2025-06-23 12:45:03 | INFO | PID:32080 | Consumer registered on queue: article-request-queue
+2025-06-23 12:45:03 | INFO | PID:32080 | Starting consuming on article-request-queue
+2025-06-23 12:45:24 | INFO | PID:32080 | Processing message from queue: article-request-queue
+2025-06-23 12:45:40 | INFO | PID:32080 | Successfully authenticated with API
+2025-06-23 12:45:40 | INFO | PID:32080 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:45:41 | INFO | PID:32080 | Successfully authenticated with API
+2025-06-23 12:45:41 | INFO | PID:32080 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:45:49 | INFO | PID:32080 | Successfully authenticated with API
+2025-06-23 12:45:49 | INFO | PID:32080 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 12:46:11 | INFO | PID:32080 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 12:46:11 | INFO | PID:32080 | Message processed in 46.68 seconds
+2025-06-23 12:46:11 | INFO | PID:32080 | Message acknowledged
+2025-06-23 12:46:16 | WARNING | PID:32080 | No open connection/channel: connecting...
+2025-06-23 12:46:16 | INFO | PID:32080 | Successfully connected on attempt 1
+2025-06-23 12:46:16 | INFO | PID:32080 | Consumer registered on queue: article-request-queue
+2025-06-23 12:46:16 | INFO | PID:32080 | Starting consuming on article-request-queue
+2025-06-23 12:53:26 | INFO | PID:15544 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 12:53:26 | INFO | PID:15544 | Created new channel
+2025-06-23 12:53:26 | INFO | PID:15544 | Declared queue: article-request-queue
+2025-06-23 12:53:26 | INFO | PID:15544 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 12:53:26 | INFO | PID:15544 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | WARNING | PID:15544 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 12:53:26 | WARNING | PID:15544 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 12:53:26 | INFO | PID:15544 | Worker instance created
+2025-06-23 12:53:26 | INFO | PID:15544 | Registered worker process 15544 in registry
+2025-06-23 12:53:26 | INFO | PID:15544 | Starting consuming on article-request-queue
+2025-06-23 12:53:27 | INFO | PID:15544 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 12:53:27 | INFO | PID:15544 | Started url_rewriter_para_request_worker with PID: 15544, queue: article-request-queue
+2025-06-23 12:53:31 | WARNING | PID:15544 | No open connection/channel: connecting...
+2025-06-23 12:53:31 | INFO | PID:15544 | Successfully connected on attempt 1
+2025-06-23 12:53:31 | INFO | PID:15544 | Consumer registered on queue: article-request-queue
+2025-06-23 12:53:31 | INFO | PID:15544 | Starting consuming on article-request-queue
+2025-06-23 12:53:48 | INFO | PID:15544 | Processing message from queue: article-request-queue
+2025-06-23 12:54:05 | INFO | PID:15544 | Successfully authenticated with API
+2025-06-23 12:54:05 | INFO | PID:15544 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:54:06 | INFO | PID:15544 | Successfully authenticated with API
+2025-06-23 12:54:06 | INFO | PID:15544 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 12:54:18 | INFO | PID:15544 | Successfully authenticated with API
+2025-06-23 12:54:18 | INFO | PID:15544 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 12:54:40 | INFO | PID:15544 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 12:54:40 | INFO | PID:15544 | Message processed in 51.95 seconds
+2025-06-23 12:54:40 | INFO | PID:15544 | Message acknowledged
+2025-06-23 12:54:45 | WARNING | PID:15544 | No open connection/channel: connecting...
+2025-06-23 12:54:45 | INFO | PID:15544 | Successfully connected on attempt 1
+2025-06-23 12:54:45 | INFO | PID:15544 | Consumer registered on queue: article-request-queue
+2025-06-23 12:54:45 | INFO | PID:15544 | Starting consuming on article-request-queue
+2025-06-23 14:24:32 | INFO | PID:37684 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 14:24:32 | INFO | PID:37684 | Created new channel
+2025-06-23 14:24:32 | INFO | PID:37684 | Declared queue: article-request-queue
+2025-06-23 14:24:33 | INFO | PID:37684 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 14:24:33 | INFO | PID:37684 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | WARNING | PID:37684 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:24:33 | WARNING | PID:37684 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:24:33 | INFO | PID:37684 | Worker instance created
+2025-06-23 14:24:33 | INFO | PID:37684 | Registered worker process 37684 in registry
+2025-06-23 14:24:33 | INFO | PID:37684 | Starting consuming on article-request-queue
+2025-06-23 14:24:34 | INFO | PID:37684 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 14:24:34 | INFO | PID:37684 | Started url_rewriter_para_request_worker with PID: 37684, queue: article-request-queue
+2025-06-23 14:24:38 | WARNING | PID:37684 | No open connection/channel: connecting...
+2025-06-23 14:24:38 | INFO | PID:37684 | Successfully connected on attempt 1
+2025-06-23 14:24:38 | INFO | PID:37684 | Consumer registered on queue: article-request-queue
+2025-06-23 14:24:38 | INFO | PID:37684 | Starting consuming on article-request-queue
+2025-06-23 14:24:53 | INFO | PID:37684 | Processing message from queue: article-request-queue
+2025-06-23 14:25:11 | INFO | PID:37684 | Successfully authenticated with API
+2025-06-23 14:25:11 | INFO | PID:37684 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:25:13 | INFO | PID:37684 | Successfully authenticated with API
+2025-06-23 14:25:13 | INFO | PID:37684 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:25:23 | INFO | PID:37684 | Successfully authenticated with API
+2025-06-23 14:25:23 | INFO | PID:37684 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 14:25:52 | INFO | PID:37684 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 14:25:52 | INFO | PID:37684 | Message processed in 58.76 seconds
+2025-06-23 14:25:52 | INFO | PID:37684 | Message acknowledged
+2025-06-23 14:25:57 | WARNING | PID:37684 | No open connection/channel: connecting...
+2025-06-23 14:25:57 | INFO | PID:37684 | Successfully connected on attempt 1
+2025-06-23 14:25:57 | INFO | PID:37684 | Consumer registered on queue: article-request-queue
+2025-06-23 14:25:57 | INFO | PID:37684 | Starting consuming on article-request-queue
+2025-06-23 14:27:54 | INFO | PID:36492 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 14:27:54 | INFO | PID:36492 | Created new channel
+2025-06-23 14:27:54 | INFO | PID:36492 | Declared queue: article-request-queue
+2025-06-23 14:27:55 | INFO | PID:36492 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 14:27:55 | INFO | PID:36492 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | WARNING | PID:36492 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:27:55 | WARNING | PID:36492 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:27:55 | INFO | PID:36492 | Worker instance created
+2025-06-23 14:27:55 | INFO | PID:36492 | Registered worker process 36492 in registry
+2025-06-23 14:27:55 | INFO | PID:36492 | Starting consuming on article-request-queue
+2025-06-23 14:27:56 | INFO | PID:36492 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 14:27:56 | INFO | PID:36492 | Started url_rewriter_para_request_worker with PID: 36492, queue: article-request-queue
+2025-06-23 14:28:00 | WARNING | PID:36492 | No open connection/channel: connecting...
+2025-06-23 14:28:00 | INFO | PID:36492 | Successfully connected on attempt 1
+2025-06-23 14:28:00 | INFO | PID:36492 | Consumer registered on queue: article-request-queue
+2025-06-23 14:28:00 | INFO | PID:36492 | Starting consuming on article-request-queue
+2025-06-23 14:28:15 | INFO | PID:36492 | Processing message from queue: article-request-queue
+2025-06-23 14:28:25 | INFO | PID:36492 | Successfully authenticated with API
+2025-06-23 14:28:25 | INFO | PID:36492 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:28:28 | INFO | PID:36492 | Successfully authenticated with API
+2025-06-23 14:28:28 | INFO | PID:36492 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:28:41 | INFO | PID:36492 | Successfully authenticated with API
+2025-06-23 14:28:41 | INFO | PID:36492 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 14:29:43 | INFO | PID:36492 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 14:29:43 | INFO | PID:36492 | Message processed in 88.72 seconds
+2025-06-23 14:29:43 | INFO | PID:36492 | Message acknowledged
+2025-06-23 14:29:48 | WARNING | PID:36492 | No open connection/channel: connecting...
+2025-06-23 14:29:49 | INFO | PID:36492 | Successfully connected on attempt 1
+2025-06-23 14:29:49 | INFO | PID:36492 | Consumer registered on queue: article-request-queue
+2025-06-23 14:29:49 | INFO | PID:36492 | Starting consuming on article-request-queue
+2025-06-23 14:33:21 | INFO | PID:31716 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 14:33:21 | INFO | PID:31716 | Created new channel
+2025-06-23 14:33:21 | INFO | PID:31716 | Declared queue: article-request-queue
+2025-06-23 14:33:21 | INFO | PID:31716 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 14:33:21 | INFO | PID:31716 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | WARNING | PID:31716 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:33:21 | WARNING | PID:31716 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:33:21 | INFO | PID:31716 | Worker instance created
+2025-06-23 14:33:21 | INFO | PID:31716 | Registered worker process 31716 in registry
+2025-06-23 14:33:21 | INFO | PID:31716 | Starting consuming on article-request-queue
+2025-06-23 14:33:22 | INFO | PID:31716 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 14:33:22 | INFO | PID:31716 | Started url_rewriter_para_request_worker with PID: 31716, queue: article-request-queue
+2025-06-23 14:33:26 | WARNING | PID:31716 | No open connection/channel: connecting...
+2025-06-23 14:33:26 | INFO | PID:31716 | Successfully connected on attempt 1
+2025-06-23 14:33:26 | INFO | PID:31716 | Consumer registered on queue: article-request-queue
+2025-06-23 14:33:26 | INFO | PID:31716 | Starting consuming on article-request-queue
+2025-06-23 14:33:42 | INFO | PID:31716 | Processing message from queue: article-request-queue
+2025-06-23 14:33:57 | INFO | PID:31716 | Successfully authenticated with API
+2025-06-23 14:33:57 | INFO | PID:31716 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:33:58 | INFO | PID:31716 | Successfully authenticated with API
+2025-06-23 14:33:58 | INFO | PID:31716 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:34:07 | INFO | PID:31716 | Successfully authenticated with API
+2025-06-23 14:34:07 | INFO | PID:31716 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 14:35:45 | INFO | PID:31716 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/6d735b39-65e0-4ee2-b890-0b2f0b6eb84f/
+2025-06-23 14:35:46 | INFO | PID:31716 | Successfully authenticated with API
+2025-06-23 14:35:46 | INFO | PID:31716 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/6d735b39-65e0-4ee2-b890-0b2f0b6eb84f/ (Attempt 1/3)
+2025-06-23 14:36:04 | INFO | PID:31716 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 14:36:04 | INFO | PID:31716 | Message processed in 142.34 seconds
+2025-06-23 14:36:04 | INFO | PID:31716 | Message acknowledged
+2025-06-23 14:36:09 | WARNING | PID:31716 | No open connection/channel: connecting...
+2025-06-23 14:36:09 | INFO | PID:31716 | Successfully connected on attempt 1
+2025-06-23 14:36:09 | INFO | PID:31716 | Consumer registered on queue: article-request-queue
+2025-06-23 14:36:09 | INFO | PID:31716 | Starting consuming on article-request-queue
+2025-06-23 14:53:57 | INFO | PID:32356 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 14:53:57 | INFO | PID:32356 | Created new channel
+2025-06-23 14:53:57 | INFO | PID:32356 | Declared queue: article-request-queue
+2025-06-23 14:53:57 | INFO | PID:32356 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 14:53:57 | INFO | PID:32356 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | WARNING | PID:32356 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 14:53:57 | WARNING | PID:32356 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 14:53:57 | INFO | PID:32356 | Worker instance created
+2025-06-23 14:53:57 | INFO | PID:32356 | Registered worker process 32356 in registry
+2025-06-23 14:53:57 | INFO | PID:32356 | Starting consuming on article-request-queue
+2025-06-23 14:53:58 | INFO | PID:32356 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 14:53:58 | INFO | PID:32356 | Started url_rewriter_para_request_worker with PID: 32356, queue: article-request-queue
+2025-06-23 14:54:03 | WARNING | PID:32356 | No open connection/channel: connecting...
+2025-06-23 14:54:03 | INFO | PID:32356 | Successfully connected on attempt 1
+2025-06-23 14:54:03 | INFO | PID:32356 | Consumer registered on queue: article-request-queue
+2025-06-23 14:54:03 | INFO | PID:32356 | Starting consuming on article-request-queue
+2025-06-23 14:54:18 | INFO | PID:32356 | Processing message from queue: article-request-queue
+2025-06-23 14:54:35 | INFO | PID:32356 | Successfully authenticated with API
+2025-06-23 14:54:35 | INFO | PID:32356 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:54:36 | INFO | PID:32356 | Successfully authenticated with API
+2025-06-23 14:54:36 | INFO | PID:32356 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 14:54:45 | INFO | PID:32356 | Successfully authenticated with API
+2025-06-23 14:54:45 | INFO | PID:32356 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 14:56:20 | INFO | PID:32356 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/ff608203-d5b5-4d86-aee4-29743bd2f3c8/
+2025-06-23 14:56:21 | INFO | PID:32356 | Successfully authenticated with API
+2025-06-23 14:56:21 | INFO | PID:32356 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/ff608203-d5b5-4d86-aee4-29743bd2f3c8/ (Attempt 1/3)
+2025-06-23 14:56:38 | INFO | PID:32356 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 14:56:38 | INFO | PID:32356 | Message processed in 140.06 seconds
+2025-06-23 14:56:38 | INFO | PID:32356 | Message acknowledged
+2025-06-23 14:56:43 | WARNING | PID:32356 | No open connection/channel: connecting...
+2025-06-23 14:56:43 | INFO | PID:32356 | Successfully connected on attempt 1
+2025-06-23 14:56:43 | INFO | PID:32356 | Consumer registered on queue: article-request-queue
+2025-06-23 14:56:43 | INFO | PID:32356 | Starting consuming on article-request-queue
+2025-06-23 15:12:11 | INFO | PID:37860 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-23 15:12:12 | INFO | PID:37860 | Created new channel
+2025-06-23 15:12:12 | INFO | PID:37860 | Declared queue: article-request-queue
+2025-06-23 15:12:12 | INFO | PID:37860 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-23 15:12:12 | INFO | PID:37860 | Found worker class: UrlRewriterParallelWorker
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | WARNING | PID:37860 | Detected localhost connection - disabling SSL verification for development
+2025-06-23 15:12:12 | WARNING | PID:37860 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-23 15:12:12 | INFO | PID:37860 | Worker instance created
+2025-06-23 15:12:12 | INFO | PID:37860 | Registered worker process 37860 in registry
+2025-06-23 15:12:12 | INFO | PID:37860 | Starting consuming on article-request-queue
+2025-06-23 15:12:13 | INFO | PID:37860 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-23 15:12:13 | INFO | PID:37860 | Started url_rewriter_para_request_worker with PID: 37860, queue: article-request-queue
+2025-06-23 15:12:17 | WARNING | PID:37860 | No open connection/channel: connecting...
+2025-06-23 15:12:17 | INFO | PID:37860 | Successfully connected on attempt 1
+2025-06-23 15:12:17 | INFO | PID:37860 | Consumer registered on queue: article-request-queue
+2025-06-23 15:12:17 | INFO | PID:37860 | Starting consuming on article-request-queue
+2025-06-23 15:12:32 | INFO | PID:37860 | Processing message from queue: article-request-queue
+2025-06-23 15:12:49 | INFO | PID:37860 | Successfully authenticated with API
+2025-06-23 15:12:49 | INFO | PID:37860 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-23 15:12:50 | INFO | PID:37860 | Successfully authenticated with API
+2025-06-23 15:12:50 | INFO | PID:37860 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-23 15:13:03 | INFO | PID:37860 | Successfully authenticated with API
+2025-06-23 15:13:03 | INFO | PID:37860 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-23 15:14:39 | INFO | PID:37860 | Making update request to endpoint: /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/9b9a3cf5-1096-427e-b98e-fada958ab32d/
+2025-06-23 15:14:40 | INFO | PID:37860 | Successfully authenticated with API
+2025-06-23 15:14:40 | INFO | PID:37860 | Making PATCH request to /message-service-api/ai-message/update/a1d409b7-9194-43f2-a593-1d031a6fcf5c/9b9a3cf5-1096-427e-b98e-fada958ab32d/ (Attempt 1/3)
+2025-06-23 15:15:17 | INFO | PID:37860 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-23 15:15:17 | INFO | PID:37860 | Message processed in 165.27 seconds
+2025-06-23 15:15:17 | INFO | PID:37860 | Message acknowledged
+2025-06-23 15:15:22 | WARNING | PID:37860 | No open connection/channel: connecting...
+2025-06-23 15:15:22 | INFO | PID:37860 | Successfully connected on attempt 1
+2025-06-23 15:15:22 | INFO | PID:37860 | Consumer registered on queue: article-request-queue
+2025-06-23 15:15:22 | INFO | PID:37860 | Starting consuming on article-request-queue
+2025-06-23 16:46:45 | ERROR | PID:37860 | Unexpected consumer error: No activity or too many missed heartbeats in the last 300 seconds
+2025-06-23 16:47:06 | WARNING | PID:37860 | No open connection/channel: connecting...
+2025-06-23 16:47:07 | INFO | PID:37860 | Successfully connected on attempt 1
+2025-06-23 16:47:07 | INFO | PID:37860 | Consumer registered on queue: article-request-queue
+2025-06-23 16:47:07 | INFO | PID:37860 | Starting consuming on article-request-queue

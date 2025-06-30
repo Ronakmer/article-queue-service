@@ -26,3 +26,388 @@
 2025-06-09 11:37:02 | INFO | PID:9716 | Successfully connected on attempt 1
 2025-06-09 11:37:02 | INFO | PID:9716 | Consumer registered on queue: article-output-queue
 2025-06-09 11:37:02 | INFO | PID:9716 | Starting consuming on article-output-queue
+2025-06-09 16:50:11 | INFO | PID:1980 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 16:50:11 | INFO | PID:1980 | Created new channel
+2025-06-09 16:50:11 | INFO | PID:1980 | Declared queue: article-output-queue
+2025-06-09 16:50:11 | INFO | PID:1980 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 16:50:11 | INFO | PID:1980 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 16:50:11 | WARNING | PID:1980 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 16:50:11 | WARNING | PID:1980 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 16:50:11 | INFO | PID:1980 | Worker instance created
+2025-06-09 16:50:11 | INFO | PID:1980 | Registered worker process 1980 in registry
+2025-06-09 16:50:11 | INFO | PID:1980 | Starting consuming on article-output-queue
+2025-06-09 16:50:12 | INFO | PID:1980 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 16:50:12 | INFO | PID:1980 | Started url_rewriter_para_response_worker with PID: 1980, queue: article-output-queue
+2025-06-09 16:50:16 | WARNING | PID:1980 | No open connection/channel: connecting...
+2025-06-09 16:50:16 | INFO | PID:1980 | Successfully connected on attempt 1
+2025-06-09 16:50:16 | INFO | PID:1980 | Consumer registered on queue: article-output-queue
+2025-06-09 16:50:16 | INFO | PID:1980 | Starting consuming on article-output-queue
+2025-06-09 16:50:18 | ERROR | PID:1980 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-09 16:50:46 | INFO | PID:34164 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 16:50:46 | INFO | PID:34164 | Created new channel
+2025-06-09 16:50:46 | INFO | PID:34164 | Declared queue: article-output-queue
+2025-06-09 16:50:46 | INFO | PID:34164 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 16:50:46 | INFO | PID:34164 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 16:50:46 | WARNING | PID:34164 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 16:50:46 | WARNING | PID:34164 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 16:50:46 | INFO | PID:34164 | Worker instance created
+2025-06-09 16:50:46 | INFO | PID:34164 | Registered worker process 34164 in registry
+2025-06-09 16:50:46 | INFO | PID:34164 | Starting consuming on article-output-queue
+2025-06-09 16:50:47 | INFO | PID:34164 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 16:50:47 | INFO | PID:34164 | Started url_rewriter_para_response_worker with PID: 34164, queue: article-output-queue
+2025-06-09 16:50:51 | WARNING | PID:34164 | No open connection/channel: connecting...
+2025-06-09 16:50:51 | INFO | PID:34164 | Successfully connected on attempt 1
+2025-06-09 16:50:51 | INFO | PID:34164 | Consumer registered on queue: article-output-queue
+2025-06-09 16:50:51 | INFO | PID:34164 | Starting consuming on article-output-queue
+2025-06-09 16:50:53 | ERROR | PID:34164 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-09 16:51:26 | INFO | PID:19228 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 16:51:26 | INFO | PID:19228 | Created new channel
+2025-06-09 16:51:26 | INFO | PID:19228 | Declared queue: article-output-queue
+2025-06-09 16:51:26 | INFO | PID:19228 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 16:51:26 | INFO | PID:19228 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 16:51:26 | WARNING | PID:19228 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 16:51:26 | WARNING | PID:19228 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 16:51:26 | INFO | PID:19228 | Worker instance created
+2025-06-09 16:51:26 | INFO | PID:19228 | Registered worker process 19228 in registry
+2025-06-09 16:51:26 | INFO | PID:19228 | Starting consuming on article-output-queue
+2025-06-09 16:51:27 | INFO | PID:19228 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 16:51:27 | INFO | PID:19228 | Started url_rewriter_para_response_worker with PID: 19228, queue: article-output-queue
+2025-06-09 16:51:31 | WARNING | PID:19228 | No open connection/channel: connecting...
+2025-06-09 16:51:31 | INFO | PID:19228 | Successfully connected on attempt 1
+2025-06-09 16:51:31 | INFO | PID:19228 | Consumer registered on queue: article-output-queue
+2025-06-09 16:51:31 | INFO | PID:19228 | Starting consuming on article-output-queue
+2025-06-09 16:51:33 | ERROR | PID:19228 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-09 16:52:09 | INFO | PID:34700 | Queue 'article-output-queue' created successfully
+2025-06-09 16:52:23 | INFO | PID:29604 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 16:52:23 | INFO | PID:29604 | Created new channel
+2025-06-09 16:52:23 | INFO | PID:29604 | Declared queue: article-output-queue
+2025-06-09 16:52:23 | INFO | PID:29604 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 16:52:23 | INFO | PID:29604 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 16:52:23 | WARNING | PID:29604 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 16:52:23 | WARNING | PID:29604 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 16:52:23 | INFO | PID:29604 | Worker instance created
+2025-06-09 16:52:23 | INFO | PID:29604 | Registered worker process 29604 in registry
+2025-06-09 16:52:23 | INFO | PID:29604 | Starting consuming on article-output-queue
+2025-06-09 16:52:24 | INFO | PID:29604 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 16:52:24 | INFO | PID:29604 | Started url_rewriter_para_response_worker with PID: 29604, queue: article-output-queue
+2025-06-09 16:52:28 | WARNING | PID:29604 | No open connection/channel: connecting...
+2025-06-09 16:52:28 | INFO | PID:29604 | Successfully connected on attempt 1
+2025-06-09 16:52:28 | INFO | PID:29604 | Consumer registered on queue: article-output-queue
+2025-06-09 16:52:28 | INFO | PID:29604 | Starting consuming on article-output-queue
+2025-06-09 16:52:30 | ERROR | PID:29604 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-09 16:54:03 | INFO | PID:34700 | Queue 'article-output-queue' created successfully
+2025-06-09 16:55:17 | INFO | PID:34700 | Queue 'article-output-queue' created successfully
+2025-06-09 16:57:20 | INFO | PID:36288 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 16:57:20 | INFO | PID:36288 | Created new channel
+2025-06-09 16:57:20 | INFO | PID:36288 | Declared queue: article-output-queue
+2025-06-09 16:57:21 | INFO | PID:36288 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 16:57:21 | INFO | PID:36288 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 16:57:21 | WARNING | PID:36288 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 16:57:21 | WARNING | PID:36288 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 16:57:21 | INFO | PID:36288 | Worker instance created
+2025-06-09 16:57:21 | INFO | PID:36288 | Registered worker process 36288 in registry
+2025-06-09 16:57:21 | INFO | PID:36288 | Starting consuming on article-output-queue
+2025-06-09 16:57:21 | INFO | PID:36288 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 16:57:21 | INFO | PID:36288 | Started url_rewriter_para_response_worker with PID: 36288, queue: article-output-queue
+2025-06-09 16:57:26 | WARNING | PID:36288 | No open connection/channel: connecting...
+2025-06-09 16:57:26 | INFO | PID:36288 | Successfully connected on attempt 1
+2025-06-09 16:57:26 | INFO | PID:36288 | Consumer registered on queue: article-output-queue
+2025-06-09 16:57:26 | INFO | PID:36288 | Starting consuming on article-output-queue
+2025-06-09 16:57:42 | INFO | PID:36288 | Processing message from queue: article-output-queue
+2025-06-09 16:57:42 | INFO | PID:36288 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749468453.8550034, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': 'This is a simulated response from gpt-4. The system prompt was: You are a helpful assistant.', 'model': 'gpt-4', 'tokens': {'prompt_tokens': 256, 'completion_tokens': 53, 'total_tokens': 309}, 'processing_time': 3.7788161705494763}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T16:57:42.628612', 'message_id': 'f019a15e-b7e4-4f50-92cc-70a8b6c63f51'}
+2025-06-09 16:57:42 | INFO | PID:36288 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 16:57:43 | INFO | PID:36288 | Successfully authenticated with API
+2025-06-09 16:57:43 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 16:57:43 | WARNING | PID:36288 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:45 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 16:57:45 | WARNING | PID:36288 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:47 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 16:57:48 | WARNING | PID:36288 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:48 | INFO | PID:36288 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 16:57:48 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 16:57:48 | WARNING | PID:36288 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:50 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 16:57:50 | WARNING | PID:36288 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:52 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 16:57:52 | WARNING | PID:36288 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:52 | INFO | PID:36288 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 16:57:52 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 16:57:52 | WARNING | PID:36288 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:54 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 16:57:54 | WARNING | PID:36288 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:56 | INFO | PID:36288 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 16:57:56 | WARNING | PID:36288 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 16:57:56 | INFO | PID:36288 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 16:57:56 | INFO | PID:36288 | Message processed in 14.27 seconds
+2025-06-09 16:57:56 | INFO | PID:36288 | Message acknowledged
+2025-06-09 16:58:02 | WARNING | PID:36288 | No open connection/channel: connecting...
+2025-06-09 16:58:02 | INFO | PID:36288 | Successfully connected on attempt 1
+2025-06-09 16:58:02 | INFO | PID:36288 | Consumer registered on queue: article-output-queue
+2025-06-09 16:58:02 | INFO | PID:36288 | Starting consuming on article-output-queue
+2025-06-09 17:01:45 | INFO | PID:15372 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 17:01:46 | INFO | PID:15372 | Created new channel
+2025-06-09 17:01:46 | INFO | PID:15372 | Declared queue: article-output-queue
+2025-06-09 17:01:46 | INFO | PID:15372 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 17:01:46 | INFO | PID:15372 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 17:01:46 | WARNING | PID:15372 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 17:01:46 | WARNING | PID:15372 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 17:01:46 | INFO | PID:15372 | Worker instance created
+2025-06-09 17:01:46 | INFO | PID:15372 | Registered worker process 15372 in registry
+2025-06-09 17:01:46 | INFO | PID:15372 | Starting consuming on article-output-queue
+2025-06-09 17:01:47 | INFO | PID:15372 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 17:01:47 | INFO | PID:15372 | Started url_rewriter_para_response_worker with PID: 15372, queue: article-output-queue
+2025-06-09 17:01:51 | WARNING | PID:15372 | No open connection/channel: connecting...
+2025-06-09 17:01:51 | INFO | PID:15372 | Successfully connected on attempt 1
+2025-06-09 17:01:51 | INFO | PID:15372 | Consumer registered on queue: article-output-queue
+2025-06-09 17:01:51 | INFO | PID:15372 | Starting consuming on article-output-queue
+2025-06-09 17:02:12 | INFO | PID:15372 | Processing message from queue: article-output-queue
+2025-06-09 17:02:12 | INFO | PID:15372 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749468725.3108087, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "GPT simulation analyzing your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 401, 'completion_tokens': 194, 'total_tokens': 595}, 'processing_time': 2.3951337779845874}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:02:12.747022', 'message_id': '03dc5108-9696-4b90-b4c3-474ef219c447'}
+2025-06-09 17:02:12 | INFO | PID:15372 | Message processed in 0.00 seconds
+2025-06-09 17:02:12 | INFO | PID:15372 | Message acknowledged
+2025-06-09 17:04:09 | INFO | PID:9616 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 17:04:09 | INFO | PID:9616 | Created new channel
+2025-06-09 17:04:09 | INFO | PID:9616 | Declared queue: article-output-queue
+2025-06-09 17:04:09 | INFO | PID:9616 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 17:04:09 | INFO | PID:9616 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 17:04:09 | WARNING | PID:9616 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 17:04:09 | WARNING | PID:9616 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 17:04:09 | INFO | PID:9616 | Worker instance created
+2025-06-09 17:04:09 | INFO | PID:9616 | Registered worker process 9616 in registry
+2025-06-09 17:04:09 | INFO | PID:9616 | Starting consuming on article-output-queue
+2025-06-09 17:04:09 | INFO | PID:9616 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 17:04:09 | INFO | PID:9616 | Started url_rewriter_para_response_worker with PID: 9616, queue: article-output-queue
+2025-06-09 17:04:14 | WARNING | PID:9616 | No open connection/channel: connecting...
+2025-06-09 17:04:14 | INFO | PID:9616 | Successfully connected on attempt 1
+2025-06-09 17:04:14 | INFO | PID:9616 | Consumer registered on queue: article-output-queue
+2025-06-09 17:04:14 | INFO | PID:9616 | Starting consuming on article-output-queue
+2025-06-09 17:04:40 | INFO | PID:9616 | Processing message from queue: article-output-queue
+2025-06-09 17:04:40 | INFO | PID:9616 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749468873.479841, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Here's a mock response based on your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 455, 'completion_tokens': 150, 'total_tokens': 605}, 'processing_time': 2.5406774241228396}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:04:40.942395', 'message_id': '7b218107-86f2-42e8-b5fe-960209fe7285'}
+2025-06-09 17:04:40 | INFO | PID:9616 | Message processed in 0.00 seconds
+2025-06-09 17:04:40 | INFO | PID:9616 | Message acknowledged
+2025-06-09 17:05:28 | INFO | PID:36200 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 17:05:28 | INFO | PID:36200 | Created new channel
+2025-06-09 17:05:28 | INFO | PID:36200 | Declared queue: article-output-queue
+2025-06-09 17:05:28 | INFO | PID:36200 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 17:05:28 | INFO | PID:36200 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 17:05:28 | WARNING | PID:36200 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 17:05:28 | WARNING | PID:36200 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 17:05:28 | INFO | PID:36200 | Worker instance created
+2025-06-09 17:05:28 | INFO | PID:36200 | Registered worker process 36200 in registry
+2025-06-09 17:05:28 | INFO | PID:36200 | Starting consuming on article-output-queue
+2025-06-09 17:05:28 | INFO | PID:36200 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 17:05:28 | INFO | PID:36200 | Started url_rewriter_para_response_worker with PID: 36200, queue: article-output-queue
+2025-06-09 17:05:33 | WARNING | PID:36200 | No open connection/channel: connecting...
+2025-06-09 17:05:33 | INFO | PID:36200 | Successfully connected on attempt 1
+2025-06-09 17:05:33 | INFO | PID:36200 | Consumer registered on queue: article-output-queue
+2025-06-09 17:05:33 | INFO | PID:36200 | Starting consuming on article-output-queue
+2025-06-09 17:05:56 | INFO | PID:36200 | Processing message from queue: article-output-queue
+2025-06-09 17:05:56 | INFO | PID:36200 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749468950.313208, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Here's a mock response based on your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 308, 'completion_tokens': 63, 'total_tokens': 371}, 'processing_time': 1.5319743109468238}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:05:56.846826', 'message_id': 'b4c4ad6e-41f1-4f58-a658-c01b1c7edeeb'}
+2025-06-09 17:05:56 | INFO | PID:36200 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:05:56 | INFO | PID:36200 | Message processed in 0.00 seconds
+2025-06-09 17:05:56 | INFO | PID:36200 | Message acknowledged
+2025-06-09 17:06:01 | WARNING | PID:36200 | No open connection/channel: connecting...
+2025-06-09 17:06:01 | INFO | PID:36200 | Successfully connected on attempt 1
+2025-06-09 17:06:01 | INFO | PID:36200 | Consumer registered on queue: article-output-queue
+2025-06-09 17:06:01 | INFO | PID:36200 | Starting consuming on article-output-queue
+2025-06-09 17:07:40 | INFO | PID:14996 | Starting worker url_rewriter_para_response_worker for queue article-output-queue
+2025-06-09 17:07:40 | INFO | PID:14996 | Created new channel
+2025-06-09 17:07:40 | INFO | PID:14996 | Declared queue: article-output-queue
+2025-06-09 17:07:40 | INFO | PID:14996 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-09 17:07:40 | INFO | PID:14996 | Found worker class: UrlRewriterParallelWorker
+2025-06-09 17:07:40 | WARNING | PID:14996 | Detected localhost connection - disabling SSL verification for development
+2025-06-09 17:07:40 | WARNING | PID:14996 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-09 17:07:40 | INFO | PID:14996 | Worker instance created
+2025-06-09 17:07:40 | INFO | PID:14996 | Registered worker process 14996 in registry
+2025-06-09 17:07:40 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:07:41 | INFO | PID:14996 | Started url_rewriter_para_response_worker on queue: article-output-queue
+2025-06-09 17:07:41 | INFO | PID:14996 | Started url_rewriter_para_response_worker with PID: 14996, queue: article-output-queue
+2025-06-09 17:07:45 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:07:45 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:07:45 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:07:45 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:08:08 | INFO | PID:14996 | Processing message from queue: article-output-queue
+2025-06-09 17:08:08 | INFO | PID:14996 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749469080.1235049, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Here's a mock response based on your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 230, 'completion_tokens': 74, 'total_tokens': 304}, 'processing_time': 3.478728080271358}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:08:08.499203', 'message_id': '50e2edf7-9f82-4ef9-ae40-45f598d85006'}
+2025-06-09 17:08:08 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:08:09 | INFO | PID:14996 | Successfully authenticated with API
+2025-06-09 17:08:09 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:08:09 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:11 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:08:11 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:13 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:08:13 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:13 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:08:13 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:08:13 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:15 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:08:15 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:17 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:08:17 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:17 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:08:17 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:08:18 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:20 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:08:20 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:22 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:08:22 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:08:22 | INFO | PID:14996 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:08:22 | INFO | PID:14996 | Message processed in 13.91 seconds
+2025-06-09 17:08:22 | INFO | PID:14996 | Message acknowledged
+2025-06-09 17:08:27 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:08:27 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:08:27 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:08:27 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:09:38 | INFO | PID:14996 | Processing message from queue: article-output-queue
+2025-06-09 17:09:38 | INFO | PID:14996 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749469168.2806656, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Here's a mock response based on your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 398, 'completion_tokens': 119, 'total_tokens': 517}, 'processing_time': 4.967375373818022}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:09:38.211791', 'message_id': 'd9742734-27ff-4b11-9047-5b7e74c2853a'}
+2025-06-09 17:09:38 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:09:38 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:09:38 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:40 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:09:40 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:42 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:09:42 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:42 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:09:42 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:09:43 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:45 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:09:45 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:47 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:09:47 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:47 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:09:47 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:09:47 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:49 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:09:49 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:51 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:09:51 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:09:51 | INFO | PID:14996 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:09:51 | INFO | PID:14996 | Message processed in 13.73 seconds
+2025-06-09 17:09:51 | INFO | PID:14996 | Message acknowledged
+2025-06-09 17:09:56 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:09:57 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:09:57 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:09:57 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:10:24 | INFO | PID:14996 | Processing message from queue: article-output-queue
+2025-06-09 17:10:24 | INFO | PID:14996 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749469217.9028487, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': 'As GPT, I would respond: What is the capital of Idian?', 'model': 'gpt-4', 'tokens': {'prompt_tokens': 461, 'completion_tokens': 149, 'total_tokens': 610}, 'processing_time': 1.0274162478523756}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:10:24.078975', 'message_id': '44933a1c-2a76-43fb-89e8-5431ad65badb'}
+2025-06-09 17:10:24 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:10:24 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:10:24 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:26 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:10:26 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:28 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:10:28 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:28 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:10:28 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:10:29 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:31 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:10:31 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:33 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:10:33 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:33 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:10:33 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:10:33 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:35 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:10:36 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:38 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:10:38 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:10:38 | INFO | PID:14996 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:10:38 | INFO | PID:14996 | Message processed in 14.62 seconds
+2025-06-09 17:10:38 | INFO | PID:14996 | Message acknowledged
+2025-06-09 17:10:43 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:10:43 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:10:43 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:10:43 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:12:41 | INFO | PID:14996 | Processing message from queue: article-output-queue
+2025-06-09 17:12:41 | INFO | PID:14996 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749469354.6400476, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Mock AI response from gpt-4 considering your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 132, 'completion_tokens': 172, 'total_tokens': 304}, 'processing_time': 1.5377505945500687}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:12:41.416232', 'message_id': '38da9b22-d021-4138-8ac9-241e6737e6f9'}
+2025-06-09 17:12:41 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:12:41 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:12:41 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:43 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:12:43 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:45 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:12:46 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:46 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:12:46 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:12:46 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:48 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:12:48 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:50 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:12:50 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:50 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:12:50 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:12:50 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:52 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:12:52 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:54 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:12:55 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:12:55 | INFO | PID:14996 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:12:55 | INFO | PID:14996 | Message processed in 13.73 seconds
+2025-06-09 17:12:55 | INFO | PID:14996 | Message acknowledged
+2025-06-09 17:13:00 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:13:00 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:13:00 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:13:00 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:13:53 | INFO | PID:14996 | Processing message from queue: article-output-queue
+2025-06-09 17:13:53 | INFO | PID:14996 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749469424.044221, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Mock AI response from gpt-4 considering your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 330, 'completion_tokens': 138, 'total_tokens': 468}, 'processing_time': 4.3749829768194175}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:13:53.617241', 'message_id': 'bde8382c-c0bf-44d5-b47f-51fca742be9b'}
+2025-06-09 17:13:53 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:13:53 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:13:53 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:13:55 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:13:56 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:13:58 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:13:58 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:13:58 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:13:58 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:13:58 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:14:00 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:14:00 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:14:02 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:14:02 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:14:02 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:14:02 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:14:03 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:14:05 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:14:05 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:14:07 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:14:07 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:14:07 | INFO | PID:14996 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:14:07 | INFO | PID:14996 | Message processed in 13.71 seconds
+2025-06-09 17:14:07 | INFO | PID:14996 | Message acknowledged
+2025-06-09 17:14:12 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:14:12 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:14:12 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:14:12 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 17:15:34 | INFO | PID:14996 | Processing message from queue: article-output-queue
+2025-06-09 17:15:34 | INFO | PID:14996 | Processing message: {'message': {'message_id': 'aa952552-33d8-42ee-94df-c680b366e8fb', 'workspace_id': '2', 'request': '{"slug_id": "aa952552-33d8-42ee-94df-c680b366e8fb", "sequence_index": 1, "workspace_id": "57dc902e-4449-4083-9b56-000000000004", "model": "gpt-4", "provider": "openai", "system_prompt": "You are a helpful assistant.", "prompt": "What is the capital of Idian?", "content": "I need to know about India\'s capital city.", "html_tag": "p", "timestamp": 1749469525.9136274, "response_format": "json", "use_simulation": true, "is_retry": true, "article_id": "57dc902e-4449-4083-9b56-000000000002", "article_message_count": 10}', 'ai_response': {'success': True, 'result': {'processed_text': "Here's a mock response based on your input: I need to know about India's capital city.", 'model': 'gpt-4', 'tokens': {'prompt_tokens': 495, 'completion_tokens': 103, 'total_tokens': 598}, 'processing_time': 3.0905294020162826}}, 'ai_response_status': 'success', 'article_id': '57dc902e-4449-4083-9b56-000000000002', 'article_message_count': 1, 'article_message_total_count': 10, 'status_code': 200}, 'timestamp': '2025-06-09T17:15:34.125968', 'message_id': 'c5d28e20-f257-4632-adaf-d9109e4d82ac'}
+2025-06-09 17:15:34 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:15:34 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:15:34 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:36 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:15:36 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:38 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:15:38 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:38 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:15:38 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:15:39 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:41 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:15:41 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:43 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:15:43 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:43 | INFO | PID:14996 | Making update request to endpoint: /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/
+2025-06-09 17:15:43 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 1/3)
+2025-06-09 17:15:43 | WARNING | PID:14996 | Attempt 1 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:45 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 2/3)
+2025-06-09 17:15:45 | WARNING | PID:14996 | Attempt 2 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:47 | INFO | PID:14996 | Making PATCH request to /message-service-api/ai-message/update/57dc902e-4449-4083-9b56-000000000002/aa952552-33d8-42ee-94df-c680b366e8fb/ (Attempt 3/3)
+2025-06-09 17:15:47 | WARNING | PID:14996 | Attempt 3 failed: Request failed with status 404: {"error": "AI message not found.", "success": false}
+2025-06-09 17:15:47 | INFO | PID:14996 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_response_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-09 17:15:47 | INFO | PID:14996 | Message processed in 13.81 seconds
+2025-06-09 17:15:47 | INFO | PID:14996 | Message acknowledged
+2025-06-09 17:15:52 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 17:15:53 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 17:15:53 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 17:15:53 | INFO | PID:14996 | Starting consuming on article-output-queue
+2025-06-09 21:47:29 | ERROR | PID:14996 | Unexpected consumer error: Stream connection lost: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+2025-06-09 21:47:34 | WARNING | PID:14996 | No open connection/channel: connecting...
+2025-06-09 21:47:34 | INFO | PID:14996 | Successfully connected on attempt 1
+2025-06-09 21:47:34 | INFO | PID:14996 | Consumer registered on queue: article-output-queue
+2025-06-09 21:47:34 | INFO | PID:14996 | Starting consuming on article-output-queue

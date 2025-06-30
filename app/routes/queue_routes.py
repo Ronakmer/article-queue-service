@@ -122,6 +122,7 @@ class QueueRoutes:
     @queue_bp.route("/create", methods=["POST"])
     def create_queue():
         try:
+            
             data = request.json
             queue_name = data.get("queue_name")
             if not queue_name:
@@ -137,6 +138,113 @@ class QueueRoutes:
         except Exception as e:
             logger.error(f"Error in create_queue: {str(e)}")
             return jsonify({"error": str(e)}), 500
+    
+    
+    
+    # @queue_bp.route("/create", methods=["POST"])
+    # def create_queue():
+    #     connection = None
+    #     channel = None
+    #     try:
+    #         logger.info(f"Creating queue with RabbitMQ host: {RABBITMQ_HOST}")
+            
+    #         # Validate request body
+    #         if not request.is_json:
+    #             return jsonify({"error": "Request must be JSON"}), 400
+            
+    #         data = request.json
+    #         if not data:
+    #             return jsonify({"error": "Request body is required"}), 400
+                
+    #         queue_name = data.get("queue_name")
+    #         if not queue_name:
+    #             return jsonify({"error": "queue_name is required"}), 400
+                
+    #         logger.info(f"Attempting to create queue: {queue_name}")
+            
+    #         # First verify RabbitMQ connection
+    #         try:
+    #             connection = get_rabbitmq_connection()
+    #             if not connection:
+    #                 error_msg = "Failed to establish RabbitMQ connection - check credentials and server status"
+    #                 logger.error(error_msg)
+    #                 return jsonify({"error": error_msg}), 500
+    #         except Exception as ce:
+    #             error_msg = f"Connection error: {str(ce)}"
+    #             logger.error(error_msg)
+    #             return jsonify({"error": error_msg}), 500
+                
+    #         channel = None
+    #         try:
+    #             channel = connection.channel()
+    #             logger.info("Successfully created channel")
+                
+    #             # Check if queue exists
+    #             try:
+    #                 channel.queue_declare(queue=queue_name, passive=True)
+    #                 logger.info(f"Queue '{queue_name}' already exists")
+    #                 return jsonify({"error": f"Queue '{queue_name}' already exists"}), 409
+    #             except pika.exceptions.ChannelClosedByBroker as e:
+    #                 if e.reply_code == 404:  # Queue doesn't exist
+    #                     logger.info(f"Queue '{queue_name}' does not exist, creating it")
+    #                     # Create a new channel since the previous one was closed
+    #                     channel = connection.channel()
+                        
+    #                     # # First create the dead letter queue
+    #                     # dlq_name = f"{queue_name}_dlq"
+    #                     # channel.queue_declare(
+    #                     #     queue=dlq_name,
+    #                     #     durable=True
+    #                     # )
+                        
+    #                     # Create the main queue without dead letter configuration
+    #                     channel.queue_declare(
+    #                         queue=queue_name, 
+    #                         durable=True,  # Queue will survive broker restart
+    #                         arguments={
+    #                             'x-message-ttl': 1800000,  # 30 minutes in milliseconds
+    #                             'x-max-retries': 3  # Custom argument to track retries (optional)
+    #                         }
+    #                     )
+                        
+    #                     logger.info(f"Queue '{queue_name}' and its DLQ created successfully")
+    #                     return jsonify({
+    #                         "message": f"Queue '{queue_name}' created successfully",
+    #                         # "dlq_name": dlq_name
+    #                     }), 201
+    #                 else:
+    #                     error_msg = f"Unexpected error code {e.reply_code} when checking queue existence"
+    #                     logger.error(error_msg)
+    #                     return jsonify({"error": error_msg}), 500
+                
+    #         except pika.exceptions.AMQPConnectionError as e:
+    #             error_msg = f"Failed to connect to RabbitMQ: {str(e)}"
+    #             logger.error(error_msg)
+    #             return jsonify({"error": error_msg}), 500
+                
+    #         except pika.exceptions.AMQPChannelError as e:
+    #             error_msg = f"Channel error: {str(e)}"
+    #             logger.error(error_msg)
+    #             return jsonify({"error": error_msg}), 500
+                
+    #         except Exception as e:
+    #             error_msg = f"Unexpected error creating queue: {str(e)}"
+    #             logger.error(error_msg)
+    #             return jsonify({"error": error_msg}), 500
+                
+    #     except Exception as e:
+    #         error_msg = f"Error in create_queue: {str(e)}"
+    #         logger.error(error_msg)
+    #         return jsonify({"error": error_msg}), 500
+            
+    #     finally:
+    #         try:
+    #             if channel:
+    #                 channel.close()
+    #             if connection:
+    #                 connection.close()
+    #         except Exception as e:
+    #             logger.warning(f"Error closing connection/channel: {str(e)}")
 
     @staticmethod
     @queue_bp.route("/delete/<queue_name>", methods=["DELETE"])

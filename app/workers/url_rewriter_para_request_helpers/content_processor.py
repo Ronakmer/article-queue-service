@@ -21,6 +21,8 @@ class ContentProcessor:
         Returns:
             list: List of element dictionaries in their original sequence
         """
+        # print(html_content, 'html_contentxxxxxxxxxxx')
+        
         if not html_content:
             return []
             
@@ -73,7 +75,7 @@ class ContentProcessor:
                     'content': str(elem)
                 })
         
-        print(elements,'elementsx')
+        # print(elements,'elementsx')
         
         return elements
     
@@ -94,9 +96,10 @@ class ContentProcessor:
         """
         merged_content = []
         
-        for index, element in enumerate(elements):
+        for index, element in enumerate(elements, start=1):
             elem_type = element['html_tag']
-            sequence_index = f"{article_id}-{index}"
+            # sequence_index = f"{article_id}-{index}"
+            sequence_index = f"{index}"
             
             element_data = {
                 'message_id': str(uuid.uuid4()),
@@ -137,11 +140,11 @@ class ContentProcessor:
                 element_data['content'] = element['content']
                 merged_content.append(element_data)
         
-        print(merged_content,'merged_contentx')
+        # print(merged_content,'merged_contentx')
         return merged_content
     
 
-    def process_content(self, content_data, input_data):
+    def process_content(self, content_data, input_data, final_prompt_data):
         """
         Process the scraped content and prepare it for AI
 
@@ -153,7 +156,8 @@ class ContentProcessor:
             dict: Processed data ready for AI
         """
 
-        print(input_data, 'raw_input_data')
+        # print(input_data, 'raw_input_data')
+        # print(final_prompt_data, 'final_prompt_datasdfsdfsaasdasdasdasdasd')
 
         # Extract message from input
         message = input_data.get('message', {})
@@ -161,18 +165,20 @@ class ContentProcessor:
         # Extract prompt-related info
         prompt_info = message.get("prompt", {})
         article_id = message.get("article_slug_id", "")
-        prompt_data = prompt_info.get("prompt_data", {})
+        # prompt_data = prompt_info.get("prompt_data", {})
+        # system_prompt = prompt_data.get("system_rephrase", "")
+        prompt_data = final_prompt_data.get('updated_prompt_data', {})
         system_prompt = prompt_data.get("system_rephrase", "")
-        # model_name = prompt_info.get("ai_rate_model", "gpt-4")
+
         model_name = prompt_info.get("ai_rate_model", "deepseek/deepseek_v3")
         # print(model_name,'xxxxxxxxx***************************')
         # logging.error(f"{model_name},'xxxxxxxxx***************************'")
         
         # for test
-        model_name = "deepseek/deepseek_v3"
+        # model_name = "deepseek/deepseek_v3"
 
 
-        print(system_prompt, 'system_prompt_extracted')
+        # print(system_prompt, 'system_prompt_extracted')
 
         # Extract workspace ID
         workspace_slug_id = message.get('workspace', {}).get('slug_id', '')
@@ -191,16 +197,17 @@ class ContentProcessor:
         title_value = None
 
         for selector in content_data.get('selectors_output', []):
-            print(selector, 'selector_check')
-            if selector['name'] == 'content':
+            # print(selector, 'selector_check')
+            if selector['name'] == 'source_content':
                 content_html = selector['value']
-            elif selector['name'] == 'title':
+            elif selector['name'] == 'source_title':
                 title_value = selector['value']
 
+        # print(content_html, 'content_htmlxxxxxxxxxxx')
         # Process content elements
         if content_html:
             elements = self.extract_elements_in_sequence(content_html)
-            print(elements, 'extracted_elements')
+            # print(elements, 'extracted_elements')
 
             # Add title to elements if not already present
             if title_value and not any(e['html_tag'] == 'title' for e in elements):
@@ -210,8 +217,8 @@ class ContentProcessor:
                 })
 
             # Merge with prompt data
-            print(prompt_info, 'prompt_check')
-            print(prompt_data, 'prompt_data_check')
+            # print(prompt_info, 'prompt_check')
+            # print(prompt_data, 'prompt_data_check')
 
             processed_data['ai_requests'] = self.merge_with_prompts(
                 elements,
@@ -227,7 +234,7 @@ class ContentProcessor:
         return processed_data
 
 
-    def fetch_content(self, scraper_data, sleep_time=1):
+    def fetch_content(self, scraper_data, sleep_time=5):
         """
         Fetch content from the URL returned by the scraper API
         
@@ -259,7 +266,7 @@ class ContentProcessor:
                 print(f"Error: Failed to fetch content, status code {content_response.status_code}")
                 return None
                 
-            print(content_response.json(),'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+            # print(content_response.json(),'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
             # Parse content
             try:
                 return content_response.json()

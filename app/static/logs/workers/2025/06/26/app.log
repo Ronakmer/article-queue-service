@@ -1,0 +1,56 @@
+2025-06-26 10:24:38 | INFO | PID:25752 | Queue 'article-request-queue' created successfully
+2025-06-26 10:25:07 | INFO | PID:25752 | Queue 'article-response-queue' created successfully
+2025-06-26 10:26:07 | INFO | PID:15388 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-26 10:26:07 | INFO | PID:15388 | Created new channel
+2025-06-26 10:26:07 | INFO | PID:15388 | Declared queue: article-request-queue
+2025-06-26 10:26:07 | INFO | PID:15388 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-26 10:26:07 | INFO | PID:15388 | Found worker class: UrlRewriterParallelWorker
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | WARNING | PID:15388 | Detected localhost connection - disabling SSL verification for development
+2025-06-26 10:26:07 | WARNING | PID:15388 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-26 10:26:07 | INFO | PID:15388 | Worker instance created
+2025-06-26 10:26:07 | INFO | PID:15388 | Registered worker process 15388 in registry
+2025-06-26 10:26:07 | INFO | PID:15388 | Starting consuming on article-request-queue
+2025-06-26 10:26:08 | INFO | PID:15388 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-26 10:26:08 | INFO | PID:15388 | Started url_rewriter_para_request_worker with PID: 15388, queue: article-request-queue
+2025-06-26 10:26:12 | WARNING | PID:15388 | No open connection/channel: connecting...
+2025-06-26 10:26:12 | INFO | PID:15388 | Successfully connected on attempt 1
+2025-06-26 10:26:12 | INFO | PID:15388 | Consumer registered on queue: article-request-queue
+2025-06-26 10:26:12 | INFO | PID:15388 | Starting consuming on article-request-queue
+2025-06-26 10:26:30 | INFO | PID:15388 | Processing message from queue: article-request-queue
+2025-06-26 10:26:47 | INFO | PID:15388 | Successfully authenticated with API
+2025-06-26 10:26:47 | INFO | PID:15388 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-06-26 10:26:47 | INFO | PID:15388 | Successfully authenticated with API
+2025-06-26 10:26:47 | INFO | PID:15388 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-06-26 10:27:00 | INFO | PID:15388 | Successfully authenticated with API
+2025-06-26 10:27:00 | INFO | PID:15388 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-26 10:27:40 | INFO | PID:15388 | Successfully authenticated with API
+2025-06-26 10:27:40 | INFO | PID:15388 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-06-26 10:28:02 | INFO | PID:15388 | xxxxxxxxxxxxxxxxxxxxxxxxx url_rewriter_para_request_worker xxxxxxxxxxxxxxxxxxxxxxxxx
+2025-06-26 10:28:02 | INFO | PID:15388 | Message processed in 92.05 seconds
+2025-06-26 10:28:02 | INFO | PID:15388 | Message acknowledged
+2025-06-26 10:28:07 | WARNING | PID:15388 | No open connection/channel: connecting...
+2025-06-26 10:28:07 | INFO | PID:15388 | Successfully connected on attempt 1
+2025-06-26 10:28:07 | INFO | PID:15388 | Consumer registered on queue: article-request-queue
+2025-06-26 10:28:07 | INFO | PID:15388 | Starting consuming on article-request-queue

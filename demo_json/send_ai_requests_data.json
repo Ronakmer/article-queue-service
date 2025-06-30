@@ -1,0 +1,574 @@
+[
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "cc90fbe5-399b-423d-b181-231069d6ee29",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 1,
+            "html_tag": "title",
+            "response_format": "json",
+            "prompt": "Rewrite the title base on Demands For Side Hustlers Season 2: Is it Officially Renewed? Everything You Need To Know! and include the primary keyword as Side Hustlers Season 2:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Demands For Side Hustlers Season 2: Is it Officially Renewed? Everything You Need To Know!",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "cc90fbe5-399b-423d-b181-231069d6ee29",
+            "provider": "novita",
+            "sequence_index": 1,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "2afd19be-d85a-44dc-9767-ff73b73e30aa",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 2,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Before Side Hustler comes out on March 1, 2024, get ready for some exciting business events! Watch with interest as determined women business owners fight for investment success while juggling their personal and professional lives.",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "2afd19be-d85a-44dc-9767-ff73b73e30aa",
+            "provider": "novita",
+            "sequence_index": 2,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "c80b3947-5f2f-4f56-865a-231d05cf82a0",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 3,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Emma Grede and Ashley Graham, your teachers, will lead you on an exciting journey full of business knowledge and a bit of drama.",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "c80b3947-5f2f-4f56-865a-231d05cf82a0",
+            "provider": "novita",
+            "sequence_index": 3,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "c45d6777-6051-4281-9d63-dc88650221a8",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 4,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Produced by Hello Sunshine and starring Reese Witherspoon, it’s the perfect mix of glitz and hustle. Watch a lot of stuff all at once to become a mogul! The date for Season 2 of Side Hustlers has been given below! Let’s find out more about this interesting reality show.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "c45d6777-6051-4281-9d63-dc88650221a8",
+            "provider": "novita",
+            "sequence_index": 4,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "8bfdaf7c-f2a7-4bfd-a070-ff604b200b7b",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 5,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "This Article Include [show]",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "8bfdaf7c-f2a7-4bfd-a070-ff604b200b7b",
+            "provider": "novita",
+            "sequence_index": 5,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "0866eef5-f507-449c-89a9-9ede95acb094",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 6,
+            "html_tag": "ul",
+            "response_format": "json",
+            "prompt": "Rewrite the list:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "- Will there be a Season 2 of Demands For Side Hustlers?\n- Demands For Side Hustlers Season 2 Release Date\n- What is Demands For Side Hustlers about?\n- Demands For Side Hustlers Season 2 Plot\n- Demands For Side Hustlers Season 2 Cast Details\n- Where can we watch Demands For Side Hustlers?",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "0866eef5-f507-449c-89a9-9ede95acb094",
+            "provider": "novita",
+            "sequence_index": 6,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "d3d409bd-5367-4299-8132-221520afa89b",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 7,
+            "html_tag": "h2",
+            "response_format": "json",
+            "prompt": "Rewrite the heading:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Will there be a Season 2 of Demands For Side Hustlers?",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "d3d409bd-5367-4299-8132-221520afa89b",
+            "provider": "novita",
+            "sequence_index": 7,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "f5e625e7-ed01-42ba-94c4-f1d50133c43b",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 8,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Yes, Nickelodeon has announced that Side Hustle Season 2 will be the second and final season of the show. The makers of the show have not yet announced when Season 2 will be out.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "f5e625e7-ed01-42ba-94c4-f1d50133c43b",
+            "provider": "novita",
+            "sequence_index": 8,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "309b9863-9fb0-4af3-b661-68cc4955c5f3",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 9,
+            "html_tag": "h2",
+            "response_format": "json",
+            "prompt": "Rewrite the heading:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Demands For Side Hustlers Season 2 Release Date",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "309b9863-9fb0-4af3-b661-68cc4955c5f3",
+            "provider": "novita",
+            "sequence_index": 9,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "10ad113a-474d-4cc6-a92c-9f06430cd5fc",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 10,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "According to LiveAkhtar, the creators of Side Hustlers have not yet said when Season 2 will be out. The first season of the show started on March 1, 2024.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "10ad113a-474d-4cc6-a92c-9f06430cd5fc",
+            "provider": "novita",
+            "sequence_index": 10,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "e743e93d-d622-4762-877b-9516a3b7d5a3",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 11,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "For those desiring more information and insights about celebrities and entertainment, take a look at our past articles where we’ve extensively covered all the nuances.",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "e743e93d-d622-4762-877b-9516a3b7d5a3",
+            "provider": "novita",
+            "sequence_index": 11,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "5cb8c849-fc3f-4a93-84a1-64d91bb799cd",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 12,
+            "html_tag": "ul",
+            "response_format": "json",
+            "prompt": "Rewrite the list:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "- Blue Lights Season 4\n- Marry My Husband Season 2\n- ‘The Penguin’ TV Series Release Date\n- 9-1-1 Season 7",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "5cb8c849-fc3f-4a93-84a1-64d91bb799cd",
+            "provider": "novita",
+            "sequence_index": 12,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "1d026bee-9b04-458c-a19f-8aa04b6d0a97",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 13,
+            "html_tag": "h2",
+            "response_format": "json",
+            "prompt": "Rewrite the heading:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "What is Demands For Side Hustlers about?",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "1d026bee-9b04-458c-a19f-8aa04b6d0a97",
+            "provider": "novita",
+            "sequence_index": 13,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "9360ad09-4dbb-45d7-b853-410ddd351681",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 14,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "A reality  TV show called “Side Hustlers” follows female business owners as they build their side businesses with the help of partners Emma Grede and Ashley Graham.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "9360ad09-4dbb-45d7-b853-410ddd351681",
+            "provider": "novita",
+            "sequence_index": 14,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "55ea9f28-a594-412b-b51e-075281c7fd52",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 15,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "The show’s goal is to help these driven women grow their businesses while still working full-time. A “side hustle” is a project or business that someone does in addition to their main job. The first episode aired on March 1, 2024.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "55ea9f28-a594-412b-b51e-075281c7fd52",
+            "provider": "novita",
+            "sequence_index": 15,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "82a9ea9b-06fe-40bc-bfad-72393ca6f0e4",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 16,
+            "html_tag": "h2",
+            "response_format": "json",
+            "prompt": "Rewrite the heading:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Demands For Side Hustlers Season 2 Plot",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "82a9ea9b-06fe-40bc-bfad-72393ca6f0e4",
+            "provider": "novita",
+            "sequence_index": 16,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "6c5fc37b-9dd8-4c25-91dd-bff30c8aa7d9",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 17,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Nick, the network that airs Side Hustlers, has announced that Season 2 will be the second and final season of the show. The search results do not, however, give specific information about the story.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "6c5fc37b-9dd8-4c25-91dd-bff30c8aa7d9",
+            "provider": "novita",
+            "sequence_index": 17,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "ed38b5b4-7733-4d73-8567-9a5dd880c41b",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 18,
+            "html_tag": "h2",
+            "response_format": "json",
+            "prompt": "Rewrite the heading:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Demands For Side Hustlers Season 2 Cast Details",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "ed38b5b4-7733-4d73-8567-9a5dd880c41b",
+            "provider": "novita",
+            "sequence_index": 18,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "cc203293-a3ba-40fa-9b11-077844db62eb",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 19,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Menik Gooneratne plays Sophia Fugazi on Season 2 of Side Hustle. Regina Fernandez plays Morgan, Kapri Ladd plays Holly, Pono Say plays Jerome, Curt Mega plays Pete, Jack Stanton plays Rex, and Reyn Doi plays Rex.",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "cc203293-a3ba-40fa-9b11-077844db62eb",
+            "provider": "novita",
+            "sequence_index": 19,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "459368c1-49c5-4ca1-9899-c772a7b34e8d",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 20,
+            "html_tag": "h2",
+            "response_format": "json",
+            "prompt": "Rewrite the heading:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Where can we watch Demands For Side Hustlers?",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "459368c1-49c5-4ca1-9899-c772a7b34e8d",
+            "provider": "novita",
+            "sequence_index": 20,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "756a4c11-9eb7-4dfc-97f3-83ce22a85d1d",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 21,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "You can watch “Side Hustlers” online for free on The Roku Channel. The show follows ambitious female entrepreneurs mentored by investors Emma Grede and Ashley Graham as they build their side hustles with the goal of leaving their day jobs.Online TV streaming services",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "756a4c11-9eb7-4dfc-97f3-83ce22a85d1d",
+            "provider": "novita",
+            "sequence_index": 21,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    },
+    {
+        "ai_request": {
+            "article_id": "a1d409b7-9194-43f2-a593-1d031a6fcf5c",
+            "message_id": "f3f6f7c7-d12d-43e3-8e7c-12f7fc3bd191",
+            "model": "deepseek/deepseek_v3",
+            "system_prompt": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+            "sequence_index": 22,
+            "html_tag": "paragraph",
+            "response_format": "json",
+            "prompt": "Rewrite the para:",
+            "ai_request_status": "sent",
+            "message_field_type": "content_message",
+            "message_priority": 201,
+            "content": "Stay updated with Top Movie Rankings for ongoing insights into the entertainment world.",
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334",
+            "article_message_total_count": 22
+        },
+        "ai_response": {
+            "message": "Message queued for processing",
+            "message_id": "f3f6f7c7-d12d-43e3-8e7c-12f7fc3bd191",
+            "provider": "novita",
+            "sequence_index": 22,
+            "success": true,
+            "workspace_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+        }
+    }
+]

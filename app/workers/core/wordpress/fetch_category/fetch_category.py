@@ -1,10 +1,10 @@
 
 import requests
 import os
-from app.workers.core.article_innovator_api_call.api_client import APIClient
 import time
 import json
 import uuid
+from app.workers.core.article_innovator_api_call.api_client import APIClient
 
 
 class FetchCategory:

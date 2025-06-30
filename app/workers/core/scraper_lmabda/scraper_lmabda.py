@@ -44,7 +44,7 @@ class ArticleScraperService:
 
         # Add "html": True to the "content" selector if not already set
         for selector in selector_json_data.get("selectors_data", []):
-            if selector.get("name") == "content":
+            if selector.get("name") == "source_content":
                 selector["html"] = True
 
         request_body = {

@@ -221,8 +221,10 @@ class APIClient:
             # Ensure item_id is a string
             item_id = str(item_id)
             # Format the endpoint with the item_id
+            print(item_id,'iiiiiiiiiiii')
             try:
                 endpoint = endpoint.format(slug_id=item_id)
+                print(endpoint,'iiiiiiiiiiii')
             except (KeyError, ValueError) as e:
                 return {"success": False, "error": f"Failed to format endpoint with item_id: {str(e)}"}
             self.logger.info(f"Making {operation} request to endpoint: {endpoint}")

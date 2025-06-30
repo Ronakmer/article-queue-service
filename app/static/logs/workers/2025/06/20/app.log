@@ -1,0 +1,416 @@
+2025-06-20 10:25:35 | INFO | PID:18264 | Queue '57dc902e-4449-4083-9b56-328eb9d16334_Url Rewriter By Para' created successfully
+2025-06-20 10:25:49 | INFO | PID:18264 | Queue '57dc902e-4449-4083-9b56-328eb9d16334_Url Rewriter By Para' created successfully
+2025-06-20 10:37:38 | INFO | PID:16148 | Queue 'article-response-queue' created successfully
+2025-06-20 10:58:18 | INFO | PID:1348 | Starting worker url_rewriter_para_request_worker for queue article-response-queue
+2025-06-20 10:58:18 | INFO | PID:1348 | Created new channel
+2025-06-20 10:58:18 | INFO | PID:1348 | Declared queue: article-response-queue
+2025-06-20 10:58:18 | INFO | PID:1348 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 10:58:18 | INFO | PID:1348 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 10:58:18 | WARNING | PID:1348 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 10:58:18 | WARNING | PID:1348 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 10:58:18 | WARNING | PID:1348 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 10:58:18 | WARNING | PID:1348 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 10:58:18 | WARNING | PID:1348 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 10:58:18 | WARNING | PID:1348 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 10:58:18 | INFO | PID:1348 | Worker instance created
+2025-06-20 10:58:18 | INFO | PID:1348 | Registered worker process 1348 in registry
+2025-06-20 10:58:18 | INFO | PID:1348 | Starting consuming on article-response-queue
+2025-06-20 10:58:19 | INFO | PID:1348 | Started url_rewriter_para_request_worker on queue: article-response-queue
+2025-06-20 10:58:19 | INFO | PID:1348 | Started url_rewriter_para_request_worker with PID: 1348, queue: article-response-queue
+2025-06-20 10:58:23 | WARNING | PID:1348 | No open connection/channel: connecting...
+2025-06-20 10:58:23 | INFO | PID:1348 | Successfully connected on attempt 1
+2025-06-20 10:58:23 | INFO | PID:1348 | Consumer registered on queue: article-response-queue
+2025-06-20 10:58:23 | INFO | PID:1348 | Starting consuming on article-response-queue
+2025-06-20 10:58:25 | ERROR | PID:1348 | Worker url_rewriter_para_request_worker failed to register with RabbitMQ
+2025-06-20 11:04:17 | INFO | PID:16652 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 11:04:17 | INFO | PID:16652 | Created new channel
+2025-06-20 11:04:17 | INFO | PID:16652 | Declared queue: article-request-queue
+2025-06-20 11:04:18 | INFO | PID:16652 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 11:04:18 | INFO | PID:16652 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 11:04:18 | WARNING | PID:16652 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:04:18 | WARNING | PID:16652 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:04:18 | WARNING | PID:16652 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:04:18 | WARNING | PID:16652 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:04:18 | WARNING | PID:16652 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:04:18 | WARNING | PID:16652 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:04:18 | INFO | PID:16652 | Worker instance created
+2025-06-20 11:04:18 | INFO | PID:16652 | Registered worker process 16652 in registry
+2025-06-20 11:04:18 | INFO | PID:16652 | Starting consuming on article-request-queue
+2025-06-20 11:04:19 | INFO | PID:16652 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-20 11:04:19 | INFO | PID:16652 | Started url_rewriter_para_request_worker with PID: 16652, queue: article-request-queue
+2025-06-20 11:04:23 | WARNING | PID:16652 | No open connection/channel: connecting...
+2025-06-20 11:04:23 | INFO | PID:16652 | Successfully connected on attempt 1
+2025-06-20 11:04:23 | INFO | PID:16652 | Consumer registered on queue: article-request-queue
+2025-06-20 11:04:23 | INFO | PID:16652 | Starting consuming on article-request-queue
+2025-06-20 11:04:25 | ERROR | PID:16652 | Worker url_rewriter_para_request_worker failed to register with RabbitMQ
+2025-06-20 11:05:00 | INFO | PID:19640 | Starting worker url_rewriter_para_response_worker for queue article-response-queue
+2025-06-20 11:05:00 | INFO | PID:19640 | Created new channel
+2025-06-20 11:05:00 | INFO | PID:19640 | Declared queue: article-response-queue
+2025-06-20 11:05:01 | INFO | PID:19640 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 11:05:01 | INFO | PID:19640 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 11:05:01 | WARNING | PID:19640 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:05:01 | WARNING | PID:19640 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:05:01 | WARNING | PID:19640 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:05:01 | WARNING | PID:19640 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:05:01 | INFO | PID:19640 | Worker instance created
+2025-06-20 11:05:01 | INFO | PID:19640 | Registered worker process 19640 in registry
+2025-06-20 11:05:01 | INFO | PID:19640 | Starting consuming on article-response-queue
+2025-06-20 11:05:01 | INFO | PID:19640 | Started url_rewriter_para_response_worker on queue: article-response-queue
+2025-06-20 11:05:01 | INFO | PID:19640 | Started url_rewriter_para_response_worker with PID: 19640, queue: article-response-queue
+2025-06-20 11:05:06 | WARNING | PID:19640 | No open connection/channel: connecting...
+2025-06-20 11:05:06 | INFO | PID:19640 | Successfully connected on attempt 1
+2025-06-20 11:05:06 | INFO | PID:19640 | Consumer registered on queue: article-response-queue
+2025-06-20 11:05:06 | INFO | PID:19640 | Starting consuming on article-response-queue
+2025-06-20 11:05:07 | ERROR | PID:19640 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-20 11:05:25 | INFO | PID:12964 | Queue 'article-response-queue' created successfully
+2025-06-20 11:05:43 | INFO | PID:26280 | Starting worker url_rewriter_para_response_worker for queue article-response-queue
+2025-06-20 11:05:43 | INFO | PID:26280 | Created new channel
+2025-06-20 11:05:43 | INFO | PID:26280 | Declared queue: article-response-queue
+2025-06-20 11:05:43 | INFO | PID:26280 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 11:05:43 | INFO | PID:26280 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 11:05:44 | WARNING | PID:26280 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:05:44 | WARNING | PID:26280 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:05:44 | WARNING | PID:26280 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:05:44 | WARNING | PID:26280 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:05:44 | INFO | PID:26280 | Worker instance created
+2025-06-20 11:05:44 | INFO | PID:26280 | Registered worker process 26280 in registry
+2025-06-20 11:05:44 | INFO | PID:26280 | Starting consuming on article-response-queue
+2025-06-20 11:05:44 | INFO | PID:26280 | Started url_rewriter_para_response_worker on queue: article-response-queue
+2025-06-20 11:05:44 | INFO | PID:26280 | Started url_rewriter_para_response_worker with PID: 26280, queue: article-response-queue
+2025-06-20 11:05:49 | WARNING | PID:26280 | No open connection/channel: connecting...
+2025-06-20 11:05:49 | INFO | PID:26280 | Successfully connected on attempt 1
+2025-06-20 11:05:49 | INFO | PID:26280 | Consumer registered on queue: article-response-queue
+2025-06-20 11:05:49 | INFO | PID:26280 | Starting consuming on article-response-queue
+2025-06-20 11:07:07 | INFO | PID:30160 | Queue 'article-response-queue' created successfully
+2025-06-20 11:11:54 | INFO | PID:16204 | Queue 'article-response-queue' created successfully
+2025-06-20 11:14:11 | INFO | PID:27688 | Starting worker url_rewriter_para_response_worker for queue article-response-queue
+2025-06-20 11:14:11 | INFO | PID:27688 | Created new channel
+2025-06-20 11:14:11 | INFO | PID:27688 | Declared queue: article-response-queue
+2025-06-20 11:14:11 | INFO | PID:27688 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 11:14:11 | INFO | PID:27688 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 11:14:11 | WARNING | PID:27688 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:14:11 | WARNING | PID:27688 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:14:11 | WARNING | PID:27688 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:14:11 | WARNING | PID:27688 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:14:11 | INFO | PID:27688 | Worker instance created
+2025-06-20 11:14:11 | INFO | PID:27688 | Registered worker process 27688 in registry
+2025-06-20 11:14:11 | INFO | PID:27688 | Starting consuming on article-response-queue
+2025-06-20 11:14:12 | INFO | PID:27688 | Started url_rewriter_para_response_worker on queue: article-response-queue
+2025-06-20 11:14:12 | INFO | PID:27688 | Started url_rewriter_para_response_worker with PID: 27688, queue: article-response-queue
+2025-06-20 11:14:16 | WARNING | PID:27688 | No open connection/channel: connecting...
+2025-06-20 11:14:17 | INFO | PID:27688 | Successfully connected on attempt 1
+2025-06-20 11:14:17 | INFO | PID:27688 | Consumer registered on queue: article-response-queue
+2025-06-20 11:14:17 | INFO | PID:27688 | Starting consuming on article-response-queue
+2025-06-20 11:14:18 | ERROR | PID:27688 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-20 11:15:15 | INFO | PID:14952 | Starting worker url_rewriter_para_response_worker for queue article-response-queue
+2025-06-20 11:15:15 | INFO | PID:14952 | Created new channel
+2025-06-20 11:15:15 | INFO | PID:14952 | Declared queue: article-response-queue
+2025-06-20 11:15:16 | INFO | PID:14952 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 11:15:16 | INFO | PID:14952 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 11:15:16 | WARNING | PID:14952 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:15:16 | WARNING | PID:14952 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:15:16 | WARNING | PID:14952 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 11:15:16 | WARNING | PID:14952 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 11:15:16 | INFO | PID:14952 | Worker instance created
+2025-06-20 11:15:16 | INFO | PID:14952 | Registered worker process 14952 in registry
+2025-06-20 11:15:16 | INFO | PID:14952 | Starting consuming on article-response-queue
+2025-06-20 11:15:16 | INFO | PID:14952 | Started url_rewriter_para_response_worker on queue: article-response-queue
+2025-06-20 11:15:16 | INFO | PID:14952 | Started url_rewriter_para_response_worker with PID: 14952, queue: article-response-queue
+2025-06-20 11:15:21 | WARNING | PID:14952 | No open connection/channel: connecting...
+2025-06-20 11:15:21 | INFO | PID:14952 | Successfully connected on attempt 1
+2025-06-20 11:15:21 | INFO | PID:14952 | Consumer registered on queue: article-response-queue
+2025-06-20 11:15:21 | INFO | PID:14952 | Starting consuming on article-response-queue
+2025-06-20 11:15:23 | ERROR | PID:14952 | Worker url_rewriter_para_response_worker failed to register with RabbitMQ
+2025-06-20 11:18:08 | INFO | PID:29324 | Delete response status: 204, content: 
+2025-06-20 11:18:08 | SUCCESS | PID:29324 | Queue 'article-response-queue' deleted successfully
+2025-06-20 11:18:20 | INFO | PID:29324 | Queue 'article-response-queue' created successfully
+2025-06-20 11:18:44 | INFO | PID:29324 | Queue 'article-reqest-queue' created successfully
+2025-06-20 11:19:02 | INFO | PID:29324 | Queue 'article-request-queue' created successfully
+2025-06-20 11:24:49 | INFO | PID:12296 | Creating queue with RabbitMQ host: localhost
+2025-06-20 11:24:49 | INFO | PID:12296 | Attempting to create queue: article-request-queue
+2025-06-20 11:24:49 | INFO | PID:12296 | Successfully created channel
+2025-06-20 11:24:49 | INFO | PID:12296 | Queue 'article-request-queue' already exists
+2025-06-20 11:26:28 | INFO | PID:12296 | Creating queue with RabbitMQ host: localhost
+2025-06-20 11:26:28 | INFO | PID:12296 | Attempting to create queue: article-request-queue
+2025-06-20 11:26:28 | INFO | PID:12296 | Successfully created channel
+2025-06-20 11:26:28 | INFO | PID:12296 | Queue 'article-request-queue' already exists
+2025-06-20 14:31:12 | INFO | PID:23468 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:31:12 | INFO | PID:23468 | Attempting to create queue: article-response-queue
+2025-06-20 14:31:12 | INFO | PID:23468 | Successfully created channel
+2025-06-20 14:31:12 | INFO | PID:23468 | Queue 'article-response-queue' already exists
+2025-06-20 14:32:04 | INFO | PID:32036 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:32:04 | INFO | PID:32036 | Attempting to create queue: article-response-queue
+2025-06-20 14:32:04 | INFO | PID:32036 | Successfully created channel
+2025-06-20 14:32:04 | INFO | PID:32036 | Queue 'article-response-queue' already exists
+2025-06-20 14:32:07 | INFO | PID:32036 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:32:07 | INFO | PID:32036 | Attempting to create queue: article-response-queue
+2025-06-20 14:32:07 | INFO | PID:32036 | Successfully created channel
+2025-06-20 14:32:07 | INFO | PID:32036 | Queue 'article-response-queue' already exists
+2025-06-20 14:35:04 | INFO | PID:32036 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:35:04 | INFO | PID:32036 | Attempting to create queue: article-request-queue
+2025-06-20 14:35:04 | INFO | PID:32036 | Successfully created channel
+2025-06-20 14:35:04 | INFO | PID:32036 | Queue 'article-request-queue' already exists
+2025-06-20 14:37:30 | INFO | PID:23396 | Queue 'article-request-queue' created successfully
+2025-06-20 14:39:12 | INFO | PID:38676 | Attempting to create queue: article-request-queue
+2025-06-20 14:39:12 | INFO | PID:38676 | Successfully created channel
+2025-06-20 14:39:12 | INFO | PID:38676 | Queue 'article-request-queue' already exists
+2025-06-20 14:40:33 | INFO | PID:10664 | Attempting to create queue: article-request-queue
+2025-06-20 14:40:33 | INFO | PID:10664 | Successfully created channel
+2025-06-20 14:40:33 | INFO | PID:10664 | Queue 'article-request-queue' is ready with 0 messages
+2025-06-20 14:42:01 | INFO | PID:2196 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:42:01 | INFO | PID:2196 | Attempting to create queue: article-request-queue
+2025-06-20 14:42:01 | INFO | PID:2196 | Successfully created channel
+2025-06-20 14:42:01 | INFO | PID:2196 | Queue 'article-request-queue' already exists
+2025-06-20 14:47:54 | INFO | PID:2196 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:47:54 | INFO | PID:2196 | Attempting to create queue: article-request-queue
+2025-06-20 14:47:55 | INFO | PID:2196 | Successfully created channel
+2025-06-20 14:47:55 | INFO | PID:2196 | Queue 'article-request-queue' already exists
+2025-06-20 14:47:57 | INFO | PID:2196 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:47:57 | INFO | PID:2196 | Attempting to create queue: article-request-queue
+2025-06-20 14:47:57 | INFO | PID:2196 | Successfully created channel
+2025-06-20 14:47:57 | INFO | PID:2196 | Queue 'article-request-queue' already exists
+2025-06-20 14:55:21 | INFO | PID:37004 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:55:21 | INFO | PID:37004 | Attempting to create queue: article-request-queue
+2025-06-20 14:55:21 | INFO | PID:37004 | Successfully created channel
+2025-06-20 14:55:21 | INFO | PID:37004 | Queue 'article-request-queue' already exists
+2025-06-20 14:55:35 | INFO | PID:37004 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:55:35 | INFO | PID:37004 | Attempting to create queue: article-request-queue
+2025-06-20 14:55:35 | INFO | PID:37004 | Successfully created channel
+2025-06-20 14:55:35 | INFO | PID:37004 | Queue 'article-request-queue' already exists
+2025-06-20 14:55:46 | INFO | PID:37004 | Creating queue with RabbitMQ host: localhost
+2025-06-20 14:55:46 | INFO | PID:37004 | Attempting to create queue: article-request-sdfsdfsdfsdfsdfsdf
+2025-06-20 14:55:46 | INFO | PID:37004 | Successfully created channel
+2025-06-20 14:55:46 | INFO | PID:37004 | Queue 'article-request-sdfsdfsdfsdfsdfsdf' does not exist, creating it
+2025-06-20 14:55:46 | INFO | PID:37004 | Queue 'article-request-sdfsdfsdfsdfsdfsdf' and its DLQ created successfully
+2025-06-20 15:01:08 | INFO | PID:38516 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:01:08 | INFO | PID:38516 | Attempting to create queue: article-request-queue
+2025-06-20 15:01:08 | INFO | PID:38516 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:01:08 | INFO | PID:38516 | Connection attempt 1 of 3
+2025-06-20 15:01:08 | INFO | PID:38516 | Successfully established RabbitMQ connection
+2025-06-20 15:01:08 | INFO | PID:38516 | Successfully created channel
+2025-06-20 15:01:08 | INFO | PID:38516 | Queue 'article-request-queue' already exists
+2025-06-20 15:02:52 | INFO | PID:37712 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:02:52 | INFO | PID:37712 | Attempting to create queue: article-request-queue
+2025-06-20 15:02:52 | INFO | PID:37712 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:02:52 | INFO | PID:37712 | Connection attempt 1 of 3
+2025-06-20 15:02:52 | INFO | PID:37712 | Successfully established RabbitMQ connection
+2025-06-20 15:02:52 | INFO | PID:37712 | Successfully created channel
+2025-06-20 15:02:52 | INFO | PID:37712 | Queue 'article-request-queue' already exists
+2025-06-20 15:13:41 | INFO | PID:37712 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:13:41 | INFO | PID:37712 | Attempting to create queue: article-request-queue
+2025-06-20 15:13:41 | INFO | PID:37712 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:13:41 | INFO | PID:37712 | Connection attempt 1 of 3
+2025-06-20 15:13:41 | INFO | PID:37712 | Successfully established RabbitMQ connection
+2025-06-20 15:13:41 | INFO | PID:37712 | Successfully created channel
+2025-06-20 15:13:41 | INFO | PID:37712 | Queue 'article-request-queue' already exists
+2025-06-20 15:14:52 | INFO | PID:1556 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:14:52 | INFO | PID:1556 | Attempting to create queue: article-request-queue
+2025-06-20 15:14:52 | INFO | PID:1556 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:14:52 | INFO | PID:1556 | Connection attempt 1 of 3
+2025-06-20 15:14:52 | INFO | PID:1556 | Successfully established RabbitMQ connection
+2025-06-20 15:14:52 | INFO | PID:1556 | Successfully created channel
+2025-06-20 15:14:52 | INFO | PID:1556 | Queue 'article-request-queue' already exists
+2025-06-20 15:14:55 | INFO | PID:1556 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:14:55 | INFO | PID:1556 | Attempting to create queue: article-request-queue
+2025-06-20 15:14:55 | INFO | PID:1556 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:14:55 | INFO | PID:1556 | Connection attempt 1 of 3
+2025-06-20 15:14:55 | INFO | PID:1556 | Successfully established RabbitMQ connection
+2025-06-20 15:14:55 | INFO | PID:1556 | Successfully created channel
+2025-06-20 15:14:55 | INFO | PID:1556 | Queue 'article-request-queue' already exists
+2025-06-20 15:16:19 | INFO | PID:1556 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:16:19 | INFO | PID:1556 | Attempting to create queue: article-request-queue
+2025-06-20 15:16:19 | INFO | PID:1556 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:16:19 | INFO | PID:1556 | Connection attempt 1 of 3
+2025-06-20 15:16:20 | INFO | PID:1556 | Successfully established RabbitMQ connection
+2025-06-20 15:16:20 | INFO | PID:1556 | Successfully created channel
+2025-06-20 15:16:20 | INFO | PID:1556 | Queue 'article-request-queue' already exists
+2025-06-20 15:19:49 | INFO | PID:7612 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:19:49 | INFO | PID:7612 | Attempting to create queue: article-request-queue
+2025-06-20 15:19:49 | INFO | PID:7612 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:19:49 | INFO | PID:7612 | Connection attempt 1 of 3
+2025-06-20 15:19:50 | INFO | PID:7612 | Successfully established RabbitMQ connection
+2025-06-20 15:19:50 | INFO | PID:7612 | Successfully created channel
+2025-06-20 15:19:50 | INFO | PID:7612 | Queue 'article-request-queue' does not exist, creating it
+2025-06-20 15:19:50 | INFO | PID:7612 | Queue 'article-request-queue' and its DLQ created successfully
+2025-06-20 15:25:24 | INFO | PID:7612 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:25:24 | INFO | PID:7612 | Attempting to create queue: article-request-queue
+2025-06-20 15:25:24 | INFO | PID:7612 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:25:24 | INFO | PID:7612 | Connection attempt 1 of 3
+2025-06-20 15:25:24 | INFO | PID:7612 | Successfully established RabbitMQ connection
+2025-06-20 15:25:24 | INFO | PID:7612 | Successfully created channel
+2025-06-20 15:25:24 | INFO | PID:7612 | Queue 'article-request-queue' already exists
+2025-06-20 15:43:12 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:43:12 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 15:43:12 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 15:43:25 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:43:25 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 15:43:25 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 15:43:27 | INFO | PID:25264 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 15:43:27 | INFO | PID:25264 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:43:27 | INFO | PID:25264 | Connection attempt 1 of 3
+2025-06-20 15:43:27 | INFO | PID:25264 | Successfully established RabbitMQ connection
+2025-06-20 15:43:27 | INFO | PID:25264 | Created new channel
+2025-06-20 15:43:27 | ERROR | PID:25264 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 15:44:11 | INFO | PID:34108 | Creating queue with RabbitMQ host: localhost
+2025-06-20 15:44:11 | INFO | PID:34108 | Attempting to create queue: article-request-queue
+2025-06-20 15:44:11 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:44:11 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 15:44:11 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 15:44:11 | INFO | PID:34108 | Successfully created channel
+2025-06-20 15:44:11 | INFO | PID:34108 | Queue 'article-request-queue' already exists
+2025-06-20 15:44:28 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:44:28 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 15:44:28 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 15:44:29 | INFO | PID:17148 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 15:44:29 | INFO | PID:17148 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:44:29 | INFO | PID:17148 | Connection attempt 1 of 3
+2025-06-20 15:44:30 | INFO | PID:17148 | Successfully established RabbitMQ connection
+2025-06-20 15:44:30 | INFO | PID:17148 | Created new channel
+2025-06-20 15:44:30 | ERROR | PID:17148 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 15:45:30 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:45:30 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 15:45:30 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 15:45:30 | INFO | PID:12160 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 15:45:30 | INFO | PID:12160 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:45:30 | INFO | PID:12160 | Connection attempt 1 of 3
+2025-06-20 15:45:31 | INFO | PID:12160 | Successfully established RabbitMQ connection
+2025-06-20 15:45:31 | INFO | PID:12160 | Created new channel
+2025-06-20 15:45:31 | ERROR | PID:12160 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 15:58:44 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:58:44 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 15:58:44 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 15:58:45 | INFO | PID:22308 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 15:58:45 | INFO | PID:22308 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 15:58:45 | INFO | PID:22308 | Connection attempt 1 of 3
+2025-06-20 15:58:46 | INFO | PID:22308 | Successfully established RabbitMQ connection
+2025-06-20 15:58:46 | INFO | PID:22308 | Created new channel
+2025-06-20 15:58:46 | ERROR | PID:22308 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:16:32 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 16:16:32 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 16:16:33 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 16:16:35 | INFO | PID:31176 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:16:35 | INFO | PID:31176 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 16:16:35 | INFO | PID:31176 | Connection attempt 1 of 3
+2025-06-20 16:16:35 | INFO | PID:31176 | Successfully established RabbitMQ connection
+2025-06-20 16:16:35 | INFO | PID:31176 | Created new channel
+2025-06-20 16:16:35 | ERROR | PID:31176 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:19:03 | INFO | PID:34108 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 16:19:03 | INFO | PID:34108 | Connection attempt 1 of 3
+2025-06-20 16:19:03 | INFO | PID:34108 | Successfully established RabbitMQ connection
+2025-06-20 16:19:05 | INFO | PID:23536 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:19:05 | INFO | PID:23536 | Attempting to connect to RabbitMQ at localhost:5672
+2025-06-20 16:19:05 | INFO | PID:23536 | Connection attempt 1 of 3
+2025-06-20 16:19:05 | INFO | PID:23536 | Successfully established RabbitMQ connection
+2025-06-20 16:19:05 | INFO | PID:23536 | Created new channel
+2025-06-20 16:19:05 | ERROR | PID:23536 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:28:08 | INFO | PID:19740 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:28:08 | INFO | PID:19740 | Created new channel
+2025-06-20 16:28:08 | ERROR | PID:19740 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:30:29 | INFO | PID:24248 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:30:29 | INFO | PID:24248 | Created new channel
+2025-06-20 16:30:29 | ERROR | PID:24248 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:31:36 | INFO | PID:28820 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:31:36 | INFO | PID:28820 | Created new channel
+2025-06-20 16:31:36 | ERROR | PID:28820 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:34:03 | INFO | PID:16048 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:34:03 | INFO | PID:16048 | Created new channel
+2025-06-20 16:34:03 | ERROR | PID:16048 | Error starting worker: (406, "PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'article-request-queue' in vhost '/': received none but current is the value '1800000' of type 'signedint'")
+2025-06-20 16:40:37 | INFO | PID:37216 | Delete response status: 204, content: 
+2025-06-20 16:40:37 | SUCCESS | PID:37216 | Queue 'article-request-queue' deleted successfully
+2025-06-20 16:40:48 | INFO | PID:37216 | Queue 'article-request-queue' created successfully
+2025-06-20 16:40:55 | INFO | PID:32412 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:40:55 | INFO | PID:32412 | Created new channel
+2025-06-20 16:40:55 | INFO | PID:32412 | Declared queue: article-request-queue
+2025-06-20 16:40:55 | INFO | PID:32412 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 16:40:55 | INFO | PID:32412 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 16:40:56 | WARNING | PID:32412 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:40:56 | WARNING | PID:32412 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:40:56 | WARNING | PID:32412 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:40:56 | WARNING | PID:32412 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:40:56 | WARNING | PID:32412 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:40:56 | WARNING | PID:32412 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:40:56 | INFO | PID:32412 | Worker instance created
+2025-06-20 16:40:56 | INFO | PID:32412 | Registered worker process 32412 in registry
+2025-06-20 16:40:56 | INFO | PID:32412 | Starting consuming on article-request-queue
+2025-06-20 16:40:56 | INFO | PID:32412 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-20 16:40:56 | INFO | PID:32412 | Started url_rewriter_para_request_worker with PID: 32412, queue: article-request-queue
+2025-06-20 16:41:01 | WARNING | PID:32412 | No open connection/channel: connecting...
+2025-06-20 16:41:01 | INFO | PID:32412 | Successfully connected on attempt 1
+2025-06-20 16:41:01 | INFO | PID:32412 | Consumer registered on queue: article-request-queue
+2025-06-20 16:41:01 | INFO | PID:32412 | Starting consuming on article-request-queue
+2025-06-20 16:41:02 | ERROR | PID:32412 | Worker url_rewriter_para_request_worker failed to register with RabbitMQ
+2025-06-20 16:41:07 | INFO | PID:32412 | Stopped consumer-article-request-queue-url_rewriter_para_request_worker
+2025-06-20 16:41:12 | INFO | PID:32412 | Stopped monitor-article-request-queue
+2025-06-20 16:41:13 | ERROR | PID:32412 | Error closing connections: ('_AsyncTransportBase._initate_abort() expected non-_STATE_COMPLETED', 4)
+2025-06-20 16:42:37 | INFO | PID:25668 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:42:37 | INFO | PID:25668 | Created new channel
+2025-06-20 16:42:37 | INFO | PID:25668 | Declared queue: article-request-queue
+2025-06-20 16:42:37 | INFO | PID:25668 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 16:42:37 | INFO | PID:25668 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 16:42:37 | WARNING | PID:25668 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:42:37 | WARNING | PID:25668 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:42:37 | WARNING | PID:25668 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:42:37 | WARNING | PID:25668 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:42:37 | WARNING | PID:25668 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:42:37 | WARNING | PID:25668 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:42:37 | INFO | PID:25668 | Worker instance created
+2025-06-20 16:42:37 | INFO | PID:25668 | Registered worker process 25668 in registry
+2025-06-20 16:42:37 | INFO | PID:25668 | Starting consuming on article-request-queue
+2025-06-20 16:42:38 | INFO | PID:25668 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-20 16:42:38 | INFO | PID:25668 | Started url_rewriter_para_request_worker with PID: 25668, queue: article-request-queue
+2025-06-20 16:42:42 | WARNING | PID:25668 | No open connection/channel: connecting...
+2025-06-20 16:42:42 | INFO | PID:25668 | Successfully connected on attempt 1
+2025-06-20 16:42:42 | INFO | PID:25668 | Consumer registered on queue: article-request-queue
+2025-06-20 16:42:43 | INFO | PID:25668 | Starting consuming on article-request-queue
+2025-06-20 16:42:44 | ERROR | PID:25668 | Worker url_rewriter_para_request_worker failed to register with RabbitMQ
+2025-06-20 16:43:29 | INFO | PID:37216 | Cleared queue article-request-queue: removed 0 messages
+2025-06-20 16:43:36 | INFO | PID:20204 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:43:37 | INFO | PID:20204 | Created new channel
+2025-06-20 16:43:37 | INFO | PID:20204 | Declared queue: article-request-queue
+2025-06-20 16:43:37 | INFO | PID:20204 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 16:43:37 | INFO | PID:20204 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 16:43:37 | WARNING | PID:20204 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:43:37 | WARNING | PID:20204 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:43:37 | WARNING | PID:20204 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:43:37 | WARNING | PID:20204 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:43:37 | WARNING | PID:20204 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:43:37 | WARNING | PID:20204 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:43:37 | INFO | PID:20204 | Worker instance created
+2025-06-20 16:43:37 | INFO | PID:20204 | Registered worker process 20204 in registry
+2025-06-20 16:43:37 | INFO | PID:20204 | Starting consuming on article-request-queue
+2025-06-20 16:43:37 | INFO | PID:20204 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-20 16:43:37 | INFO | PID:20204 | Started url_rewriter_para_request_worker with PID: 20204, queue: article-request-queue
+2025-06-20 16:43:42 | WARNING | PID:20204 | No open connection/channel: connecting...
+2025-06-20 16:43:42 | INFO | PID:20204 | Successfully connected on attempt 1
+2025-06-20 16:43:42 | INFO | PID:20204 | Consumer registered on queue: article-request-queue
+2025-06-20 16:43:42 | INFO | PID:20204 | Starting consuming on article-request-queue
+2025-06-20 16:43:43 | ERROR | PID:20204 | Worker url_rewriter_para_request_worker failed to register with RabbitMQ
+2025-06-20 16:43:49 | INFO | PID:20204 | Stopped consumer-article-request-queue-url_rewriter_para_request_worker
+2025-06-20 16:43:54 | INFO | PID:20204 | Stopped monitor-article-request-queue
+2025-06-20 16:43:54 | ERROR | PID:20204 | Error closing connections: Stream connection lost: IndexError('pop from an empty deque')
+2025-06-20 16:49:23 | INFO | PID:3892 | Cleared queue article-request-queue: removed 0 messages
+2025-06-20 16:49:30 | INFO | PID:13732 | Starting worker url_rewriter_para_request_worker for queue article-request-queue
+2025-06-20 16:49:30 | INFO | PID:13732 | Created new channel
+2025-06-20 16:49:30 | INFO | PID:13732 | Declared queue: article-request-queue
+2025-06-20 16:49:31 | INFO | PID:13732 | Available workers: ['testworker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-06-20 16:49:31 | INFO | PID:13732 | Found worker class: UrlRewriterParallelWorker
+2025-06-20 16:49:31 | WARNING | PID:13732 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:49:31 | WARNING | PID:13732 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:49:31 | WARNING | PID:13732 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:49:31 | WARNING | PID:13732 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:49:31 | WARNING | PID:13732 | Detected localhost connection - disabling SSL verification for development
+2025-06-20 16:49:31 | WARNING | PID:13732 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-06-20 16:49:31 | INFO | PID:13732 | Worker instance created
+2025-06-20 16:49:31 | INFO | PID:13732 | Registered worker process 13732 in registry
+2025-06-20 16:49:31 | INFO | PID:13732 | Starting consuming on article-request-queue
+2025-06-20 16:49:31 | INFO | PID:13732 | Started url_rewriter_para_request_worker on queue: article-request-queue
+2025-06-20 16:49:31 | INFO | PID:13732 | Started url_rewriter_para_request_worker with PID: 13732, queue: article-request-queue
+2025-06-20 16:49:36 | WARNING | PID:13732 | No open connection/channel: connecting...
+2025-06-20 16:49:36 | INFO | PID:13732 | Successfully connected on attempt 1
+2025-06-20 16:49:36 | INFO | PID:13732 | Consumer registered on queue: article-request-queue
+2025-06-20 16:49:36 | INFO | PID:13732 | Starting consuming on article-request-queue
+2025-06-20 16:49:37 | ERROR | PID:13732 | Worker url_rewriter_para_request_worker failed to register with RabbitMQ
+2025-06-20 16:49:42 | INFO | PID:13732 | Stopped consumer-article-request-queue-url_rewriter_para_request_worker
+2025-06-20 16:49:46 | INFO | PID:13732 | Processing message from queue: article-request-queue
+2025-06-20 16:49:46 | INFO | PID:13732 | Processing message: {'message': {'article_slug_id': 'a1d409b7-9194-43f2-a593-1d031a6fcf5c', 'url': 'https://topmovierankings.com/web-series/demands-for-side-hustlers-season-2', 'wp_status': 'publish', 'article_status': 'initiate', 'wp_schedule_time': None, 'article_priority': 200, 'ai_content_flags': {'is_wp_tags_selected_by_ai': False, 'is_wp_tags_generated_by_ai': True, 'is_wp_authors_selected_by_ai': True, 'is_meta_title_generated_by_ai': True, 'is_wp_authors_generated_by_ai': True, 'is_wp_categories_selected_by_ai': True, 'is_meta_keywords_generated_by_ai': True, 'is_wp_categories_generated_by_ai': True, 'is_primary_keyword_generated_by_ai': True, 'is_meta_description_generated_by_ai': True}, 'wp_author': None, 'wp_category': [], 'wp_tag': ['01355529-3fd2-45eb-b74e-0cf759ef2f0c'], 'prompt': {'slug_id': '99e2f755-64cf-466b-b02b-5c6b23fcf556', 'name': 'URL Rewriter By Para', 'ai_rate_model': 'gpt-4', 'prompt_data': {'list_rephrase': 'Rewrite the list:', 'para_rephrase': 'Rewrite the para:', 'table_rephrase': 'Rewrite the table:', 'title_rephrase': 'Rewrite the title:', 'system_rephrase': "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.", 'heading_rephrase': 'Rewrite the heading:', 'blockquote_rephrase': 'Rewrite the Blockquote:'}, 'supportive_prompt_json_data': {'supportive_prompt_wp_tags_selected_by_ai_id': 'bb57a0a2-65d3-4330-bbb9-6d1ad4c15b49', 'supportive_prompt_wp_tags_generated_by_ai_id': '223c6a85-2962-443a-ac58-1b40ecc197d6', 'supportive_prompt_wp_authors_selected_by_ai_id': '1e943c84-3eb5-4a4e-8c67-c63d2e38e64b', 'supportive_prompt_meta_title_generated_by_ai_id': '071f19b7-6668-4cff-92a7-40dd8c80dfbd', 'supportive_prompt_wp_authors_generated_by_ai_id': 'ebe74136-40c6-4d82-a90e-dbef69c2159f', 'supportive_prompt_wp_categories_selected_by_ai_id': '5fbcef44-c403-48f3-b48d-fc8097c6ab60', 'supportive_prompt_meta_keywords_generated_by_ai_id': '288031a0-83d4-4fbb-904b-1e2761e888eb', 'supportive_prompt_wp_categories_generated_by_ai_id': 'c1018168-b4a6-47b3-b1f5-f19ed706718b', 'supportive_prompt_primary_keyword_generated_by_ai_id': 'd61d2528-4856-4421-aecd-8c2c96be85aa', 'supportive_prompt_meta_description_generated_by_ai_id': '71937c7a-0f47-4869-9604-02c98236a33c'}, 'article_type': {'slug_id': 'c82a41f0-9d99-4bc7-bf68-580d4b144d16', 'category': 'url', 'article_category': 'rephrase', 'title': 'Url Rewriter By Para', 'description': 'This prompt helps rewriting the paragraph', 'article_type_field': [{'slug_id': '8dbd1c5d-5246-4f50-8ee6-a1e9fb9092fc', 'label': 'system_rephrase', 'name': 'system_rephrase', 'type': 'textarea', 'placeholder': 'Enter system_rephrase', 'required': True}, {'slug_id': '67983f6e-ea60-499d-a0c3-34ac5253dbe7', 'label': 'title_rephrase', 'name': 'title_rephrase', 'type': 'textarea', 'placeholder': 'enter title_rephrase', 'required': True}, {'slug_id': '6b2bb0e7-c287-4ccd-9e47-e4545ed29aee', 'label': 'heading_rephrase', 'name': 'heading_rephrase', 'type': 'textarea', 'placeholder': 'enter heading_rephrase', 'required': True}, {'slug_id': '3fef4a69-5cf8-4b5c-abeb-c0fa5ca62138', 'label': 'para_rephrase', 'name': 'para_rephrase', 'type': 'textarea', 'placeholder': 'enter para_rephrase', 'required': True}, {'slug_id': '973b3b84-ae2e-4706-86f1-f34c9a75180b', 'label': 'table_rephrase', 'name': 'table_rephrase', 'type': 'textarea', 'placeholder': 'enter table_rephrase', 'required': True}, {'slug_id': 'd24b9b05-0ca6-4ef1-8261-c65f9f9ea875', 'label': 'blockquote_rephrase', 'name': 'blockquote_rephrase', 'type': 'textarea', 'placeholder': 'enter blockquote_rephrase', 'required': True}, {'slug_id': '7ca73bb7-7b26-4605-9fae-7acaf5c8f740', 'label': 'list_rephrase', 'name': 'list_rephrase', 'type': 'textarea', 'placeholder': 'enter list_rephrase', 'required': True}]}}, 'article_type_variables_data': [{'slug_id': '24cbd6dc-6cbb-4ef1-8f80-273f6aecdc1a', 'name': 'output', 'value': '{"wp_cat_id":1, "name":"xx"}', 'required': True}, {'slug_id': '6812b942-9937-4337-9e65-f12a0446b011', 'name': 'wp_all_tags', 'value': '[{"wp_tag_id":1, "name":"xx", "description": "this is description"}, {"wp_tag_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': '7b7b68f4-b2e8-462a-a697-6c47ca0fa15b', 'name': 'wp_all_categories', 'value': '[{"wp_cat_id":1, "name":"xx", "description": "this is description"}, {"wp_cat_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': '7049976d-0822-4a3e-93bd-2b099f2f4dda', 'name': 'source_article_content', 'value': 'This is source article content.', 'required': True}, {'slug_id': '93f613da-18c5-4f4e-b461-500cc9fd5374', 'name': 'source_article_title', 'value': 'This is Source Article Title.', 'required': True}, {'slug_id': '6e43885f-b444-46c8-aae1-22e2e25c1221', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': 'f6931042-0e67-4d1f-9d9c-70fec97c02a6', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}], 'supportive_prompt_variables_data': [{'slug_id': '73d907bf-f56d-45bf-9a09-d03cda2d81e2', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '465e4ec2-cc49-476d-ab21-ed2a21dca133', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': 'bcaba6df-790d-4789-94a2-4b7c3a501298', 'name': 'wp_tags_generated_by_ai', 'value': '[{"wp_tags_id":1, "name":"xx", "description": "this is description"}, {"wp_tags_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': '3a251604-e252-40eb-be48-24e8ae902bb4', 'name': 'primary_keyword', 'value': 'This is article primary keyword.', 'required': True}, {'slug_id': 'c6331e9f-5e6f-4ca3-9a20-9c9699a46e31', 'name': 'source_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '757f4b71-5997-4d4d-b190-aa2cdc33759f', 'name': 'source_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '095a7220-5084-4d6b-9bfe-971188617994', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '4d8d8a38-9395-4e19-b117-5a43c0784c1e', 'name': 'meta_description_generated_by_ai', 'value': 'This is article meta description.', 'required': True}, {'slug_id': 'c544cf19-8c32-468e-9b83-c93e6306865f', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '78329b00-91d5-4689-85a7-d192b44e9029', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '2977f840-32e6-470b-b035-befb50e49606', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': 'efaf66ae-4baa-4a0a-95b4-683ccc383fa2', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '666568d2-e828-4eaa-8e2c-09f8012f79ca', 'name': 'meta_keywords_generated_by_ai', 'value': 'This is Source Article keywords.', 'required': True}, {'slug_id': '95b0a924-80e7-4d0a-b823-df426e282470', 'name': 'wp_authors_selected_by_ai', 'value': '[{"wp_authors_id":1, "name":"xx", "description": "this is description"}, {"wp_authors_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': 'd3db9ab4-66c9-4f69-aefe-aa1af7e8218f', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '88135893-1d4f-4c65-a7d1-c01cff800849', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '8cf9c4fb-a35d-4dfc-bdf7-a2f8ff8ad6bd', 'name': 'wp_categories_selected_by_ai', 'value': '[{"wp_categories_id":1, "name":"xx", "description": "this is description"}, {"wp_categories_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': 'd57a3865-cc91-4dc9-bf96-c6b7e69a3ed8', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '01f432c9-1290-491f-b395-54a6932e3252', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '8ea58cbb-c0e4-4f03-aeab-1c57be13b8b8', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': 'cf47df39-020c-45ea-a579-34bcc8eaa8a4', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '87aeab87-cf18-4313-b248-61c4fc65b5b4', 'name': 'wp_authors_generated_by_ai', 'value': '[{"wp_authors_id":1, "name":"xx", "description": "this is description"}, {"wp_authors_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': '52e9b3a7-00d0-43ac-af41-dc204ad44311', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '2b21441a-4a0a-4788-bf06-a941ff176e66', 'name': 'wp_tags_selected_by_ai', 'value': '[{"wp_tags_id":1, "name":"xx", "description": "this is description"}, {"wp_tags_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': '6c411389-6260-4d78-80bf-ce2661236835', 'name': 'generated_article_content', 'value': 'This is article Content.', 'required': True}, {'slug_id': '4e12fa09-8679-4a8a-b058-8fceda806e5f', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '52617170-e2e6-4291-b1b4-c1c522b0fae0', 'name': 'wp_categories_selected_by_ai', 'value': '[{"wp_categories_id":1, "name":"xx", "description": "this is description"}, {"wp_categories_id":2, "name":"xy", "description": "this is description"}]', 'required': True}, {'slug_id': 'bbff92d6-e845-4fba-9f40-1c21b83c922c', 'name': 'generated_article_content', 'value': 'This is article content.', 'required': True}, {'slug_id': 'd89af89e-603e-48be-957e-b0057e78c480', 'name': 'generated_article_title', 'value': 'This is article Title.', 'required': True}, {'slug_id': '42049135-bc28-4663-b679-6c7d132b3a0a', 'name': 'meta_title_generated_by_ai', 'value': 'This is article meta Title.', 'required': True}], 'domain': {'slug_id': '25fca9b7-d9a3-42b9-be7b-eadf062716d6', 'name': 'ronak-wolf.botxbyte.com', 'permalinks': '/%year%/%hour%/%postname%/'}, 'workspace': {'slug_id': '57dc902e-4449-4083-9b56-328eb9d16334', 'name': 'bxb-1'}}, 'timestamp': '2025-06-20T16:49:46.620666', 'message_id': '24fde10e-c8cb-4bfc-b30c-afc6c5475bf9'}
+2025-06-20 16:49:47 | INFO | PID:13732 | Stopped monitor-article-request-queue
