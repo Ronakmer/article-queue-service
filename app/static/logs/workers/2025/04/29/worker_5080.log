@@ -1,7 +1,0 @@
-2025-04-29 13:29:55 | INFO | Worker1 initialized and ready to process messages
-2025-04-29 13:29:55 | INFO | Worker instance created
-2025-04-29 13:29:57 | INFO | Connected to existing queue: article-input-queue2
-2025-04-29 13:29:57 | INFO | Consumer ready on queue: article-input-queue2
-2025-04-29 13:29:58 | INFO | Started url_rewriter_para_worker on queue: article-input-queue2
-2025-04-29 13:29:58 | INFO | Worker started
-2025-04-29 13:29:58 | INFO | Started url_rewriter_para_worker with PID: 5080, queue: article-input-queue2

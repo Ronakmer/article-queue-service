@@ -1,0 +1,135 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 15,
+            "article_id": "8dd6fe62-5d33-4d80-aa00-92279e8aaa20",
+            "input_json_data": {
+                "message": {
+                    "url": "https://ronak-wolf.botxbyte.com/2025/06/demands-for-side-hustlers-season-2-is-it-officially-renewed-everything-you-need-to-know/",
+                    "domain": {
+                        "name": "ronak-wolf.botxbyte.com",
+                        "slug_id": "25fca9b7-d9a3-42b9-be7b-eadf062716d6",
+                        "permalinks": "/%year%/%hour%/%postname%/"
+                    },
+                    "prompt": {
+                        "name": "URL Rewriter By Para",
+                        "slug_id": "99e2f755-64cf-466b-b02b-5c6b23fcf556",
+                        "prompt_data": {
+                            "list_rephrase": "Rewrite the list:",
+                            "para_rephrase": "Rewrite the para:",
+                            "table_rephrase": "Rewrite the table:",
+                            "title_rephrase": "Rewrite the title base on [[source_title]] and include the primary keyword as [[primary_keyword]]:",
+                            "system_rephrase": "I need you to make this content more engaging for a user, no fluff, remove cringe, increase the humour levels where appropriate but not throughout the content, increase explanations where relevant based on your most up to date understanding of the parent and primary topics.\\n\\nFocus on the emotion, vocabulary, tone and optimization of the article, break standard English rules via idioms, slang and even a regional tone if necessary, remove overly technical terms or jargon. Improve the article for a user to engage and buy, increase active tone, add personal touch, personal stories, specific use cases and experience whilst still maintaining standards related to the Google algorithm, helpful content system and product reviews system.\\n\\nFocus on sentence structure that makes it easy to semantically connect entities, then focus on choosing the most human entity and smooth transitions between topics, sentences and paragraphs.\\nReWrite for and as a human, use natural, conversational dialogue and use stemming, lemmatization, n-grams and zipf's law.",
+                            "heading_rephrase": "Rewrite the heading:",
+                            "blockquote_rephrase": "Rewrite the Blockquote:"
+                        },
+                        "article_type": {
+                            "title": "Url Rewriter By Para",
+                            "slug_id": "c82a41f0-9d99-4bc7-bf68-580d4b144d16",
+                            "category": "url",
+                            "description": "This prompt helps rewriting the paragraph",
+                            "article_category": "rephrase",
+                            "article_type_field": [
+                                {
+                                    "name": "system_rephrase",
+                                    "type": "textarea",
+                                    "label": "system_rephrase",
+                                    "slug_id": "8dbd1c5d-5246-4f50-8ee6-a1e9fb9092fc",
+                                    "required": true,
+                                    "placeholder": "Enter system_rephrase"
+                                },
+                                {
+                                    "name": "title_rephrase",
+                                    "type": "textarea",
+                                    "label": "title_rephrase",
+                                    "slug_id": "67983f6e-ea60-499d-a0c3-34ac5253dbe7",
+                                    "required": true,
+                                    "placeholder": "enter title_rephrase"
+                                },
+                                {
+                                    "name": "heading_rephrase",
+                                    "type": "textarea",
+                                    "label": "heading_rephrase",
+                                    "slug_id": "6b2bb0e7-c287-4ccd-9e47-e4545ed29aee",
+                                    "required": true,
+                                    "placeholder": "enter heading_rephrase"
+                                },
+                                {
+                                    "name": "para_rephrase",
+                                    "type": "textarea",
+                                    "label": "para_rephrase",
+                                    "slug_id": "3fef4a69-5cf8-4b5c-abeb-c0fa5ca62138",
+                                    "required": true,
+                                    "placeholder": "enter para_rephrase"
+                                },
+                                {
+                                    "name": "table_rephrase",
+                                    "type": "textarea",
+                                    "label": "table_rephrase",
+                                    "slug_id": "973b3b84-ae2e-4706-86f1-f34c9a75180b",
+                                    "required": true,
+                                    "placeholder": "enter table_rephrase"
+                                },
+                                {
+                                    "name": "blockquote_rephrase",
+                                    "type": "textarea",
+                                    "label": "blockquote_rephrase",
+                                    "slug_id": "d24b9b05-0ca6-4ef1-8261-c65f9f9ea875",
+                                    "required": true,
+                                    "placeholder": "enter blockquote_rephrase"
+                                },
+                                {
+                                    "name": "list_rephrase",
+                                    "type": "textarea",
+                                    "label": "list_rephrase",
+                                    "slug_id": "7ca73bb7-7b26-4605-9fae-7acaf5c8f740",
+                                    "required": true,
+                                    "placeholder": "enter list_rephrase"
+                                }
+                            ]
+                        },
+                        "ai_rate_model": "deepseek/deepseek_v3",
+                        "supportive_prompt_json_data": {
+                            "supportive_prompt_wp_tags_selected_by_ai_id": "bb57a0a2-65d3-4330-bbb9-6d1ad4c15b49",
+                            "supportive_prompt_wp_tags_generated_by_ai_id": "223c6a85-2962-443a-ac58-1b40ecc197d6",
+                            "supportive_prompt_wp_authors_selected_by_ai_id": "1e943c84-3eb5-4a4e-8c67-c63d2e38e64b",
+                            "supportive_prompt_meta_title_generated_by_ai_id": "071f19b7-6668-4cff-92a7-40dd8c80dfbd",
+                            "supportive_prompt_wp_authors_generated_by_ai_id": "ebe74136-40c6-4d82-a90e-dbef69c2159f",
+                            "supportive_prompt_wp_categories_selected_by_ai_id": "5fbcef44-c403-48f3-b48d-fc8097c6ab60",
+                            "supportive_prompt_meta_keywords_generated_by_ai_id": "288031a0-83d4-4fbb-904b-1e2761e888eb",
+                            "supportive_prompt_wp_categories_generated_by_ai_id": "c1018168-b4a6-47b3-b1f5-f19ed706718b",
+                            "supportive_prompt_primary_keyword_generated_by_ai_id": "d61d2528-4856-4421-aecd-8c2c96be85aa",
+                            "supportive_prompt_meta_description_generated_by_ai_id": "71937c7a-0f47-4869-9604-02c98236a33c"
+                        }
+                    },
+                    "wp_tag": [],
+                    "workspace": {
+                        "name": "bxb-1",
+                        "slug_id": "57dc902e-4449-4083-9b56-328eb9d16334"
+                    },
+                    "wp_author": null,
+                    "wp_status": "publish",
+                    "wp_category": [],
+                    "article_status": "initiate",
+                    "article_slug_id": "8dd6fe62-5d33-4d80-aa00-92279e8aaa20",
+                    "ai_content_flags": {
+                        "is_wp_tags_selected_by_ai": true,
+                        "is_wp_tags_generated_by_ai": true,
+                        "is_wp_authors_selected_by_ai": true,
+                        "is_meta_title_generated_by_ai": true,
+                        "is_wp_authors_generated_by_ai": true,
+                        "is_wp_categories_selected_by_ai": true,
+                        "is_meta_keywords_generated_by_ai": true,
+                        "is_wp_categories_generated_by_ai": true,
+                        "is_primary_keyword_generated_by_ai": true,
+                        "is_meta_description_generated_by_ai": true
+                    },
+                    "article_priority": 100,
+                    "wp_schedule_time": null
+                }
+            }
+        }
+    ],
+    "status_code": 200
+}

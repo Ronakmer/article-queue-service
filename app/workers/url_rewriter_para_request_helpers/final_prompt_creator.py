@@ -25,6 +25,7 @@ class FinalPromptCreator:
             
             if not primary_keyword:
                 print("Warning: No primary keyword found in processed_text")
+                return {"Error: No primary keyword found in processed_text"}
 
             # Step 2: Create selector_map from scraped_data (dynamic for source_ prefixed keys)
             selector_map = self._create_selector_map(scraped_data)

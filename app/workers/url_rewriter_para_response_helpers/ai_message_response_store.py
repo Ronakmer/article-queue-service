@@ -4,6 +4,7 @@ import json
 import time
 import logging
 from app.workers.core.article_innovator_api_call.api_client.api_client import APIClient
+from app.workers.core.article_innovator_api_call.wordpress.add_category.add_category import AddCategory
 
 
 class AIMessageResponseStore:
@@ -13,6 +14,7 @@ class AIMessageResponseStore:
         }
         
         self.api_client = APIClient()
+        self.add_category_service = AddCategory()
         
 
     # def store_ai_message_response(self, data):
@@ -87,8 +89,6 @@ class AIMessageResponseStore:
         try:
             # print(data,'dataxxxxxxxxxx')
             message_data = data.get("message", {})
-            # print(message_data,'message_dataxxxxxxxxxx')
-            
             
             if not isinstance(message_data, dict):
                 return {"success": False, "error": "Invalid message data format"}
@@ -107,7 +107,7 @@ class AIMessageResponseStore:
                 "article_id": article_id,
                 "message_id": message_id,
                 "article_message_count": message_data.get("article_message_count", 0),
-                "article_message_total_count": message_data.get("article_message_total_count", 0),
+                "article_message_total_count": message_data.get("article_message_total_count", 0),  
                 # "ai_response": json.dumps(message_data),  # full message JSON as string
                 "ai_response": json.dumps(ai_response),  # full message JSON as string
                 "ai_response_status": message_data.get("ai_response_status"),
@@ -128,9 +128,21 @@ class AIMessageResponseStore:
                 )
 
 
-                print(f"[store_ai_message_response] Attempt {attempt}, Response: {stored_message}")
-
+                # print(f"[store_ai_message_response] Attempt {attempt}, Response: {stored_message}")
+                
                 if stored_message.get('status_code') == 200:
+
+                    # print(stored_message,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+                    
+                    # message_data = stored_message.get("data", {}).get("data", {})
+                    # article_id = message_data.get("article_id")
+                    # message_field_type = message_data.get("message_field_type")
+
+                    # if message_field_type == 'category':
+                    #     add_category_data = self.add_category_service.add_category(request_data)
+                    #     print(add_category_data,'++++++++++++++++++++++++++++++++++++++++++++++')
+                    
+                    
                     return stored_message
                 else:
                     print(f"[store_ai_message_response] Attempt {attempt} failed with status_code {stored_message.get('status_code')}. Retrying...")

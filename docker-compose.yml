@@ -4,11 +4,11 @@ services:
   app:
     build: .
     ports:
-      - "8501:8501"
+      - "8503:8501"
     depends_on:
       - rabbitmq
     networks:
-      - rabbitmq-flask-service-network
+      - article-queue-service-network
     volumes:
       - .:/app
 
@@ -18,12 +18,12 @@ services:
       - "5672:5672"
       - "15672:15672"
     networks:
-      - rabbitmq-flask-service-network
+      - article-queue-service-network
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
 
 networks:
-  rabbitmq-flask-service-network:
+  article-queue-service:
     driver: bridge
 
 volumes:

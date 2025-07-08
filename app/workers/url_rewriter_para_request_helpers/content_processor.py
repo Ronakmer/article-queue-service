@@ -244,6 +244,8 @@ class ContentProcessor:
         Returns:
             dict: The content data or None if failed
         """
+        
+        # print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         # Extract public URL from response
         response_obj = scraper_data.get('response', {})
         public_url = response_obj.get('public_url')        
@@ -258,6 +260,7 @@ class ContentProcessor:
         if self.sleep_time > 0:
             time.sleep(self.sleep_time)
         
+        # print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@22')
         try:
             # Download content
             content_response = requests.get(public_url)

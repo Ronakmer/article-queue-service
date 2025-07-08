@@ -125,8 +125,8 @@ class UrlRewriterParallelWorker(BaseWorker):
 
                     for attempt in range(1, primery_keywords_max_retries + 1):
                         try:
-                            supportive_prompt_data = self.fetch_supportive_prompt_service.fetch_supportive_prompt(primery_keywords_id)
-                            # print(supportive_prompt_data, '----------------------supportive_prompt_data----------------------')
+                            supportive_prompt_data = self.fetch_supportive_prompt_service.fetch_supportive_prompt(primery_keywords_id, '')
+                            print(supportive_prompt_data, '----------------------supportive_prompt_data----------------------')
 
                             failed_prompts = [
                                 item for item in supportive_prompt_data.get('supportive_prompts', [])
@@ -155,18 +155,29 @@ class UrlRewriterParallelWorker(BaseWorker):
                         print({"status": "error", "step": "create_single_ai_request", "message": str(e)})
                         # return {"status": "error", "step": "create_single_ai_request", "message": str(e)}
                     
-                    try:
-                        # Step 4.2: Store ai message request
-                        store_ai_message_request_data = self.ai_message_request_store_service.store_ai_message_request(single_ai_request_data)
-                        # print(store_ai_message_request_data, '----------------------store_ai_message_request_data----------------------')
-                    except Exception as e:
-                        print({"status": "error", "step": "store_ai_message_request", "message": str(e)})
-                        # return {"status": "error", "step": "store_ai_message_request", "message": str(e)}
+                    # try:
+                    #     # Step 4.2: Store ai message request
+                    #     store_ai_message_request_data = self.ai_message_request_store_service.store_ai_message_request(single_ai_request_data)
+                    #     # print(store_ai_message_request_data, '----------------------store_ai_message_request_data----------------------')
+                    # except Exception as e:
+                    #     print({"status": "error", "step": "store_ai_message_request", "message": str(e)})
+                    #     # return {"status": "error", "step": "store_ai_message_request", "message": str(e)}
                       
                     try:
                         # Step 4.3: Send single ai request
                         send_single_ai_request_data = self.send_single_ai_request_service.send_single_ai_request(single_ai_request_data, workspace_slug_id)
                         # print(send_single_ai_request_data, '----------------------send_single_ai_request_data----------------------')
+                        
+
+                        # Check if the request was successful
+                        if not send_single_ai_request_data or not send_single_ai_request_data.get("success", True):
+                            print({
+                                "status": "error",
+                                "step": "send_single_ai_request",
+                                "message": send_single_ai_request_data.get("error", "Unknown error")
+                            })
+
+
                     except Exception as e:
                         print({"status": "error", "step": "send_single_ai_request", "message": str(e)})
                         # return {"status": "error", "step": "send_single_ai_request", "message": str(e)}
@@ -174,6 +185,12 @@ class UrlRewriterParallelWorker(BaseWorker):
                     try:
                         # Step 4.4: get single ai response
                         message_id = send_single_ai_request_data.get("message_id")
+
+                        # # Step 4.4: Get single AI response
+                        # message_id = send_single_ai_request_data.get("message_id") or single_ai_request_data.get("message_id")
+                        # if not message_id:
+                        #     raise ValueError("Missing message_id for response retrieval")
+
 
                         get_single_ai_response_data = self.get_single_ai_response_service.get_single_ai_response(message_id)
                         # print(get_single_ai_response_data, '----------------------get_single_ai_response_data----------------------')
@@ -201,7 +218,7 @@ class UrlRewriterParallelWorker(BaseWorker):
             try:
                 # Step 6: Prepare content for AI
                 process_content_data = self.ai_rate_limiter_service.fetch_and_process_content(scraped_data, data, final_prompt_data)
-                print(process_content_data,'----------------------process_content_data----------------------')
+                # print(process_content_data,'----------------------process_content_data----------------------')
             except Exception as e:
                 print({"status": "error", "step": "fetch_and_process_content", "message": str(e)})
                 # return {"status": "error", "step": "fetch_and_process_content", "message": str(e)}
@@ -209,10 +226,15 @@ class UrlRewriterParallelWorker(BaseWorker):
             try:
                 # Step 4: Get AI response
                 ai_response_json = self.ai_rate_limiter_service.send_ai_requests(process_content_data, article_priority)
-                print(ai_response_json,'----------------------ai_response_json----------------------')
+                # print(ai_response_json,'----------------------ai_response_json----------------------')
             except Exception as e:
                 print({"status": "error", "step": "send_ai_request", "message": str(e)})
                 # return {"status": "error", "step": "send_ai_request", "message": str(e)}
+
+
+
+
+
 
 
 

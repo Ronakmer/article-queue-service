@@ -1,7 +1,0 @@
-2025-04-29 12:57:57 | INFO | Worker1 initialized and ready to process messages
-2025-04-29 12:57:57 | INFO | Worker instance created
-2025-04-29 12:57:59 | INFO | Connected to existing queue: 501b60d2-4f5b-4cd9-8df2-6d49341b38f5_url-re
-2025-04-29 12:57:59 | INFO | Consumer ready on queue: 501b60d2-4f5b-4cd9-8df2-6d49341b38f5_url-re
-2025-04-29 12:58:00 | INFO | Started url_rewriter_para_worker on queue: 501b60d2-4f5b-4cd9-8df2-6d49341b38f5_url-re
-2025-04-29 12:58:00 | INFO | Worker started
-2025-04-29 12:58:00 | INFO | Started url_rewriter_para_worker with PID: 12932, queue: 501b60d2-4f5b-4cd9-8df2-6d49341b38f5_url-re

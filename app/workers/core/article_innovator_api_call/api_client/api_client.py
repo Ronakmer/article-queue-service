@@ -65,6 +65,17 @@ class APIClient:
                 # 'update': '/message-service-api/ai-message/update/{slug_id}/',
                 # 'delete': '/message-service-api/ai-message/delete/{slug_id}/'
             },
+            'input-json': {
+                # 'add': '/message-service-api/ai-message/add/',
+                'get': '/message-service-api/article-input-json/',
+                # 'update': '/message-service-api/ai-message/update/{slug_id}/',
+                # 'delete': '/message-service-api/ai-message/delete/{slug_id}/'
+            },
+            'article': {
+                # 'add': '/message-service-api/ai-message/add/',
+                'update': '/api/article/update/{slug_id}',
+                
+            },
            
         }
     

@@ -1,3 +1,0 @@
-2025-04-09 10:46:35 | INFO | Worker1 initialized and ready to process messages
-2025-04-09 10:46:38 | INFO | Started url_rewriter_para_worker on queue: article-input-queue
-2025-04-09 10:46:38 | INFO | Started url_rewriter_para_worker with PID: 24796, queue: article-input-queue

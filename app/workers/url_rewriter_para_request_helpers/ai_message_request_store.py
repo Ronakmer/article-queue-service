@@ -47,7 +47,7 @@ class AIMessageRequestStore:
                     data=request_data
                 )
 
-                print(f"[store_ai_message_request] Attempt {attempt}, Response: {stored_message}")
+                # print(f"[store_ai_message_request] Attempt {attempt}, Response: {stored_message}")
 
                 if stored_message.get('status_code') == 200:
                     return stored_message
@@ -64,3 +64,29 @@ class AIMessageRequestStore:
         except Exception as e:
             print(f"[store_ai_message_request] Exception: {e}")
             return {"success": False, "error": f"Unexpected error: {str(e)}"}
+        
+        
+        
+        
+    def check_if_prompt_already_stored(self, article_id, field_type):
+        try:
+            params = {
+                "article_slug_id": article_id,
+                "message_field_type": field_type
+            }
+
+            response = self.api_client.crud('ai-message', 'read', params=params)
+
+            print(f"[check_if_prompt_already_stored] Response: {response}")
+
+            if response.get('status_code') == 200:
+                result_data = response.get('data', [])
+                return len(result_data) > 0  # ✅ True if any matching entry found
+
+            return False
+
+        except Exception as e:
+            print(f"[check_if_prompt_already_stored] Exception: {e}")
+            return False
+
+
