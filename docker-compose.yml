@@ -23,7 +23,7 @@ services:
       - rabbitmq_data:/var/lib/rabbitmq
 
 networks:
-  article-queue-service:
+  article-queue-service-network:
     driver: bridge
 
 volumes:
