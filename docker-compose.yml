@@ -14,8 +14,13 @@ services:
       - .env.docker
 
 networks:
+<<<<<<< HEAD
   rabbitmq_shared_network:
     external: true
+=======
+  article-queue-service-network:
+    driver: bridge
+>>>>>>> 495afd1240c1684130cf2a27f780ae68a414ef93
 
   flask_django_net:           
     external: true
