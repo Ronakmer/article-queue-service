@@ -1,5 +1,0 @@
-2025-07-30 16:13:48 | INFO | Initializing url_rewriter_content_request_worker worker with PID 16140
-2025-07-30 16:13:48 | INFO | Successfully connected on attempt 1
-2025-07-30 16:13:48 | INFO | url_rewriter_content_request_worker initialized and ready to process messages
-2025-07-30 16:13:48 | ERROR | Error in worker initialization/startup: Can't instantiate abstract class AIRateLimiterService with abstract method process_message
-2025-07-30 16:13:48 | ERROR | Error starting worker: Can't instantiate abstract class AIRateLimiterService with abstract method process_message

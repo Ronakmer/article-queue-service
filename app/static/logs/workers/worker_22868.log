@@ -1,5 +1,0 @@
-2025-07-30 15:55:33 | INFO | Initializing url_rewriter_content_request_worker worker with PID 22868
-2025-07-30 15:55:33 | INFO | Successfully connected on attempt 1
-2025-07-30 15:55:33 | INFO | url_rewriter_content_request_worker initialized and ready to process messages
-2025-07-30 15:55:33 | ERROR | Error in worker initialization/startup: 'AIRateLimiterService' object has no attribute 'pid'
-2025-07-30 15:55:33 | ERROR | Error starting worker: 'AIRateLimiterService' object has no attribute 'pid'
