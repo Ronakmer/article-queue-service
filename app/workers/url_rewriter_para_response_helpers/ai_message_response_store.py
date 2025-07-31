@@ -131,17 +131,6 @@ class AIMessageResponseStore:
                 # print(f"[store_ai_message_response] Attempt {attempt}, Response: {stored_message}")
                 
                 if stored_message.get('status_code') == 200:
-
-                    # print(stored_message,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
-                    
-                    # message_data = stored_message.get("data", {}).get("data", {})
-                    # article_id = message_data.get("article_id")
-                    # message_field_type = message_data.get("message_field_type")
-
-                    # if message_field_type == 'category':
-                    #     add_category_data = self.add_category_service.add_category(request_data)
-                    #     print(add_category_data,'++++++++++++++++++++++++++++++++++++++++++++++')
-                    
                     
                     return stored_message
                 else:

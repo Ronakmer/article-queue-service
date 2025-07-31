@@ -63,11 +63,11 @@ class WorkerRoutes:
     def get_available_workers():
         workers = {}
         workers_dir = Path(__file__).parent.parent / 'workers'
-
+        print(workers,'workers')
         for fname in os.listdir(workers_dir):
             if not fname.endswith('.py') or fname in ('__init__.py', 'base.py'):
                 continue
-
+        
             module_name = fname[:-3]
             try:
                 module = importlib.import_module(f'app.workers.{module_name}')
@@ -111,82 +111,93 @@ class WorkerRoutes:
             
             # Create worker instance
             worker = None
+            process_id = None
             try:
                 worker = worker_class(channel, queue_name)
                 logger.info("Worker instance created")
                 
-                # Get process ID
+                # Get process ID before using it
                 process_id = os.getpid()
+                logger.info(f"Got process ID: {process_id}")
                 
-                # Register worker in global registry
+                # Create unique worker tag with timestamp to avoid conflicts
+                timestamp = int(time.time())
+                worker_tag = f"{worker_name}_{process_id}_{timestamp}"
                 with worker_processes_lock:
                     worker_processes[process_id] = {
                         'worker': worker,
                         'queue_name': queue_name,
                         'worker_name': worker_name,
+                        'worker_tag': worker_tag,
                         'start_time': time.time(),
                         'status': 'starting'
                     }
-                logger.info(f"Registered worker process {process_id} in registry")
+                logger.info(f"Registered worker process {process_id} in registry with tag {worker_tag}")
                 
                 # Start the worker
                 worker.start()
                 logger.info(f"Started {worker_name} with PID: {process_id}, queue: {queue_name}")
                 
-                # Mark worker as started in registry
+                # Mark worker as running in registry
                 with worker_processes_lock:
                     if process_id in worker_processes:
                         worker_processes[process_id]['status'] = 'running'
                 
-                # Verify worker is registered with RabbitMQ
+                # Verify worker is registered with RabbitMQ with retries
                 url = f"http://{RABBITMQ_HOST}:{RABBITMQ_API_PORT}/api/consumers"
-                verify_attempts = 3
+                verify_attempts = 5  # Increased attempts
+                verify_delay = 2
                 success = False
                 
                 for attempt in range(verify_attempts):
                     try:
-                        response = requests.get(url, auth=RABBITMQ_AUTH)
+                        response = requests.get(url, auth=RABBITMQ_AUTH, timeout=10)
                         if response.status_code == 200:
                             consumers = response.json()
                             for consumer in consumers:
+                                consumer_queue = consumer.get("queue", {}).get("name")
                                 consumer_tag = consumer.get("consumer_tag", "")
-                                queue = consumer.get("queue", {}).get("name", "")
-                                if consumer_tag == f"{worker_name}_{process_id}" and queue == queue_name:
+                                if (consumer_queue == queue_name and 
+                                    consumer_tag.startswith(f"{worker_name}_") and
+                                    str(process_id) in consumer_tag):
+                                    logger.info(f"Worker {worker_tag} verified in RabbitMQ consumers")
                                     success = True
                                     break
                         if success:
                             break
-                        time.sleep(2)
+                        logger.warning(f"Attempt {attempt + 1}: Worker not found in RabbitMQ consumers")
+                        time.sleep(verify_delay)
                     except Exception as e:
-                        logger.error(f"Error verifying worker registration (attempt {attempt + 1}): {str(e)}")
+                        logger.error(f"Attempt {attempt + 1}: Error verifying worker: {str(e)}")
                         if attempt < verify_attempts - 1:
-                            time.sleep(2)
+                            time.sleep(verify_delay)
+                            continue
+                        raise
                 
                 if not success:
-                    error_msg = f"Worker {worker_name} failed to register with RabbitMQ"
+                    error_msg = f"Worker {worker_name} failed to register with RabbitMQ after {verify_attempts} attempts"
                     logger.error(error_msg)
-                    # Mark worker as failed in registry before cleanup
+                    # Mark worker as failed in registry
                     with worker_processes_lock:
                         if process_id in worker_processes:
                             worker_processes[process_id]['status'] = 'failed'
+                    
                     # Cleanup the worker
                     if worker:
-                        worker.stop()
+                        try:
+                            worker.stop()
+                        except Exception as stop_e:
+                            logger.error(f"Error stopping worker: {str(stop_e)}")
+                    
                     cleanup_worker_process(process_id)
                     raise RuntimeError(error_msg)
                 
                 # Keep the process running and monitor the worker
                 while True:
-                    time.sleep(1)
+                    time.sleep(5)  # Check every 5 seconds
                     if not worker.is_alive():
-                        error_msg = f"Worker {worker_name} stopped unexpectedly"
-                        logger.error(error_msg)
-                        # Mark worker as failed in registry
-                        with worker_processes_lock:
-                            if process_id in worker_processes:
-                                worker_processes[process_id]['status'] = 'failed'
-                        cleanup_worker_process(process_id)
-                        raise Exception(error_msg)
+                        logger.error(f"Worker {worker_tag} stopped unexpectedly")
+                        break
                 
             except Exception as inner_e:
                 logger.error(f"Error in worker initialization/startup: {str(inner_e)}")
@@ -195,9 +206,10 @@ class WorkerRoutes:
                     try:
                         worker.stop()
                     except Exception as stop_e:
-                        logger.error(f"Error stopping worker: {str(stop_e)}")
+                        logger.error(f"Error stopping worker during cleanup: {str(stop_e)}")
+                
                 # Clean up process from registry
-                if 'process_id' in locals():
+                if process_id:
                     cleanup_worker_process(process_id)
                 raise inner_e
             
@@ -207,11 +219,12 @@ class WorkerRoutes:
             if 'worker' in locals() and worker:
                 try:
                     worker.stop()
-                except:
-                    pass
-            if 'process_id' in locals():
+                except Exception as stop_e:
+                    logger.error(f"Final cleanup - Error stopping worker: {str(stop_e)}")
+            if 'process_id' in locals() and process_id:
                 cleanup_worker_process(process_id)
             raise
+
 
     @staticmethod
     def scale_queue_workers(queue_name):
@@ -225,7 +238,7 @@ class WorkerRoutes:
 
             if desired_count is None:
                 return jsonify({"error": "count is required"}), 400
-            
+
             try:
                 desired_count = int(desired_count)
                 if desired_count < 0:
@@ -241,49 +254,116 @@ class WorkerRoutes:
                     "available_names": list(available_workers.keys())
                 }), 400
 
-            # Verify queue exists
+            # Verify queue exists with robust error handling
             try:
-                connection = get_rabbitmq_connection()
-                channel = connection.channel()
-                channel.queue_declare(queue=queue_name, passive=True)
-                channel.close()
-                connection.close()
-            except Exception:
-                return jsonify({"error": f"Queue '{queue_name}' does not exist"}), 404
+                logger.info(f"Attempting to verify queue '{queue_name}'")
+                logger.info(f"RabbitMQ Host: {RABBITMQ_HOST}, Port: {RABBITMQ_API_PORT}")
 
-            # Fetch current consumers from RabbitMQ API
+                connection = get_rabbitmq_connection()
+                if not connection:
+                    error_msg = "Failed to establish RabbitMQ connection - check credentials and server status"
+                    logger.error(error_msg)
+                    return jsonify({"error": error_msg}), 500
+
+                channel = None
+                try:
+                    channel = connection.channel()
+                    logger.info("Successfully created channel")
+
+                    try:
+                        logger.info(f"Attempting AMQP check for queue '{queue_name}'")
+                        channel.queue_declare(queue=queue_name, passive=True)
+                        logger.info(f"Queue '{queue_name}' exists (verified via AMQP)")
+                    except Exception as amqp_e:
+                        logger.warning(f"AMQP check failed: {str(amqp_e)}, trying HTTP API")
+
+                        url = f"http://{RABBITMQ_HOST}:{RABBITMQ_API_PORT}/api/queues/%2F/{queue_name}"
+                        logger.info(f"Checking queue via HTTP API: {url}")
+                        try:
+                            response = requests.get(url, auth=RABBITMQ_AUTH, timeout=5)
+
+                            if response.status_code == 404:
+                                error_msg = f"Queue '{queue_name}' not found in RabbitMQ"
+                                logger.error(error_msg)
+                                return jsonify({"error": error_msg}), 404
+
+                            if response.status_code != 200:
+                                logger.warning(f"HTTP API returned status {response.status_code}, falling back to AMQP check")
+                                try:
+                                    channel.queue_declare(queue=queue_name, passive=True)
+                                    logger.info(f"Queue '{queue_name}' exists (verified via fallback AMQP)")
+                                except Exception as amqp_e:
+                                    error_msg = f"Queue '{queue_name}' is not accessible: {str(amqp_e)}"
+                                    logger.error(error_msg)
+                                    return jsonify({"error": error_msg}), 404
+                            else:
+                                logger.info(f"Queue '{queue_name}' exists (verified via HTTP API)")
+
+                        except requests.exceptions.RequestException as e:
+                            logger.warning(f"HTTP API check failed: {str(e)}, falling back to AMQP check")
+                            try:
+                                channel.queue_declare(queue=queue_name, passive=True)
+                                logger.info(f"Queue '{queue_name}' exists (verified via fallback AMQP)")
+                            except Exception as amqp_e:
+                                error_msg = f"Queue '{queue_name}' is not accessible: {str(amqp_e)}"
+                                logger.error(error_msg)
+                                return jsonify({"error": error_msg}), 404
+
+                finally:
+                    if channel:
+                        try:
+                            channel.close()
+                        except Exception as ce:
+                            logger.warning(f"Error closing channel: {str(ce)}")
+                    if connection:
+                        try:
+                            connection.close()
+                        except Exception as ce:
+                            logger.warning(f"Error closing connection: {str(ce)}")
+
+            except Exception as e:
+                error_msg = f"Failed to verify queue '{queue_name}': {str(e)}"
+                logger.error(f"Queue verification error - Full details: {str(e)}")
+                return jsonify({"error": error_msg}), 500
+
+            # Fetch current consumers
+            url = f"http://{RABBITMQ_HOST}:{RABBITMQ_API_PORT}/api/consumers"
             max_retries = 3
             retry_delay = 2
-            url = f"http://{RABBITMQ_HOST}:{RABBITMQ_API_PORT}/api/consumers"
             response = None
+
             for attempt in range(max_retries):
                 try:
-                    response = requests.get(url, auth=RABBITMQ_AUTH)
+                    response = requests.get(url, auth=RABBITMQ_AUTH, timeout=10)
                     if response.status_code == 200:
                         break
-                except Exception:
-                    pass
+                    logger.warning(f"Attempt {attempt + 1}: RabbitMQ API returned status {response.status_code}")
+                except requests.exceptions.RequestException as e:
+                    logger.error(f"Attempt {attempt + 1}: RabbitMQ API request failed: {str(e)}")
+                    if attempt < max_retries - 1:
+                        time.sleep(retry_delay)
+                        continue
+                    return jsonify({"error": f"Failed to connect to RabbitMQ API: {str(e)}"}), 500
                 time.sleep(retry_delay)
 
             if not response or response.status_code != 200:
-                return jsonify({"error": "Failed to fetch workers"}), response.status_code if response else 500
+                error_msg = f"Failed to fetch workers. Status: {response.status_code if response else 'No response'}"
+                logger.error(error_msg)
+                return jsonify({"error": error_msg}), response.status_code if response else 500
 
-            # Identify current workers for this queue and worker_name
             all_consumers = response.json()
             current_workers = []
             for consumer in all_consumers:
                 consumer_tag = consumer.get("consumer_tag", "")
                 queue = consumer.get("queue", {}).get("name", "")
-                # match tags like "<worker_name>_<pid>"
                 if consumer_tag.lower().startswith(f"{worker_name.lower()}_") and queue == queue_name:
                     current_workers.append(consumer)
 
             current_count = len(current_workers)
             workers_removed = 0
 
-            # Scale down
             if current_count > desired_count:
-                for consumer in current_workers[: current_count - desired_count]:
+                for consumer in current_workers[:current_count - desired_count]:
                     try:
                         tag = consumer.get("consumer_tag")
                         pid = int(tag.rsplit('_', 1)[1]) if '_' in tag else None
@@ -294,7 +374,6 @@ class WorkerRoutes:
                         pass
                 time.sleep(3)
 
-            # Scale up
             workers_added = 0
             if current_count < desired_count:
                 for _ in range(desired_count - current_count):
@@ -306,7 +385,6 @@ class WorkerRoutes:
                     proc.start()
                     time.sleep(5)
                     if proc.is_alive():
-                        # verify registration
                         for _ in range(3):
                             try:
                                 vr = requests.get(url, auth=RABBITMQ_AUTH)
@@ -322,9 +400,7 @@ class WorkerRoutes:
                             time.sleep(2)
                         else:
                             cleanup_worker_process(proc.pid)
-                    # no-op if not alive
 
-            # Final fetch of workers
             time.sleep(2)
             resp_final = requests.get(url, auth=RABBITMQ_AUTH)
             final_workers = []
@@ -348,7 +424,6 @@ class WorkerRoutes:
             final_count = len(final_workers)
             success = (final_count == desired_count)
 
-            # Cleanup extra if any
             if final_count > desired_count:
                 for extra in final_workers[desired_count:]:
                     try:

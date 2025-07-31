@@ -122,13 +122,17 @@ class QueueRoutes:
     @queue_bp.route("/create", methods=["POST"])
     def create_queue():
         try:
-            
+            print("Using RABBITMQ credentials:")
+            print(f"RABBITMQ_HOST = {RABBITMQ_HOST}")
+            print(f"RABBITMQ_USERNAME = {RABBITMQ_USERNAME}")
+            print(f"RABBITMQ_PASSWORD = {RABBITMQ_PASSWORD}")
             data = request.json
             queue_name = data.get("queue_name")
             if not queue_name:
                 return jsonify({"error": "queue_name is required"}), 400
             
             connection = get_rabbitmq_connection()
+            print(connection,"connection")
             channel = connection.channel()
             channel.queue_declare(queue=queue_name, durable=True)
             connection.close()
@@ -250,6 +254,7 @@ class QueueRoutes:
     @queue_bp.route("/delete/<queue_name>", methods=["DELETE"])
     def delete_queue(queue_name):
         try:
+	    
             # Define vhost and encode it
             # vhost = "/"  # Your RabbitMQ virtual host
             encoded_vhost = "%2F"  # URL-encoded version of '/'

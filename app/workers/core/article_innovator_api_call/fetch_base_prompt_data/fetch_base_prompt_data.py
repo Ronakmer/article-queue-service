@@ -30,13 +30,13 @@ class FetchBasePromptData:
             elif isinstance(all_base_prompt_data, dict):
                 collected_base_prompt_data.append(all_base_prompt_data)
 
-            print(collected_base_prompt_data,'collected_base_prompt_dataxxx')
+            # print(collected_base_prompt_data,'collected_base_prompt_dataxxx')
             return {
                 "base_prompt_data": collected_base_prompt_data
             }
 
         except Exception as e:
-            return {"error": f"An unexpected error occurred: {str(e)}"}
+            raise ValueError(f"An unexpected error occurred in fetch_base_prompt_data: {e}")
 
 
 

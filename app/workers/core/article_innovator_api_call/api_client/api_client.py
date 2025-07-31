@@ -82,6 +82,7 @@ class APIClient:
     def _setup_ssl_verification(self):
         """Setup SSL verification based on certificate availability and environment"""
         # Check if we're connecting to localhost/development server
+        
         is_localhost = any(host in self.base_url.lower() for host in ['localhost', '127.0.0.1', '0.0.0.0'])
         
         if os.path.exists(self.cert_path):
@@ -100,25 +101,26 @@ class APIClient:
     def login(self):
         """Authenticate with the API and store the token"""
         try:
-            print(self.cert_path,'`self.cert_pathssssdfsdfs`')
+            self.session.headers.pop('Authorization', None)  # ✅ Clear old token
+            print(self.cert_path, '`self.cert_pathssssdfsdfs`')
 
             login_url = f"{self.base_url}{self.endpoints['auth']['login']}"
             response = self.session.post(
-                login_url, 
+                login_url,
                 json={
                     "email": API_EMAIL,
                     "password": API_PASSWORD,
                     "keep_loggedin": True
                 },
                 verify=self.ssl_verify,
-                timeout=30 
+                timeout=30
             )
-            
+
             if response.status_code == 200:
                 data = response.json()
-                if data.get('success'):
-                    self.auth_token = data.get('access_token')
-                    self.token_expiry = data.get('user_details', {}).get('updated_date')
+                print(data, 'dataaaaaaaaaaaaaaa')
+                if data.get('success') and data.get('access_token'):
+                    self.auth_token = data['access_token']
                     self.session.headers.update({'Authorization': f'Bearer {self.auth_token}'})
                     self.logger.info("Successfully authenticated with API")
                     return True
@@ -126,17 +128,16 @@ class APIClient:
                     self.logger.error(f"Login failed: {data.get('message')}")
                     return False
             else:
-                self.logger.error(f"Login failed: {response.text}")
+                self.logger.error(f"Login HTTP Error: {response.status_code} - {response.text}")
                 return False
+
         except Exception as e:
-            self.logger.error(f"Login error: {str(e)}")
+            self.logger.error(f"  Login error: {str(e)}")
             return False
 
     def is_token_valid(self):
-        """Check if the current token is still valid"""
-        if not self.auth_token:
-            return False
-        return True
+        """Check if a token exists (simple validity check)"""
+        return self.auth_token is not None
 
     def ensure_authenticated(self):
         """Ensure we have a valid authentication token"""

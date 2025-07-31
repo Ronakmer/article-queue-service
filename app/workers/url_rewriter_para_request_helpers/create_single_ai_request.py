@@ -88,7 +88,7 @@ class CreateSingleAiRequest:
 
             # Create prompt
             prompt_data = self.primary_keyword_mapping(data_list, scraped_data)
-
+            print(prompt_data, 'prompt_dataxxxxxxxxxx')
             # Set priority
             article_priority = input_json_data.get("message", {}).get("article_priority", 100)
             priority = self.calculate_priority_service.calculate_priority(article_priority, 'primary_keyword')
@@ -102,11 +102,14 @@ class CreateSingleAiRequest:
 
             # Try to get existing message data
             message_id = str(uuid.uuid4())  # default new UUID
+
             try:
                 stored_data = self.get_stored_message_service.get_stored_message(article_id, message_type)
+                print(stored_data, 'stored_dataxxxxxxxxxx')
                 if stored_data.get("success") and stored_data.get("data"):
                     # Use the existing message_id
                     message_id = stored_data["data"][0].get("message_id", message_id)
+                    print(message_id, 'message_idxxxxxxxxxx')
             except Exception as e:
                 print({"status": "error", "step": "get_stored_message", "message": str(e)})
 
@@ -127,6 +130,7 @@ class CreateSingleAiRequest:
                 "content": "",
                 "workspace_id": workspace_slug_id,
             }
+            print(single_ai_request, 'single_ai_requestxxxxxxxxxx')
 
             return single_ai_request
 
@@ -142,7 +146,7 @@ class CreateSingleAiRequest:
         try:
             # print('this is ronak sdf')
             fetch_content_data = self.content_processor.fetch_content(scraped_data)
-            # print(fetch_content_data,'fetch_content_dataxxxxxxxxxx')
+            print(fetch_content_data,'fetch_content_dataxxxxxxxxxx')
 
             # Save the file directly to the existing 'demo_json' folder
             with open('demo_json/fetch_content_data.json', 'w', encoding='utf-8') as f:
@@ -154,6 +158,7 @@ class CreateSingleAiRequest:
                 item['name']: item['value']
                 for item in fetch_content_data.get("selectors_output", [])
             }
+            print(selector_map, 'selector_mapxxxxxxxxxx')
 
             # Replace placeholders in prompt_data
             processed_prompts = []
@@ -172,4 +177,5 @@ class CreateSingleAiRequest:
 
             return processed_prompts
         except Exception as e:
+            print(f"Error in primary_keyword_mapping: {e}")
             return f"An unexpected error occurred: {e}"

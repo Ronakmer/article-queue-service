@@ -1,0 +1,6 @@
+2025-07-24 11:42:08 | INFO | Initializing url_rewriter_content_request_worker worker with PID 24120
+2025-07-24 11:42:08 | INFO | Successfully connected on attempt 1
+2025-07-24 11:42:08 | INFO | url_rewriter_content_request_worker initialized and ready to process messages
+2025-07-24 15:52:00 | INFO | Initializing url_rewriter_content_request_worker worker with PID 24120
+2025-07-24 15:52:00 | INFO | Successfully connected on attempt 1
+2025-07-24 15:52:00 | INFO | url_rewriter_content_request_worker initialized and ready to process messages

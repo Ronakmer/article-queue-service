@@ -1,0 +1,6 @@
+2025-07-23 10:58:32 | INFO | Initializing url_rewriter_content_request_worker worker with PID 23700
+2025-07-23 10:58:32 | INFO | Successfully connected on attempt 1
+2025-07-23 10:58:32 | INFO | url_rewriter_content_request_worker initialized and ready to process messages
+2025-07-23 12:51:46 | INFO | Initializing url_rewriter_content_response_worker worker with PID 23700
+2025-07-23 12:51:46 | INFO | Successfully connected on attempt 1
+2025-07-23 12:51:46 | INFO | url_rewriter_content_response_worker initialized and ready to process messages

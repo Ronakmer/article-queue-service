@@ -1,30 +1,21 @@
-version: "3"
+version: "3.8"
 
 services:
   app:
     build: .
     ports:
       - "8503:8501"
-    depends_on:
-      - rabbitmq
     networks:
-      - article-queue-service-network
+      - rabbitmq_shared_network
+      - flask_django_net     
     volumes:
       - .:/app
-
-  rabbitmq:
-    image: rabbitmq:4.0-management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
-    networks:
-      - article-queue-service-network
-    volumes:
-      - rabbitmq_data:/var/lib/rabbitmq
+    env_file:
+      - .env.docker
 
 networks:
-  article-queue-service:
-    driver: bridge
+  rabbitmq_shared_network:
+    external: true
 
-volumes:
-  rabbitmq_data:
+  flask_django_net:           
+    external: true

@@ -21,11 +21,14 @@ class FinalPromptCreator:
             # print(scraped_data, 'scraped_dataxxcvd')
             
             # Step 1: Validate and extract the primary keyword
-            primary_keyword = self._extract_primary_keyword(key_word_response_data)
+            if key_word_response_data is not None:
+                primary_keyword = self._extract_primary_keyword(key_word_response_data)
+            else:
+                primary_keyword = None
             
-            if not primary_keyword:
-                print("Warning: No primary keyword found in processed_text")
-                return {"Error: No primary keyword found in processed_text"}
+            # if not primary_keyword:
+            #     print("Warning: No primary keyword found in processed_text")
+            #     return {"Error: No primary keyword found in processed_text"}
 
             # Step 2: Create selector_map from scraped_data (dynamic for source_ prefixed keys)
             selector_map = self._create_selector_map(scraped_data)
@@ -41,7 +44,8 @@ class FinalPromptCreator:
 
             # Replace placeholders
             title_filled = title_template.replace('[[source_title]]', selector_map.get('source_title', ''))
-            title_filled = title_filled.replace('[[primary_keyword]]', primary_keyword)
+            if primary_keyword:
+                title_filled = title_filled.replace('[[primary_keyword]]', primary_keyword)
 
             # Update the prompt data
             prompt_data['title_rephrase'] = title_filled

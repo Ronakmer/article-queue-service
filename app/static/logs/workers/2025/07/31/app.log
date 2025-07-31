@@ -1,0 +1,1794 @@
+2025-07-31 08:32:48 | INFO | PID:6804 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 08:32:48 | INFO | PID:6804 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 08:32:50 | INFO | PID:6804 | Successfully created channel
+2025-07-31 08:32:50 | INFO | PID:6804 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 08:32:50 | INFO | PID:6804 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 08:33:06 | INFO | PID:11744 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 08:33:07 | INFO | PID:11744 | Created new channel
+2025-07-31 08:33:07 | INFO | PID:11744 | Declared queue: article-content-request-queue
+2025-07-31 08:33:08 | INFO | PID:11744 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 08:33:08 | INFO | PID:11744 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | WARNING | PID:11744 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:33:08 | WARNING | PID:11744 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:33:08 | INFO | PID:11744 | Worker instance created
+2025-07-31 08:33:08 | INFO | PID:11744 | Got process ID: 11744
+2025-07-31 08:33:08 | INFO | PID:11744 | Registered worker process 11744 in registry with tag url_rewriter_content_request_worker_11744_1753930988
+2025-07-31 08:33:08 | INFO | PID:11744 | Starting consuming on article-content-request-queue
+2025-07-31 08:33:09 | INFO | PID:11744 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 08:33:09 | INFO | PID:11744 | Started url_rewriter_content_request_worker with PID: 11744, queue: article-content-request-queue
+2025-07-31 08:33:11 | WARNING | PID:11744 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 08:33:13 | WARNING | PID:11744 | No open connection/channel: connecting...
+2025-07-31 08:33:13 | INFO | PID:11744 | Successfully connected on attempt 1
+2025-07-31 08:33:13 | INFO | PID:11744 | Consumer registered on queue: article-content-request-queue
+2025-07-31 08:33:13 | INFO | PID:11744 | Starting consuming on article-content-request-queue
+2025-07-31 08:33:15 | INFO | PID:11744 | Worker url_rewriter_content_request_worker_11744_1753930988 verified in RabbitMQ consumers
+2025-07-31 08:33:33 | INFO | PID:11744 | Processing message from queue: article-content-request-queue
+2025-07-31 08:33:36 | INFO | PID:11744 | Successfully authenticated with API
+2025-07-31 08:33:36 | INFO | PID:11744 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 08:33:38 | INFO | PID:11744 | Successfully authenticated with API
+2025-07-31 08:33:38 | INFO | PID:11744 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 08:33:40 | INFO | PID:11744 | Successfully authenticated with API
+2025-07-31 08:33:40 | INFO | PID:11744 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 08:33:40 | INFO | PID:11744 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 08:35:22 | INFO | PID:8020 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 08:35:22 | INFO | PID:8020 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 08:35:22 | INFO | PID:8020 | Successfully created channel
+2025-07-31 08:35:22 | INFO | PID:8020 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 08:35:22 | INFO | PID:8020 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 08:35:25 | INFO | PID:24728 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 08:35:25 | INFO | PID:24728 | Created new channel
+2025-07-31 08:35:25 | INFO | PID:24728 | Declared queue: article-content-request-queue
+2025-07-31 08:35:25 | INFO | PID:24728 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 08:35:25 | INFO | PID:24728 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | WARNING | PID:24728 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:35:25 | WARNING | PID:24728 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:35:25 | INFO | PID:24728 | Worker instance created
+2025-07-31 08:35:25 | INFO | PID:24728 | Got process ID: 24728
+2025-07-31 08:35:25 | INFO | PID:24728 | Registered worker process 24728 in registry with tag url_rewriter_content_request_worker_24728_1753931125
+2025-07-31 08:35:25 | INFO | PID:24728 | Starting consuming on article-content-request-queue
+2025-07-31 08:35:26 | INFO | PID:24728 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 08:35:26 | INFO | PID:24728 | Started url_rewriter_content_request_worker with PID: 24728, queue: article-content-request-queue
+2025-07-31 08:35:28 | WARNING | PID:24728 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 08:35:30 | WARNING | PID:24728 | No open connection/channel: connecting...
+2025-07-31 08:35:30 | INFO | PID:24728 | Successfully connected on attempt 1
+2025-07-31 08:35:30 | INFO | PID:24728 | Consumer registered on queue: article-content-request-queue
+2025-07-31 08:35:30 | INFO | PID:24728 | Starting consuming on article-content-request-queue
+2025-07-31 08:35:30 | INFO | PID:24728 | Processing message from queue: article-content-request-queue
+2025-07-31 08:35:32 | INFO | PID:24728 | Successfully authenticated with API
+2025-07-31 08:35:32 | INFO | PID:24728 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 08:35:32 | WARNING | PID:24728 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 08:35:33 | INFO | PID:24728 | Successfully authenticated with API
+2025-07-31 08:35:33 | INFO | PID:24728 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 08:35:34 | INFO | PID:24728 | Successfully authenticated with API
+2025-07-31 08:35:34 | INFO | PID:24728 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 08:35:35 | INFO | PID:24728 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 08:35:36 | INFO | PID:24728 | Worker url_rewriter_content_request_worker_24728_1753931125 verified in RabbitMQ consumers
+2025-07-31 08:36:38 | INFO | PID:7628 | Cleared queue article-content-request-queue: removed 2 messages
+2025-07-31 08:36:40 | INFO | PID:7628 | Cleared queue article-content-request-queue: removed 0 messages
+2025-07-31 08:36:45 | INFO | PID:7628 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 08:36:45 | INFO | PID:7628 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 08:36:45 | INFO | PID:7628 | Successfully created channel
+2025-07-31 08:36:45 | INFO | PID:7628 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 08:36:45 | INFO | PID:7628 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 08:36:47 | INFO | PID:21224 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 08:36:47 | INFO | PID:21224 | Created new channel
+2025-07-31 08:36:47 | INFO | PID:21224 | Declared queue: article-content-request-queue
+2025-07-31 08:36:48 | INFO | PID:21224 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 08:36:48 | INFO | PID:21224 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | WARNING | PID:21224 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 08:36:48 | WARNING | PID:21224 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 08:36:48 | INFO | PID:21224 | Worker instance created
+2025-07-31 08:36:48 | INFO | PID:21224 | Got process ID: 21224
+2025-07-31 08:36:48 | INFO | PID:21224 | Registered worker process 21224 in registry with tag url_rewriter_content_request_worker_21224_1753931208
+2025-07-31 08:36:48 | INFO | PID:21224 | Starting consuming on article-content-request-queue
+2025-07-31 08:36:48 | INFO | PID:21224 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 08:36:48 | INFO | PID:21224 | Started url_rewriter_content_request_worker with PID: 21224, queue: article-content-request-queue
+2025-07-31 08:36:50 | WARNING | PID:21224 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 08:36:53 | WARNING | PID:21224 | No open connection/channel: connecting...
+2025-07-31 08:36:53 | INFO | PID:21224 | Successfully connected on attempt 1
+2025-07-31 08:36:53 | INFO | PID:21224 | Consumer registered on queue: article-content-request-queue
+2025-07-31 08:36:53 | INFO | PID:21224 | Starting consuming on article-content-request-queue
+2025-07-31 08:36:55 | WARNING | PID:21224 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 08:36:59 | INFO | PID:21224 | Worker url_rewriter_content_request_worker_21224_1753931208 verified in RabbitMQ consumers
+2025-07-31 08:37:07 | INFO | PID:21224 | Processing message from queue: article-content-request-queue
+2025-07-31 08:37:08 | INFO | PID:21224 | Successfully authenticated with API
+2025-07-31 08:37:08 | INFO | PID:21224 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 08:37:09 | INFO | PID:21224 | Successfully authenticated with API
+2025-07-31 08:37:09 | INFO | PID:21224 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 08:37:09 | INFO | PID:21224 | Successfully authenticated with API
+2025-07-31 08:37:09 | INFO | PID:21224 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 08:37:09 | INFO | PID:21224 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 09:08:11 | INFO | PID:10100 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 09:08:11 | INFO | PID:10100 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 09:08:11 | INFO | PID:10100 | Successfully created channel
+2025-07-31 09:08:11 | INFO | PID:10100 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 09:08:11 | INFO | PID:10100 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 09:08:14 | INFO | PID:15792 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 09:08:14 | INFO | PID:15792 | Created new channel
+2025-07-31 09:08:14 | INFO | PID:15792 | Declared queue: article-content-request-queue
+2025-07-31 09:08:15 | INFO | PID:15792 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 09:08:15 | INFO | PID:15792 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | WARNING | PID:15792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:08:15 | WARNING | PID:15792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:08:15 | INFO | PID:15792 | Worker instance created
+2025-07-31 09:08:15 | INFO | PID:15792 | Got process ID: 15792
+2025-07-31 09:08:15 | INFO | PID:15792 | Registered worker process 15792 in registry with tag url_rewriter_content_request_worker_15792_1753933095
+2025-07-31 09:08:15 | INFO | PID:15792 | Starting consuming on article-content-request-queue
+2025-07-31 09:08:15 | INFO | PID:15792 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 09:08:15 | INFO | PID:15792 | Started url_rewriter_content_request_worker with PID: 15792, queue: article-content-request-queue
+2025-07-31 09:08:17 | WARNING | PID:15792 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 09:08:20 | WARNING | PID:15792 | No open connection/channel: connecting...
+2025-07-31 09:08:20 | INFO | PID:15792 | Successfully connected on attempt 1
+2025-07-31 09:08:20 | INFO | PID:15792 | Consumer registered on queue: article-content-request-queue
+2025-07-31 09:08:20 | INFO | PID:15792 | Starting consuming on article-content-request-queue
+2025-07-31 09:08:20 | INFO | PID:15792 | Processing message from queue: article-content-request-queue
+2025-07-31 09:08:20 | INFO | PID:15792 | Message processed in 0.06 seconds
+2025-07-31 09:08:20 | INFO | PID:15792 | Message acknowledged
+2025-07-31 09:08:21 | WARNING | PID:15792 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 09:08:25 | INFO | PID:15792 | Worker url_rewriter_content_request_worker_15792_1753933095 verified in RabbitMQ consumers
+2025-07-31 09:08:36 | INFO | PID:15792 | Processing message from queue: article-content-request-queue
+2025-07-31 09:08:36 | INFO | PID:15792 | Message processed in 0.08 seconds
+2025-07-31 09:08:36 | INFO | PID:15792 | Message acknowledged
+2025-07-31 09:09:50 | INFO | PID:6584 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 09:09:50 | INFO | PID:6584 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 09:09:50 | INFO | PID:6584 | Successfully created channel
+2025-07-31 09:09:50 | INFO | PID:6584 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 09:09:50 | INFO | PID:6584 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 09:09:53 | INFO | PID:23368 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 09:09:53 | INFO | PID:23368 | Created new channel
+2025-07-31 09:09:53 | INFO | PID:23368 | Declared queue: article-content-request-queue
+2025-07-31 09:09:53 | INFO | PID:23368 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 09:09:53 | INFO | PID:23368 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | WARNING | PID:23368 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:09:53 | WARNING | PID:23368 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:09:53 | INFO | PID:23368 | Worker instance created
+2025-07-31 09:09:53 | INFO | PID:23368 | Got process ID: 23368
+2025-07-31 09:09:53 | INFO | PID:23368 | Registered worker process 23368 in registry with tag url_rewriter_content_request_worker_23368_1753933193
+2025-07-31 09:09:53 | INFO | PID:23368 | Starting consuming on article-content-request-queue
+2025-07-31 09:09:54 | INFO | PID:23368 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 09:09:54 | INFO | PID:23368 | Started url_rewriter_content_request_worker with PID: 23368, queue: article-content-request-queue
+2025-07-31 09:09:56 | WARNING | PID:23368 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 09:09:58 | WARNING | PID:23368 | No open connection/channel: connecting...
+2025-07-31 09:09:58 | INFO | PID:23368 | Successfully connected on attempt 1
+2025-07-31 09:09:58 | INFO | PID:23368 | Consumer registered on queue: article-content-request-queue
+2025-07-31 09:09:58 | INFO | PID:23368 | Starting consuming on article-content-request-queue
+2025-07-31 09:10:00 | WARNING | PID:23368 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 09:10:04 | INFO | PID:23368 | Worker url_rewriter_content_request_worker_23368_1753933193 verified in RabbitMQ consumers
+2025-07-31 09:10:17 | INFO | PID:23368 | Processing message from queue: article-content-request-queue
+2025-07-31 09:10:17 | INFO | PID:23368 | {'status': 'error', 'step': 'get_selectors', 'message': "Request to selector lambda failed: HTTPSConnectionPool(host='u34jcu41ed.execute-api.us-east-1.amazonaws.coms', port=443): Max retries exceeded with url: /selectors (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024274EE7A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+2025-07-31 09:10:17 | INFO | PID:23368 | Message processed in 0.21 seconds
+2025-07-31 09:10:17 | INFO | PID:23368 | Message acknowledged
+2025-07-31 09:12:32 | INFO | PID:6492 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 09:12:32 | INFO | PID:6492 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 09:12:32 | INFO | PID:6492 | Successfully created channel
+2025-07-31 09:12:32 | INFO | PID:6492 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 09:12:32 | INFO | PID:6492 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 09:12:35 | INFO | PID:13364 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 09:12:35 | INFO | PID:13364 | Created new channel
+2025-07-31 09:12:35 | INFO | PID:13364 | Declared queue: article-content-request-queue
+2025-07-31 09:12:35 | INFO | PID:13364 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 09:12:35 | INFO | PID:13364 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | WARNING | PID:13364 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:12:35 | WARNING | PID:13364 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:12:35 | INFO | PID:13364 | Worker instance created
+2025-07-31 09:12:35 | INFO | PID:13364 | Got process ID: 13364
+2025-07-31 09:12:35 | INFO | PID:13364 | Registered worker process 13364 in registry with tag url_rewriter_content_request_worker_13364_1753933355
+2025-07-31 09:12:35 | INFO | PID:13364 | Starting consuming on article-content-request-queue
+2025-07-31 09:12:36 | INFO | PID:13364 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 09:12:36 | INFO | PID:13364 | Started url_rewriter_content_request_worker with PID: 13364, queue: article-content-request-queue
+2025-07-31 09:12:38 | WARNING | PID:13364 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 09:12:40 | WARNING | PID:13364 | No open connection/channel: connecting...
+2025-07-31 09:12:40 | INFO | PID:13364 | Successfully connected on attempt 1
+2025-07-31 09:12:40 | INFO | PID:13364 | Consumer registered on queue: article-content-request-queue
+2025-07-31 09:12:40 | INFO | PID:13364 | Starting consuming on article-content-request-queue
+2025-07-31 09:12:42 | WARNING | PID:13364 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 09:12:46 | INFO | PID:13364 | Worker url_rewriter_content_request_worker_13364_1753933355 verified in RabbitMQ consumers
+2025-07-31 09:12:57 | INFO | PID:13364 | Processing message from queue: article-content-request-queue
+2025-07-31 09:12:57 | ERROR | PID:13364 | {'status': 'error', 'step': 'get_selectors', 'message': "Request to selector lambda failed: HTTPSConnectionPool(host='u34jcu41ed.execute-api.us-east-1.amazonaws.coms', port=443): Max retries exceeded with url: /selectors (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000187C412EFE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+2025-07-31 09:12:57 | INFO | PID:13364 | Message processed in 0.07 seconds
+2025-07-31 09:12:57 | INFO | PID:13364 | Message acknowledged
+2025-07-31 09:55:25 | INFO | PID:13552 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 09:55:25 | INFO | PID:13552 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 09:55:26 | INFO | PID:13552 | Successfully created channel
+2025-07-31 09:55:26 | INFO | PID:13552 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 09:55:26 | INFO | PID:13552 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 09:55:29 | INFO | PID:11236 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 09:55:29 | INFO | PID:11236 | Created new channel
+2025-07-31 09:55:29 | INFO | PID:11236 | Declared queue: article-content-request-queue
+2025-07-31 09:55:29 | INFO | PID:11236 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 09:55:29 | INFO | PID:11236 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | WARNING | PID:11236 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:55:29 | WARNING | PID:11236 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:55:29 | INFO | PID:11236 | Worker instance created
+2025-07-31 09:55:29 | INFO | PID:11236 | Got process ID: 11236
+2025-07-31 09:55:29 | INFO | PID:11236 | Registered worker process 11236 in registry with tag url_rewriter_content_request_worker_11236_1753935929
+2025-07-31 09:55:29 | INFO | PID:11236 | Starting consuming on article-content-request-queue
+2025-07-31 09:55:30 | INFO | PID:11236 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 09:55:30 | INFO | PID:11236 | Started url_rewriter_content_request_worker with PID: 11236, queue: article-content-request-queue
+2025-07-31 09:55:32 | WARNING | PID:11236 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 09:55:34 | WARNING | PID:11236 | No open connection/channel: connecting...
+2025-07-31 09:55:35 | INFO | PID:11236 | Successfully connected on attempt 1
+2025-07-31 09:55:35 | INFO | PID:11236 | Consumer registered on queue: article-content-request-queue
+2025-07-31 09:55:35 | INFO | PID:11236 | Starting consuming on article-content-request-queue
+2025-07-31 09:55:36 | WARNING | PID:11236 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 09:55:40 | INFO | PID:11236 | Worker url_rewriter_content_request_worker_11236_1753935929 verified in RabbitMQ consumers
+2025-07-31 09:55:51 | INFO | PID:11236 | Processing message from queue: article-content-request-queue
+2025-07-31 09:55:51 | ERROR | PID:11236 | {'status': 'error', 'step': 'get_selectors', 'message': "Request to selector lambda failed: HTTPSConnectionPool(host='u34jcu41ed.execute-api.us-east-1.amazonaws.coms', port=443): Max retries exceeded with url: /selectors (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E7D48CF3A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+2025-07-31 09:55:51 | INFO | PID:11236 | Message processed in 0.08 seconds
+2025-07-31 09:55:51 | INFO | PID:11236 | Message acknowledged
+2025-07-31 09:56:20 | INFO | PID:1068 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 09:56:20 | INFO | PID:1068 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 09:56:20 | INFO | PID:1068 | Successfully created channel
+2025-07-31 09:56:20 | INFO | PID:1068 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 09:56:20 | INFO | PID:1068 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 09:56:24 | INFO | PID:20692 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 09:56:24 | INFO | PID:20692 | Created new channel
+2025-07-31 09:56:24 | INFO | PID:20692 | Declared queue: article-content-request-queue
+2025-07-31 09:56:24 | INFO | PID:20692 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 09:56:24 | INFO | PID:20692 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | WARNING | PID:20692 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:56:24 | WARNING | PID:20692 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:56:24 | INFO | PID:20692 | Worker instance created
+2025-07-31 09:56:24 | INFO | PID:20692 | Got process ID: 20692
+2025-07-31 09:56:24 | INFO | PID:20692 | Registered worker process 20692 in registry with tag url_rewriter_content_request_worker_20692_1753935984
+2025-07-31 09:56:24 | INFO | PID:20692 | Starting consuming on article-content-request-queue
+2025-07-31 09:56:25 | INFO | PID:20692 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 09:56:25 | INFO | PID:20692 | Started url_rewriter_content_request_worker with PID: 20692, queue: article-content-request-queue
+2025-07-31 09:56:27 | WARNING | PID:20692 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 09:56:29 | WARNING | PID:20692 | No open connection/channel: connecting...
+2025-07-31 09:56:29 | INFO | PID:20692 | Successfully connected on attempt 1
+2025-07-31 09:56:29 | INFO | PID:20692 | Consumer registered on queue: article-content-request-queue
+2025-07-31 09:56:29 | INFO | PID:20692 | Starting consuming on article-content-request-queue
+2025-07-31 09:56:31 | WARNING | PID:20692 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 09:56:35 | INFO | PID:20692 | Worker url_rewriter_content_request_worker_20692_1753935984 verified in RabbitMQ consumers
+2025-07-31 09:56:46 | INFO | PID:20692 | Processing message from queue: article-content-request-queue
+2025-07-31 09:56:52 | ERROR | PID:20692 | {'status': 'error', 'step': 'get_scraped_article_data', 'message': "Request to scraped lambda failed: HTTPSConnectionPool(host='r6rdgukhz5.execute-api.us-east-1.amazonaws.coms', port=443): Max retries exceeded with url: /prod/scrape (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002F7334BF7F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+2025-07-31 09:56:52 | INFO | PID:20692 | Message processed in 5.75 seconds
+2025-07-31 09:56:52 | INFO | PID:20692 | Message acknowledged
+2025-07-31 09:57:44 | INFO | PID:16116 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 09:57:44 | INFO | PID:16116 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 09:57:44 | INFO | PID:16116 | Successfully created channel
+2025-07-31 09:57:44 | INFO | PID:16116 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 09:57:44 | INFO | PID:16116 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 09:57:48 | INFO | PID:21376 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 09:57:48 | INFO | PID:21376 | Created new channel
+2025-07-31 09:57:48 | INFO | PID:21376 | Declared queue: article-content-request-queue
+2025-07-31 09:57:49 | INFO | PID:21376 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 09:57:49 | INFO | PID:21376 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:49 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:49 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:50 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:50 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:50 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:50 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:50 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:50 | WARNING | PID:21376 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 09:57:50 | WARNING | PID:21376 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 09:57:50 | INFO | PID:21376 | Worker instance created
+2025-07-31 09:57:50 | INFO | PID:21376 | Got process ID: 21376
+2025-07-31 09:57:50 | INFO | PID:21376 | Registered worker process 21376 in registry with tag url_rewriter_content_request_worker_21376_1753936070
+2025-07-31 09:57:50 | INFO | PID:21376 | Starting consuming on article-content-request-queue
+2025-07-31 09:57:50 | INFO | PID:21376 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 09:57:50 | INFO | PID:21376 | Started url_rewriter_content_request_worker with PID: 21376, queue: article-content-request-queue
+2025-07-31 09:57:52 | WARNING | PID:21376 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 09:57:55 | WARNING | PID:21376 | No open connection/channel: connecting...
+2025-07-31 09:57:55 | INFO | PID:21376 | Successfully connected on attempt 1
+2025-07-31 09:57:55 | INFO | PID:21376 | Consumer registered on queue: article-content-request-queue
+2025-07-31 09:57:55 | INFO | PID:21376 | Starting consuming on article-content-request-queue
+2025-07-31 09:57:56 | WARNING | PID:21376 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 09:58:00 | INFO | PID:21376 | Worker url_rewriter_content_request_worker_21376_1753936070 verified in RabbitMQ consumers
+2025-07-31 09:58:13 | INFO | PID:21376 | Processing message from queue: article-content-request-queue
+2025-07-31 09:58:24 | INFO | PID:21376 | Successfully authenticated with API
+2025-07-31 09:58:25 | INFO | PID:21376 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 09:58:35 | INFO | PID:21376 | Successfully authenticated with API
+2025-07-31 09:58:35 | INFO | PID:21376 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 09:58:37 | INFO | PID:21376 | Successfully authenticated with API
+2025-07-31 09:58:37 | INFO | PID:21376 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 09:58:38 | ERROR | PID:21376 | {'status': 'error', 'step': 'create_single_primary_keyword_ai_request', 'message': "An unexpected error occurred: {'status': 'error', 'step': 'get_stored_message', 'message': '[get_stored_message] Exception: No message data found.'}"}
+2025-07-31 09:58:38 | INFO | PID:21376 | Message processed in 24.78 seconds
+2025-07-31 09:58:38 | INFO | PID:21376 | Message acknowledged
+2025-07-31 10:01:34 | INFO | PID:17312 | Cleared queue article-content-request-queue: removed 0 messages
+2025-07-31 10:01:38 | INFO | PID:17312 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 10:01:38 | INFO | PID:17312 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:01:38 | INFO | PID:17312 | Successfully created channel
+2025-07-31 10:01:38 | INFO | PID:17312 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 10:01:38 | INFO | PID:17312 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 10:01:41 | INFO | PID:18256 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 10:01:41 | INFO | PID:18256 | Created new channel
+2025-07-31 10:01:41 | INFO | PID:18256 | Declared queue: article-content-request-queue
+2025-07-31 10:01:41 | INFO | PID:18256 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:01:41 | INFO | PID:18256 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:41 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:41 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:42 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:42 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:42 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:42 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:42 | WARNING | PID:18256 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:01:42 | WARNING | PID:18256 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:01:42 | INFO | PID:18256 | Worker instance created
+2025-07-31 10:01:42 | INFO | PID:18256 | Got process ID: 18256
+2025-07-31 10:01:42 | INFO | PID:18256 | Registered worker process 18256 in registry with tag url_rewriter_content_request_worker_18256_1753936302
+2025-07-31 10:01:42 | INFO | PID:18256 | Starting consuming on article-content-request-queue
+2025-07-31 10:01:42 | INFO | PID:18256 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 10:01:42 | INFO | PID:18256 | Started url_rewriter_content_request_worker with PID: 18256, queue: article-content-request-queue
+2025-07-31 10:01:44 | WARNING | PID:18256 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:01:47 | WARNING | PID:18256 | No open connection/channel: connecting...
+2025-07-31 10:01:47 | INFO | PID:18256 | Successfully connected on attempt 1
+2025-07-31 10:01:47 | INFO | PID:18256 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:01:47 | INFO | PID:18256 | Starting consuming on article-content-request-queue
+2025-07-31 10:01:48 | WARNING | PID:18256 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:01:52 | INFO | PID:18256 | Worker url_rewriter_content_request_worker_18256_1753936302 verified in RabbitMQ consumers
+2025-07-31 10:02:08 | INFO | PID:18256 | Processing message from queue: article-content-request-queue
+2025-07-31 10:02:18 | INFO | PID:18256 | Successfully authenticated with API
+2025-07-31 10:02:18 | INFO | PID:18256 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:02:27 | INFO | PID:18256 | Successfully authenticated with API
+2025-07-31 10:02:27 | INFO | PID:18256 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:02:27 | INFO | PID:18256 | Successfully authenticated with API
+2025-07-31 10:02:27 | INFO | PID:18256 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:02:27 | INFO | PID:18256 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:03:24 | INFO | PID:18256 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/b13e9641-4b08-4b31-bd0c-6ed6a26f63b6/
+2025-07-31 10:03:25 | INFO | PID:18256 | Successfully authenticated with API
+2025-07-31 10:03:25 | INFO | PID:18256 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/b13e9641-4b08-4b31-bd0c-6ed6a26f63b6/ (Attempt 1/3)
+2025-07-31 10:03:25 | INFO | PID:18256 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:03:26 | INFO | PID:18256 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:03:28 | INFO | PID:18256 | Message processed in 80.19 seconds
+2025-07-31 10:03:28 | INFO | PID:18256 | Message acknowledged
+2025-07-31 10:03:33 | WARNING | PID:18256 | No open connection/channel: connecting...
+2025-07-31 10:03:33 | INFO | PID:18256 | Successfully connected on attempt 1
+2025-07-31 10:03:33 | INFO | PID:18256 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:03:33 | INFO | PID:18256 | Starting consuming on article-content-request-queue
+2025-07-31 10:03:52 | INFO | PID:17312 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:03:52 | INFO | PID:17312 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:03:52 | INFO | PID:17312 | Successfully created channel
+2025-07-31 10:03:52 | INFO | PID:17312 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:03:53 | INFO | PID:17312 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:03:55 | INFO | PID:25400 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:03:55 | INFO | PID:25400 | Created new channel
+2025-07-31 10:03:55 | INFO | PID:25400 | Declared queue: article-content-response-queue
+2025-07-31 10:03:56 | INFO | PID:25400 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:03:56 | INFO | PID:25400 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:03:56 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:03:56 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:03:56 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:03:56 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:03:56 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:03:56 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:03:56 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:03:56 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:03:56 | INFO | PID:25400 | Worker instance created
+2025-07-31 10:03:56 | INFO | PID:25400 | Got process ID: 25400
+2025-07-31 10:03:56 | INFO | PID:25400 | Registered worker process 25400 in registry with tag url_rewriter_content_response_worker_25400_1753936436
+2025-07-31 10:03:56 | INFO | PID:25400 | Starting consuming on article-content-response-queue
+2025-07-31 10:03:56 | INFO | PID:25400 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:03:56 | INFO | PID:25400 | Started url_rewriter_content_response_worker with PID: 25400, queue: article-content-response-queue
+2025-07-31 10:03:58 | WARNING | PID:25400 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:04:01 | WARNING | PID:25400 | No open connection/channel: connecting...
+2025-07-31 10:04:01 | INFO | PID:25400 | Successfully connected on attempt 1
+2025-07-31 10:04:01 | INFO | PID:25400 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:04:01 | INFO | PID:25400 | Starting consuming on article-content-response-queue
+2025-07-31 10:04:02 | WARNING | PID:25400 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:04:06 | INFO | PID:25400 | Worker url_rewriter_content_response_worker_25400_1753936436 verified in RabbitMQ consumers
+2025-07-31 10:04:12 | INFO | PID:25400 | Processing message from queue: article-content-response-queue
+2025-07-31 10:04:12 | INFO | PID:25400 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/127c1cae-5aaa-429f-bbf0-543f8a00f307/
+2025-07-31 10:04:13 | INFO | PID:25400 | Successfully authenticated with API
+2025-07-31 10:04:13 | INFO | PID:25400 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/127c1cae-5aaa-429f-bbf0-543f8a00f307/ (Attempt 1/3)
+2025-07-31 10:04:13 | INFO | PID:25400 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:04:13 | INFO | PID:25400 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:04:14 | INFO | PID:25400 | Successfully authenticated with API
+2025-07-31 10:04:14 | INFO | PID:25400 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:04:14 | INFO | PID:25400 | Successfully authenticated with API
+2025-07-31 10:04:14 | INFO | PID:25400 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:04:14 | INFO | PID:25400 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:04:17 | INFO | PID:25400 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:04:17 | INFO | PID:25400 | Message processed in 5.04 seconds
+2025-07-31 10:04:17 | INFO | PID:25400 | Message acknowledged
+2025-07-31 10:04:22 | WARNING | PID:25400 | No open connection/channel: connecting...
+2025-07-31 10:04:22 | INFO | PID:25400 | Successfully connected on attempt 1
+2025-07-31 10:04:22 | INFO | PID:25400 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:04:22 | INFO | PID:25400 | Starting consuming on article-content-response-queue
+2025-07-31 10:04:24 | INFO | PID:25400 | Processing message from queue: article-content-response-queue
+2025-07-31 10:04:24 | INFO | PID:25400 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/eac601bd-992e-45ea-a03a-5bb8a6985253/
+2025-07-31 10:04:24 | INFO | PID:25400 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/eac601bd-992e-45ea-a03a-5bb8a6985253/ (Attempt 1/3)
+2025-07-31 10:04:24 | INFO | PID:25400 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:04:24 | INFO | PID:25400 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:04:25 | INFO | PID:25400 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:04:25 | INFO | PID:25400 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:04:26 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:04:26 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:04:26 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:04:26 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:04:26 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:04:26 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:04:26 | WARNING | PID:25400 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:04:26 | WARNING | PID:25400 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:04:27 | INFO | PID:25400 | Successfully authenticated with API
+2025-07-31 10:04:27 | INFO | PID:25400 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:04:49 | INFO | PID:25400 | Making update request to endpoint: /api/article/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5
+2025-07-31 10:04:50 | INFO | PID:25400 | Successfully authenticated with API
+2025-07-31 10:04:50 | INFO | PID:25400 | Making PATCH request to /api/article/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5 (Attempt 1/3)
+2025-07-31 10:05:02 | INFO | PID:25400 | Message processed in 38.22 seconds
+2025-07-31 10:05:02 | INFO | PID:25400 | Message acknowledged
+2025-07-31 10:05:07 | WARNING | PID:25400 | No open connection/channel: connecting...
+2025-07-31 10:05:07 | INFO | PID:25400 | Successfully connected on attempt 1
+2025-07-31 10:05:07 | INFO | PID:25400 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:05:07 | INFO | PID:25400 | Starting consuming on article-content-response-queue
+2025-07-31 10:09:57 | INFO | PID:27168 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 10:09:57 | INFO | PID:27168 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:09:57 | INFO | PID:27168 | Successfully created channel
+2025-07-31 10:09:57 | INFO | PID:27168 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 10:09:57 | INFO | PID:27168 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 10:10:00 | INFO | PID:25504 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 10:10:00 | INFO | PID:25504 | Created new channel
+2025-07-31 10:10:00 | INFO | PID:25504 | Declared queue: article-content-request-queue
+2025-07-31 10:10:00 | INFO | PID:25504 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:10:00 | INFO | PID:25504 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | WARNING | PID:25504 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:10:00 | WARNING | PID:25504 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:10:00 | INFO | PID:25504 | Worker instance created
+2025-07-31 10:10:00 | INFO | PID:25504 | Got process ID: 25504
+2025-07-31 10:10:00 | INFO | PID:25504 | Registered worker process 25504 in registry with tag url_rewriter_content_request_worker_25504_1753936800
+2025-07-31 10:10:00 | INFO | PID:25504 | Starting consuming on article-content-request-queue
+2025-07-31 10:10:01 | INFO | PID:25504 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 10:10:01 | INFO | PID:25504 | Started url_rewriter_content_request_worker with PID: 25504, queue: article-content-request-queue
+2025-07-31 10:10:03 | WARNING | PID:25504 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:10:06 | WARNING | PID:25504 | No open connection/channel: connecting...
+2025-07-31 10:10:06 | INFO | PID:25504 | Successfully connected on attempt 1
+2025-07-31 10:10:06 | INFO | PID:25504 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:10:06 | INFO | PID:25504 | Starting consuming on article-content-request-queue
+2025-07-31 10:10:07 | WARNING | PID:25504 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:10:11 | INFO | PID:25504 | Worker url_rewriter_content_request_worker_25504_1753936800 verified in RabbitMQ consumers
+2025-07-31 10:10:22 | INFO | PID:25504 | Processing message from queue: article-content-request-queue
+2025-07-31 10:10:38 | INFO | PID:25504 | Successfully authenticated with API
+2025-07-31 10:10:38 | INFO | PID:25504 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:10:46 | INFO | PID:25504 | Successfully authenticated with API
+2025-07-31 10:10:46 | INFO | PID:25504 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:10:47 | INFO | PID:25504 | Successfully authenticated with API
+2025-07-31 10:10:47 | INFO | PID:25504 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:10:47 | INFO | PID:25504 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:11:20 | INFO | PID:25504 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/1c515b32-9c4b-4947-827b-a0b28ba11845/
+2025-07-31 10:11:21 | INFO | PID:25504 | Successfully authenticated with API
+2025-07-31 10:11:21 | INFO | PID:25504 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/1c515b32-9c4b-4947-827b-a0b28ba11845/ (Attempt 1/3)
+2025-07-31 10:11:21 | INFO | PID:25504 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:11:21 | INFO | PID:25504 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:11:23 | INFO | PID:25504 | Message processed in 60.85 seconds
+2025-07-31 10:11:23 | INFO | PID:25504 | Message acknowledged
+2025-07-31 10:11:28 | WARNING | PID:25504 | No open connection/channel: connecting...
+2025-07-31 10:11:28 | INFO | PID:25504 | Successfully connected on attempt 1
+2025-07-31 10:11:28 | INFO | PID:25504 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:11:28 | INFO | PID:25504 | Starting consuming on article-content-request-queue
+2025-07-31 10:11:48 | INFO | PID:27168 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:11:48 | INFO | PID:27168 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:11:48 | INFO | PID:27168 | Successfully created channel
+2025-07-31 10:11:48 | INFO | PID:27168 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:11:48 | INFO | PID:27168 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:11:51 | INFO | PID:17820 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:11:51 | INFO | PID:17820 | Created new channel
+2025-07-31 10:11:51 | INFO | PID:17820 | Declared queue: article-content-response-queue
+2025-07-31 10:11:51 | INFO | PID:17820 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:11:51 | INFO | PID:17820 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:11:51 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:11:51 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:11:51 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:11:51 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:11:51 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:11:51 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:11:51 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:11:51 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:11:51 | INFO | PID:17820 | Worker instance created
+2025-07-31 10:11:51 | INFO | PID:17820 | Got process ID: 17820
+2025-07-31 10:11:51 | INFO | PID:17820 | Registered worker process 17820 in registry with tag url_rewriter_content_response_worker_17820_1753936911
+2025-07-31 10:11:51 | INFO | PID:17820 | Starting consuming on article-content-response-queue
+2025-07-31 10:11:52 | INFO | PID:17820 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:11:52 | INFO | PID:17820 | Started url_rewriter_content_response_worker with PID: 17820, queue: article-content-response-queue
+2025-07-31 10:11:54 | WARNING | PID:17820 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:11:56 | WARNING | PID:17820 | No open connection/channel: connecting...
+2025-07-31 10:11:56 | INFO | PID:17820 | Successfully connected on attempt 1
+2025-07-31 10:11:56 | INFO | PID:17820 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:11:56 | INFO | PID:17820 | Starting consuming on article-content-response-queue
+2025-07-31 10:11:58 | WARNING | PID:17820 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:12:02 | INFO | PID:17820 | Worker url_rewriter_content_response_worker_17820_1753936911 verified in RabbitMQ consumers
+2025-07-31 10:12:08 | INFO | PID:17820 | Processing message from queue: article-content-response-queue
+2025-07-31 10:12:08 | INFO | PID:17820 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/993eda50-1fa8-4cd6-93be-8abfa71356ed/
+2025-07-31 10:12:08 | INFO | PID:17820 | Successfully authenticated with API
+2025-07-31 10:12:08 | INFO | PID:17820 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/993eda50-1fa8-4cd6-93be-8abfa71356ed/ (Attempt 1/3)
+2025-07-31 10:12:08 | INFO | PID:17820 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:12:08 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:09 | INFO | PID:17820 | Successfully authenticated with API
+2025-07-31 10:12:09 | INFO | PID:17820 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:12:09 | INFO | PID:17820 | Successfully authenticated with API
+2025-07-31 10:12:09 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:09 | INFO | PID:17820 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:12:12 | INFO | PID:17820 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:12:12 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:12 | INFO | PID:17820 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:12:15 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:15 | INFO | PID:17820 | Message processed in 7.14 seconds
+2025-07-31 10:12:15 | INFO | PID:17820 | Message acknowledged
+2025-07-31 10:12:19 | INFO | PID:27168 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:12:19 | INFO | PID:27168 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:12:19 | INFO | PID:27168 | Successfully created channel
+2025-07-31 10:12:19 | INFO | PID:27168 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:12:19 | INFO | PID:27168 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:12:20 | WARNING | PID:17820 | No open connection/channel: connecting...
+2025-07-31 10:12:20 | INFO | PID:17820 | Successfully connected on attempt 1
+2025-07-31 10:12:20 | INFO | PID:17820 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:12:20 | INFO | PID:17820 | Starting consuming on article-content-response-queue
+2025-07-31 10:12:22 | INFO | PID:17264 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:12:22 | INFO | PID:17264 | Created new channel
+2025-07-31 10:12:22 | INFO | PID:17264 | Declared queue: article-content-response-queue
+2025-07-31 10:12:22 | INFO | PID:17264 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:12:22 | INFO | PID:17264 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:12:22 | WARNING | PID:17264 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:22 | WARNING | PID:17264 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:22 | WARNING | PID:17264 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:22 | WARNING | PID:17264 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:22 | WARNING | PID:17264 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:22 | WARNING | PID:17264 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:22 | WARNING | PID:17264 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:22 | WARNING | PID:17264 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:22 | INFO | PID:17264 | Worker instance created
+2025-07-31 10:12:22 | INFO | PID:17264 | Got process ID: 17264
+2025-07-31 10:12:22 | INFO | PID:17264 | Registered worker process 17264 in registry with tag url_rewriter_content_response_worker_17264_1753936942
+2025-07-31 10:12:22 | INFO | PID:17264 | Starting consuming on article-content-response-queue
+2025-07-31 10:12:23 | INFO | PID:17264 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:12:23 | INFO | PID:17264 | Started url_rewriter_content_response_worker with PID: 17264, queue: article-content-response-queue
+2025-07-31 10:12:25 | WARNING | PID:17264 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:12:27 | WARNING | PID:17264 | No open connection/channel: connecting...
+2025-07-31 10:12:27 | INFO | PID:17264 | Successfully connected on attempt 1
+2025-07-31 10:12:27 | INFO | PID:17264 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:12:27 | INFO | PID:17264 | Starting consuming on article-content-response-queue
+2025-07-31 10:12:29 | WARNING | PID:17264 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:12:37 | INFO | PID:17820 | Processing message from queue: article-content-response-queue
+2025-07-31 10:12:37 | INFO | PID:17820 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/2f3e1bc7-2f48-43d4-8724-e0b246d4e101/
+2025-07-31 10:12:37 | INFO | PID:17820 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/2f3e1bc7-2f48-43d4-8724-e0b246d4e101/ (Attempt 1/3)
+2025-07-31 10:12:37 | INFO | PID:17820 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:12:37 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:37 | INFO | PID:17820 | Message processed in 0.37 seconds
+2025-07-31 10:12:37 | INFO | PID:17820 | Message acknowledged
+2025-07-31 10:12:42 | WARNING | PID:17820 | No open connection/channel: connecting...
+2025-07-31 10:12:42 | INFO | PID:17820 | Successfully connected on attempt 1
+2025-07-31 10:12:42 | INFO | PID:17820 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:12:42 | INFO | PID:17820 | Starting consuming on article-content-response-queue
+2025-07-31 10:12:43 | INFO | PID:27168 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:12:43 | INFO | PID:27168 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:12:43 | INFO | PID:27168 | Successfully created channel
+2025-07-31 10:12:43 | INFO | PID:27168 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:12:43 | INFO | PID:27168 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:12:51 | INFO | PID:17820 | Processing message from queue: article-content-response-queue
+2025-07-31 10:12:51 | INFO | PID:17820 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/0dbcc57f-2e47-4c4f-aaf2-840db9667482/
+2025-07-31 10:12:51 | INFO | PID:17820 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/0dbcc57f-2e47-4c4f-aaf2-840db9667482/ (Attempt 1/3)
+2025-07-31 10:12:51 | INFO | PID:17820 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:12:51 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:51 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:52 | INFO | PID:17820 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:12:52 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:52 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:52 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:52 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:52 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:52 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:52 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:12:52 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:12:52 | INFO | PID:17820 | Successfully authenticated with API
+2025-07-31 10:12:52 | INFO | PID:17820 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:13:13 | WARNING | PID:17820 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:13:13 | WARNING | PID:17820 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:13:13 | INFO | PID:17820 | Successfully authenticated with API
+2025-07-31 10:13:13 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:13:13 | WARNING | PID:17820 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:15 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:13:15 | WARNING | PID:17820 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:17 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:13:17 | WARNING | PID:17820 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:17 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:13:18 | WARNING | PID:17820 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:20 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:13:20 | WARNING | PID:17820 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:22 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:13:22 | WARNING | PID:17820 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:22 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:13:22 | WARNING | PID:17820 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:24 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:13:24 | WARNING | PID:17820 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:26 | INFO | PID:17820 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:13:26 | WARNING | PID:17820 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:13:26 | ERROR | PID:17820 | {'status': 'error', 'step': 'publish_article', 'message': '{\'success\': False, \'error\': "Unexpected error publish_article: unhashable type: \'list\'"}'}
+2025-07-31 10:13:26 | INFO | PID:17820 | Message processed in 34.85 seconds
+2025-07-31 10:13:26 | INFO | PID:17820 | Message acknowledged
+2025-07-31 10:16:23 | INFO | PID:14984 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 10:16:23 | INFO | PID:14984 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:16:23 | INFO | PID:14984 | Successfully created channel
+2025-07-31 10:16:23 | INFO | PID:14984 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 10:16:23 | INFO | PID:14984 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 10:16:27 | INFO | PID:12116 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 10:16:27 | INFO | PID:12116 | Created new channel
+2025-07-31 10:16:27 | INFO | PID:12116 | Declared queue: article-content-request-queue
+2025-07-31 10:16:27 | INFO | PID:12116 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:16:27 | INFO | PID:12116 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | WARNING | PID:12116 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:16:27 | WARNING | PID:12116 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:16:27 | INFO | PID:12116 | Worker instance created
+2025-07-31 10:16:27 | INFO | PID:12116 | Got process ID: 12116
+2025-07-31 10:16:27 | INFO | PID:12116 | Registered worker process 12116 in registry with tag url_rewriter_content_request_worker_12116_1753937187
+2025-07-31 10:16:27 | INFO | PID:12116 | Starting consuming on article-content-request-queue
+2025-07-31 10:16:28 | INFO | PID:12116 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 10:16:28 | INFO | PID:12116 | Started url_rewriter_content_request_worker with PID: 12116, queue: article-content-request-queue
+2025-07-31 10:16:30 | WARNING | PID:12116 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:16:32 | WARNING | PID:12116 | No open connection/channel: connecting...
+2025-07-31 10:16:32 | INFO | PID:12116 | Successfully connected on attempt 1
+2025-07-31 10:16:32 | INFO | PID:12116 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:16:32 | INFO | PID:12116 | Starting consuming on article-content-request-queue
+2025-07-31 10:16:34 | WARNING | PID:12116 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:16:38 | INFO | PID:12116 | Worker url_rewriter_content_request_worker_12116_1753937187 verified in RabbitMQ consumers
+2025-07-31 10:16:48 | INFO | PID:12116 | Processing message from queue: article-content-request-queue
+2025-07-31 10:16:57 | INFO | PID:12116 | Successfully authenticated with API
+2025-07-31 10:16:57 | INFO | PID:12116 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:17:05 | INFO | PID:12116 | Successfully authenticated with API
+2025-07-31 10:17:05 | INFO | PID:12116 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:17:05 | INFO | PID:12116 | Successfully authenticated with API
+2025-07-31 10:17:05 | INFO | PID:12116 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:17:05 | INFO | PID:12116 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:17:38 | INFO | PID:12116 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/56093de5-e17f-48b1-93f0-4a710cfd15ac/
+2025-07-31 10:17:38 | INFO | PID:12116 | Successfully authenticated with API
+2025-07-31 10:17:38 | INFO | PID:12116 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/56093de5-e17f-48b1-93f0-4a710cfd15ac/ (Attempt 1/3)
+2025-07-31 10:17:39 | INFO | PID:12116 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:17:39 | INFO | PID:12116 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:17:41 | INFO | PID:12116 | Message processed in 53.25 seconds
+2025-07-31 10:17:41 | INFO | PID:12116 | Message acknowledged
+2025-07-31 10:17:46 | WARNING | PID:12116 | No open connection/channel: connecting...
+2025-07-31 10:17:46 | INFO | PID:12116 | Successfully connected on attempt 1
+2025-07-31 10:17:46 | INFO | PID:12116 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:17:46 | INFO | PID:12116 | Starting consuming on article-content-request-queue
+2025-07-31 10:18:13 | INFO | PID:14984 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:18:13 | INFO | PID:14984 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:18:13 | INFO | PID:14984 | Successfully created channel
+2025-07-31 10:18:13 | INFO | PID:14984 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:18:13 | INFO | PID:14984 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:18:16 | INFO | PID:16576 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:18:16 | INFO | PID:16576 | Created new channel
+2025-07-31 10:18:16 | INFO | PID:16576 | Declared queue: article-content-response-queue
+2025-07-31 10:18:16 | INFO | PID:16576 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:18:16 | INFO | PID:16576 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:18:16 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:18:16 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:18:16 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:18:16 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:18:16 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:18:16 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:18:16 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:18:16 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:18:16 | INFO | PID:16576 | Worker instance created
+2025-07-31 10:18:16 | INFO | PID:16576 | Got process ID: 16576
+2025-07-31 10:18:16 | INFO | PID:16576 | Registered worker process 16576 in registry with tag url_rewriter_content_response_worker_16576_1753937296
+2025-07-31 10:18:16 | INFO | PID:16576 | Starting consuming on article-content-response-queue
+2025-07-31 10:18:17 | INFO | PID:16576 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:18:17 | INFO | PID:16576 | Started url_rewriter_content_response_worker with PID: 16576, queue: article-content-response-queue
+2025-07-31 10:18:19 | WARNING | PID:16576 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:18:21 | WARNING | PID:16576 | No open connection/channel: connecting...
+2025-07-31 10:18:21 | INFO | PID:16576 | Successfully connected on attempt 1
+2025-07-31 10:18:21 | INFO | PID:16576 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:18:21 | INFO | PID:16576 | Starting consuming on article-content-response-queue
+2025-07-31 10:18:23 | WARNING | PID:16576 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:18:27 | INFO | PID:16576 | Worker url_rewriter_content_response_worker_16576_1753937296 verified in RabbitMQ consumers
+2025-07-31 10:18:33 | INFO | PID:16576 | Processing message from queue: article-content-response-queue
+2025-07-31 10:18:33 | INFO | PID:16576 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/60513762-50a7-456b-a5ff-75cdb06fbe77/
+2025-07-31 10:18:33 | INFO | PID:16576 | Successfully authenticated with API
+2025-07-31 10:18:33 | INFO | PID:16576 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/60513762-50a7-456b-a5ff-75cdb06fbe77/ (Attempt 1/3)
+2025-07-31 10:18:33 | INFO | PID:16576 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:18:33 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:18:34 | INFO | PID:16576 | Successfully authenticated with API
+2025-07-31 10:18:34 | INFO | PID:16576 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:18:34 | INFO | PID:16576 | Successfully authenticated with API
+2025-07-31 10:18:34 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:18:34 | INFO | PID:16576 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:18:37 | INFO | PID:16576 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:18:37 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:18:37 | INFO | PID:16576 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:18:39 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:18:40 | INFO | PID:16576 | Message processed in 6.96 seconds
+2025-07-31 10:18:40 | INFO | PID:16576 | Message acknowledged
+2025-07-31 10:18:44 | INFO | PID:14984 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:18:44 | INFO | PID:14984 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:18:44 | INFO | PID:14984 | Successfully created channel
+2025-07-31 10:18:44 | INFO | PID:14984 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:18:44 | INFO | PID:14984 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:18:45 | WARNING | PID:16576 | No open connection/channel: connecting...
+2025-07-31 10:18:45 | INFO | PID:16576 | Successfully connected on attempt 1
+2025-07-31 10:18:45 | INFO | PID:16576 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:18:45 | INFO | PID:16576 | Starting consuming on article-content-response-queue
+2025-07-31 10:18:52 | INFO | PID:16576 | Processing message from queue: article-content-response-queue
+2025-07-31 10:18:52 | INFO | PID:16576 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/4e4b4c20-efaf-4c03-b181-8fb57a3ac10b/
+2025-07-31 10:18:52 | INFO | PID:16576 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/4e4b4c20-efaf-4c03-b181-8fb57a3ac10b/ (Attempt 1/3)
+2025-07-31 10:18:52 | INFO | PID:16576 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:18:52 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:18:53 | INFO | PID:16576 | Message processed in 0.40 seconds
+2025-07-31 10:18:53 | INFO | PID:16576 | Message acknowledged
+2025-07-31 10:18:58 | WARNING | PID:16576 | No open connection/channel: connecting...
+2025-07-31 10:18:58 | INFO | PID:16576 | Successfully connected on attempt 1
+2025-07-31 10:18:58 | INFO | PID:16576 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:18:58 | INFO | PID:16576 | Starting consuming on article-content-response-queue
+2025-07-31 10:18:59 | INFO | PID:14984 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:18:59 | INFO | PID:14984 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:18:59 | INFO | PID:14984 | Successfully created channel
+2025-07-31 10:18:59 | INFO | PID:14984 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:18:59 | INFO | PID:14984 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:19:07 | INFO | PID:16576 | Processing message from queue: article-content-response-queue
+2025-07-31 10:19:07 | INFO | PID:16576 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/9a77f1ea-3bc3-42ee-a139-e775dbffdde0/
+2025-07-31 10:19:07 | INFO | PID:16576 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/9a77f1ea-3bc3-42ee-a139-e775dbffdde0/ (Attempt 1/3)
+2025-07-31 10:19:07 | INFO | PID:16576 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:19:07 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:19:07 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:19:08 | INFO | PID:16576 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:19:08 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:19:08 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:19:08 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:19:08 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:19:08 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:19:08 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:19:08 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:19:08 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:19:08 | INFO | PID:16576 | Successfully authenticated with API
+2025-07-31 10:19:08 | INFO | PID:16576 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:19:27 | WARNING | PID:16576 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:19:27 | WARNING | PID:16576 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:19:28 | INFO | PID:16576 | Successfully authenticated with API
+2025-07-31 10:19:28 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:19:28 | WARNING | PID:16576 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:30 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:19:30 | WARNING | PID:16576 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:32 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:19:32 | WARNING | PID:16576 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:32 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:19:32 | WARNING | PID:16576 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:34 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:19:34 | WARNING | PID:16576 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:36 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:19:36 | WARNING | PID:16576 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:36 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:19:36 | WARNING | PID:16576 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:38 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:19:38 | WARNING | PID:16576 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:40 | INFO | PID:16576 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:19:40 | WARNING | PID:16576 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:19:40 | INFO | PID:16576 | Making update request to endpoint: /api/article/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5
+2025-07-31 10:19:41 | INFO | PID:16576 | Successfully authenticated with API
+2025-07-31 10:19:41 | INFO | PID:16576 | Making PATCH request to /api/article/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5 (Attempt 1/3)
+2025-07-31 10:19:49 | INFO | PID:16576 | Message processed in 42.11 seconds
+2025-07-31 10:19:49 | INFO | PID:16576 | Message acknowledged
+2025-07-31 10:19:54 | WARNING | PID:16576 | No open connection/channel: connecting...
+2025-07-31 10:19:54 | INFO | PID:16576 | Successfully connected on attempt 1
+2025-07-31 10:19:54 | INFO | PID:16576 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:19:54 | INFO | PID:16576 | Starting consuming on article-content-response-queue
+2025-07-31 10:34:01 | INFO | PID:1800 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 10:34:01 | INFO | PID:1800 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:34:01 | INFO | PID:1800 | Successfully created channel
+2025-07-31 10:34:01 | INFO | PID:1800 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 10:34:01 | INFO | PID:1800 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 10:34:04 | INFO | PID:27384 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 10:34:04 | INFO | PID:27384 | Created new channel
+2025-07-31 10:34:04 | INFO | PID:27384 | Declared queue: article-content-request-queue
+2025-07-31 10:34:04 | INFO | PID:27384 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:34:04 | INFO | PID:27384 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | WARNING | PID:27384 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:04 | WARNING | PID:27384 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:04 | INFO | PID:27384 | Worker instance created
+2025-07-31 10:34:04 | INFO | PID:27384 | Got process ID: 27384
+2025-07-31 10:34:04 | INFO | PID:27384 | Registered worker process 27384 in registry with tag url_rewriter_content_request_worker_27384_1753938244
+2025-07-31 10:34:04 | INFO | PID:27384 | Starting consuming on article-content-request-queue
+2025-07-31 10:34:05 | INFO | PID:27384 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 10:34:05 | INFO | PID:27384 | Started url_rewriter_content_request_worker with PID: 27384, queue: article-content-request-queue
+2025-07-31 10:34:07 | WARNING | PID:27384 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:34:10 | WARNING | PID:27384 | No open connection/channel: connecting...
+2025-07-31 10:34:10 | INFO | PID:27384 | Successfully connected on attempt 1
+2025-07-31 10:34:10 | INFO | PID:27384 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:34:10 | INFO | PID:27384 | Starting consuming on article-content-request-queue
+2025-07-31 10:34:11 | WARNING | PID:27384 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:34:15 | INFO | PID:27384 | Worker url_rewriter_content_request_worker_27384_1753938244 verified in RabbitMQ consumers
+2025-07-31 10:34:43 | INFO | PID:5316 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 10:34:43 | INFO | PID:5316 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:34:43 | INFO | PID:5316 | Successfully created channel
+2025-07-31 10:34:43 | INFO | PID:5316 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 10:34:43 | INFO | PID:5316 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 10:34:47 | INFO | PID:17792 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 10:34:47 | INFO | PID:17792 | Created new channel
+2025-07-31 10:34:47 | INFO | PID:17792 | Declared queue: article-content-request-queue
+2025-07-31 10:34:48 | INFO | PID:17792 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:34:48 | INFO | PID:17792 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | WARNING | PID:17792 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:34:48 | WARNING | PID:17792 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:34:48 | INFO | PID:17792 | Worker instance created
+2025-07-31 10:34:48 | INFO | PID:17792 | Got process ID: 17792
+2025-07-31 10:34:48 | INFO | PID:17792 | Registered worker process 17792 in registry with tag url_rewriter_content_request_worker_17792_1753938288
+2025-07-31 10:34:48 | INFO | PID:17792 | Starting consuming on article-content-request-queue
+2025-07-31 10:34:48 | INFO | PID:17792 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 10:34:48 | INFO | PID:17792 | Started url_rewriter_content_request_worker with PID: 17792, queue: article-content-request-queue
+2025-07-31 10:34:50 | WARNING | PID:17792 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:34:53 | WARNING | PID:17792 | No open connection/channel: connecting...
+2025-07-31 10:34:53 | INFO | PID:17792 | Successfully connected on attempt 1
+2025-07-31 10:34:53 | INFO | PID:17792 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:34:53 | INFO | PID:17792 | Starting consuming on article-content-request-queue
+2025-07-31 10:34:54 | WARNING | PID:17792 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:34:58 | INFO | PID:17792 | Worker url_rewriter_content_request_worker_17792_1753938288 verified in RabbitMQ consumers
+2025-07-31 10:35:16 | INFO | PID:17792 | Processing message from queue: article-content-request-queue
+2025-07-31 10:35:32 | INFO | PID:17792 | Successfully authenticated with API
+2025-07-31 10:35:32 | INFO | PID:17792 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:35:39 | INFO | PID:17792 | Successfully authenticated with API
+2025-07-31 10:35:39 | INFO | PID:17792 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:35:40 | INFO | PID:17792 | Successfully authenticated with API
+2025-07-31 10:35:40 | INFO | PID:17792 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:35:40 | INFO | PID:17792 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:36:13 | INFO | PID:17792 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/44091102-5727-4b7b-8a68-c0b96867b442/
+2025-07-31 10:36:13 | INFO | PID:17792 | Successfully authenticated with API
+2025-07-31 10:36:13 | INFO | PID:17792 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/44091102-5727-4b7b-8a68-c0b96867b442/ (Attempt 1/3)
+2025-07-31 10:36:13 | INFO | PID:17792 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:36:13 | INFO | PID:17792 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:36:16 | INFO | PID:17792 | Message processed in 59.55 seconds
+2025-07-31 10:36:16 | INFO | PID:17792 | Message acknowledged
+2025-07-31 10:36:21 | WARNING | PID:17792 | No open connection/channel: connecting...
+2025-07-31 10:36:21 | INFO | PID:17792 | Successfully connected on attempt 1
+2025-07-31 10:36:21 | INFO | PID:17792 | Consumer registered on queue: article-content-request-queue
+2025-07-31 10:36:21 | INFO | PID:17792 | Starting consuming on article-content-request-queue
+2025-07-31 10:36:45 | INFO | PID:5316 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:36:45 | INFO | PID:5316 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:36:45 | INFO | PID:5316 | Successfully created channel
+2025-07-31 10:36:45 | INFO | PID:5316 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:36:45 | INFO | PID:5316 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:36:48 | INFO | PID:21104 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:36:48 | INFO | PID:21104 | Created new channel
+2025-07-31 10:36:48 | INFO | PID:21104 | Declared queue: article-content-response-queue
+2025-07-31 10:36:49 | INFO | PID:21104 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:36:49 | INFO | PID:21104 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:36:49 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:36:49 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:36:49 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:36:49 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:36:49 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:36:49 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:36:49 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:36:49 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:36:49 | INFO | PID:21104 | Worker instance created
+2025-07-31 10:36:49 | INFO | PID:21104 | Got process ID: 21104
+2025-07-31 10:36:49 | INFO | PID:21104 | Registered worker process 21104 in registry with tag url_rewriter_content_response_worker_21104_1753938409
+2025-07-31 10:36:49 | INFO | PID:21104 | Starting consuming on article-content-response-queue
+2025-07-31 10:36:49 | INFO | PID:21104 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:36:49 | INFO | PID:21104 | Started url_rewriter_content_response_worker with PID: 21104, queue: article-content-response-queue
+2025-07-31 10:36:52 | WARNING | PID:21104 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:36:54 | WARNING | PID:21104 | No open connection/channel: connecting...
+2025-07-31 10:36:54 | INFO | PID:21104 | Successfully connected on attempt 1
+2025-07-31 10:36:54 | INFO | PID:21104 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:36:54 | INFO | PID:21104 | Starting consuming on article-content-response-queue
+2025-07-31 10:36:56 | WARNING | PID:21104 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:37:00 | INFO | PID:21104 | Worker url_rewriter_content_response_worker_21104_1753938409 verified in RabbitMQ consumers
+2025-07-31 10:37:05 | INFO | PID:21104 | Processing message from queue: article-content-response-queue
+2025-07-31 10:37:05 | INFO | PID:21104 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/bedb450f-7bbd-47a7-94c9-3622a0ca40d6/
+2025-07-31 10:37:05 | INFO | PID:21104 | Successfully authenticated with API
+2025-07-31 10:37:05 | INFO | PID:21104 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/bedb450f-7bbd-47a7-94c9-3622a0ca40d6/ (Attempt 1/3)
+2025-07-31 10:37:05 | INFO | PID:21104 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:37:05 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:06 | INFO | PID:21104 | Successfully authenticated with API
+2025-07-31 10:37:06 | INFO | PID:21104 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:37:06 | INFO | PID:21104 | Successfully authenticated with API
+2025-07-31 10:37:06 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:06 | INFO | PID:21104 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:37:09 | INFO | PID:21104 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:37:09 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:09 | INFO | PID:21104 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:37:11 | INFO | PID:21104 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 10:37:12 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:12 | INFO | PID:21104 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 10:37:14 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:14 | INFO | PID:21104 | Message processed in 9.35 seconds
+2025-07-31 10:37:14 | INFO | PID:21104 | Message acknowledged
+2025-07-31 10:37:16 | INFO | PID:5316 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:37:16 | INFO | PID:5316 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:37:16 | INFO | PID:5316 | Successfully created channel
+2025-07-31 10:37:16 | INFO | PID:5316 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:37:16 | INFO | PID:5316 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:37:18 | INFO | PID:16308 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:37:18 | INFO | PID:16308 | Created new channel
+2025-07-31 10:37:18 | INFO | PID:16308 | Declared queue: article-content-response-queue
+2025-07-31 10:37:18 | INFO | PID:16308 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:37:18 | INFO | PID:16308 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:37:18 | WARNING | PID:16308 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:18 | WARNING | PID:16308 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:18 | WARNING | PID:16308 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:18 | WARNING | PID:16308 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:18 | WARNING | PID:16308 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:18 | WARNING | PID:16308 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:18 | WARNING | PID:16308 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:18 | WARNING | PID:16308 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:18 | INFO | PID:16308 | Worker instance created
+2025-07-31 10:37:18 | INFO | PID:16308 | Got process ID: 16308
+2025-07-31 10:37:18 | INFO | PID:16308 | Registered worker process 16308 in registry with tag url_rewriter_content_response_worker_16308_1753938438
+2025-07-31 10:37:18 | INFO | PID:16308 | Starting consuming on article-content-response-queue
+2025-07-31 10:37:19 | INFO | PID:16308 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:37:19 | INFO | PID:16308 | Started url_rewriter_content_response_worker with PID: 16308, queue: article-content-response-queue
+2025-07-31 10:37:19 | WARNING | PID:21104 | No open connection/channel: connecting...
+2025-07-31 10:37:19 | INFO | PID:21104 | Successfully connected on attempt 1
+2025-07-31 10:37:19 | INFO | PID:21104 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:37:19 | INFO | PID:21104 | Starting consuming on article-content-response-queue
+2025-07-31 10:37:21 | WARNING | PID:16308 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:37:23 | WARNING | PID:16308 | No open connection/channel: connecting...
+2025-07-31 10:37:24 | INFO | PID:16308 | Successfully connected on attempt 1
+2025-07-31 10:37:24 | INFO | PID:16308 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:37:24 | INFO | PID:16308 | Starting consuming on article-content-response-queue
+2025-07-31 10:37:25 | WARNING | PID:16308 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 10:37:33 | INFO | PID:21104 | Processing message from queue: article-content-response-queue
+2025-07-31 10:37:33 | INFO | PID:21104 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/35ca0043-c3c5-4051-aac7-895c8f111f48/
+2025-07-31 10:37:33 | INFO | PID:21104 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/35ca0043-c3c5-4051-aac7-895c8f111f48/ (Attempt 1/3)
+2025-07-31 10:37:33 | INFO | PID:21104 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:37:34 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:34 | INFO | PID:21104 | Message processed in 0.83 seconds
+2025-07-31 10:37:34 | INFO | PID:21104 | Message acknowledged
+2025-07-31 10:37:38 | INFO | PID:5316 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 10:37:38 | INFO | PID:5316 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 10:37:38 | INFO | PID:5316 | Successfully created channel
+2025-07-31 10:37:38 | INFO | PID:5316 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 10:37:38 | INFO | PID:5316 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 10:37:39 | WARNING | PID:21104 | No open connection/channel: connecting...
+2025-07-31 10:37:39 | INFO | PID:21104 | Successfully connected on attempt 1
+2025-07-31 10:37:39 | INFO | PID:21104 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:37:39 | INFO | PID:21104 | Starting consuming on article-content-response-queue
+2025-07-31 10:37:41 | INFO | PID:26300 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 10:37:41 | INFO | PID:26300 | Created new channel
+2025-07-31 10:37:41 | INFO | PID:26300 | Declared queue: article-content-response-queue
+2025-07-31 10:37:41 | INFO | PID:26300 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 10:37:41 | INFO | PID:26300 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 10:37:41 | WARNING | PID:26300 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:41 | WARNING | PID:26300 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:41 | WARNING | PID:26300 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:41 | WARNING | PID:26300 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:41 | WARNING | PID:26300 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:41 | WARNING | PID:26300 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:41 | WARNING | PID:26300 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:37:41 | WARNING | PID:26300 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:37:41 | INFO | PID:26300 | Worker instance created
+2025-07-31 10:37:41 | INFO | PID:26300 | Got process ID: 26300
+2025-07-31 10:37:41 | INFO | PID:26300 | Registered worker process 26300 in registry with tag url_rewriter_content_response_worker_26300_1753938461
+2025-07-31 10:37:41 | INFO | PID:26300 | Starting consuming on article-content-response-queue
+2025-07-31 10:37:42 | INFO | PID:26300 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 10:37:42 | INFO | PID:26300 | Started url_rewriter_content_response_worker with PID: 26300, queue: article-content-response-queue
+2025-07-31 10:37:44 | WARNING | PID:26300 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 10:37:46 | WARNING | PID:26300 | No open connection/channel: connecting...
+2025-07-31 10:37:46 | INFO | PID:26300 | Successfully connected on attempt 1
+2025-07-31 10:37:46 | INFO | PID:26300 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:37:46 | INFO | PID:26300 | Starting consuming on article-content-response-queue
+2025-07-31 10:37:48 | INFO | PID:26300 | Worker url_rewriter_content_response_worker_26300_1753938461 verified in RabbitMQ consumers
+2025-07-31 10:37:56 | INFO | PID:21104 | Processing message from queue: article-content-response-queue
+2025-07-31 10:37:56 | INFO | PID:21104 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/7bc4fa4f-bcc4-4186-910a-0e50413bbd40/
+2025-07-31 10:37:56 | INFO | PID:21104 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/7bc4fa4f-bcc4-4186-910a-0e50413bbd40/ (Attempt 1/3)
+2025-07-31 10:37:56 | INFO | PID:21104 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:37:56 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:37:56 | INFO | PID:21104 | Message processed in 0.57 seconds
+2025-07-31 10:37:56 | INFO | PID:21104 | Message acknowledged
+2025-07-31 10:38:01 | WARNING | PID:21104 | No open connection/channel: connecting...
+2025-07-31 10:38:01 | INFO | PID:21104 | Successfully connected on attempt 1
+2025-07-31 10:38:01 | INFO | PID:21104 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:38:01 | INFO | PID:21104 | Starting consuming on article-content-response-queue
+2025-07-31 10:38:03 | INFO | PID:21104 | Processing message from queue: article-content-response-queue
+2025-07-31 10:38:03 | INFO | PID:21104 | Making update request to endpoint: /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/b392c3f4-7a19-4ffc-8996-ec441783088b/
+2025-07-31 10:38:03 | INFO | PID:21104 | Making PATCH request to /message-service-api/ai-message/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5/b392c3f4-7a19-4ffc-8996-ec441783088b/ (Attempt 1/3)
+2025-07-31 10:38:03 | INFO | PID:21104 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:38:03 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:38:04 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:38:04 | INFO | PID:21104 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 10:38:04 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:38:04 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:38:04 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:38:04 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:38:04 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:38:04 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:38:04 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:38:04 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:38:04 | INFO | PID:21104 | Successfully authenticated with API
+2025-07-31 10:38:04 | INFO | PID:21104 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 10:38:24 | WARNING | PID:21104 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 10:38:24 | WARNING | PID:21104 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 10:38:24 | INFO | PID:21104 | Successfully authenticated with API
+2025-07-31 10:38:24 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:38:24 | WARNING | PID:21104 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:26 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:38:26 | WARNING | PID:21104 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:28 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:38:28 | WARNING | PID:21104 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:28 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:38:28 | WARNING | PID:21104 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:30 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:38:30 | WARNING | PID:21104 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:32 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:38:32 | WARNING | PID:21104 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:32 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 1/3)
+2025-07-31 10:38:33 | WARNING | PID:21104 | Attempt 1 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:35 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 2/3)
+2025-07-31 10:38:35 | WARNING | PID:21104 | Attempt 2 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:37 | INFO | PID:21104 | Making POST request to /api/tag/add/ (Attempt 3/3)
+2025-07-31 10:38:37 | WARNING | PID:21104 | Attempt 3 failed: Request failed with status 409: {"error": "Tag with this name already exists for the specified domain.", "success": false}
+2025-07-31 10:38:37 | INFO | PID:21104 | Making update request to endpoint: /api/article/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5
+2025-07-31 10:38:37 | INFO | PID:21104 | Successfully authenticated with API
+2025-07-31 10:38:37 | INFO | PID:21104 | Making PATCH request to /api/article/update/f05df4c8-7af8-48f1-8e2f-a43fd92aaed5 (Attempt 1/3)
+2025-07-31 10:38:45 | INFO | PID:21104 | Message processed in 42.07 seconds
+2025-07-31 10:38:45 | INFO | PID:21104 | Message acknowledged
+2025-07-31 10:38:50 | WARNING | PID:21104 | No open connection/channel: connecting...
+2025-07-31 10:38:50 | INFO | PID:21104 | Successfully connected on attempt 1
+2025-07-31 10:38:50 | INFO | PID:21104 | Consumer registered on queue: article-content-response-queue
+2025-07-31 10:38:50 | INFO | PID:21104 | Starting consuming on article-content-response-queue
+2025-07-31 11:07:58 | INFO | PID:27384 | Attempting to verify queue 'article-content-request-queue'
+2025-07-31 11:07:58 | INFO | PID:27384 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 11:07:58 | INFO | PID:27384 | Successfully created channel
+2025-07-31 11:07:58 | INFO | PID:27384 | Attempting AMQP check for queue 'article-content-request-queue'
+2025-07-31 11:07:58 | INFO | PID:27384 | Queue 'article-content-request-queue' exists (verified via AMQP)
+2025-07-31 11:08:02 | INFO | PID:26804 | Starting worker url_rewriter_content_request_worker for queue article-content-request-queue
+2025-07-31 11:08:02 | INFO | PID:26804 | Created new channel
+2025-07-31 11:08:02 | INFO | PID:26804 | Declared queue: article-content-request-queue
+2025-07-31 11:08:03 | INFO | PID:26804 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 11:08:03 | INFO | PID:26804 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | WARNING | PID:26804 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:08:03 | WARNING | PID:26804 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:08:03 | INFO | PID:26804 | Worker instance created
+2025-07-31 11:08:03 | INFO | PID:26804 | Got process ID: 26804
+2025-07-31 11:08:03 | INFO | PID:26804 | Registered worker process 26804 in registry with tag url_rewriter_content_request_worker_26804_1753940283
+2025-07-31 11:08:03 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:08:03 | INFO | PID:26804 | Started url_rewriter_content_request_worker on queue: article-content-request-queue
+2025-07-31 11:08:03 | INFO | PID:26804 | Started url_rewriter_content_request_worker with PID: 26804, queue: article-content-request-queue
+2025-07-31 11:08:05 | WARNING | PID:26804 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 11:08:08 | WARNING | PID:26804 | No open connection/channel: connecting...
+2025-07-31 11:08:08 | INFO | PID:26804 | Successfully connected on attempt 1
+2025-07-31 11:08:08 | INFO | PID:26804 | Consumer registered on queue: article-content-request-queue
+2025-07-31 11:08:08 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:08:10 | WARNING | PID:26804 | Attempt 2: Worker not found in RabbitMQ consumers
+2025-07-31 11:08:14 | INFO | PID:26804 | Worker url_rewriter_content_request_worker_26804_1753940283 verified in RabbitMQ consumers
+2025-07-31 11:08:22 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:08:37 | INFO | PID:26804 | Successfully authenticated with API
+2025-07-31 11:08:37 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:08:44 | INFO | PID:26804 | Successfully authenticated with API
+2025-07-31 11:08:44 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:08:45 | INFO | PID:26804 | Successfully authenticated with API
+2025-07-31 11:08:45 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:08:45 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:09:18 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/86643945-e1f6-439c-92d8-834af334bf4c/f4e5e108-bc9c-4a9f-b4a3-3f8c2c1a48e9/
+2025-07-31 11:09:19 | INFO | PID:26804 | Successfully authenticated with API
+2025-07-31 11:09:19 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/86643945-e1f6-439c-92d8-834af334bf4c/f4e5e108-bc9c-4a9f-b4a3-3f8c2c1a48e9/ (Attempt 1/3)
+2025-07-31 11:09:20 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:09:20 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:09:22 | INFO | PID:26804 | Message processed in 60.74 seconds
+2025-07-31 11:09:22 | INFO | PID:26804 | Message acknowledged
+2025-07-31 11:09:27 | WARNING | PID:26804 | No open connection/channel: connecting...
+2025-07-31 11:09:27 | INFO | PID:26804 | Successfully connected on attempt 1
+2025-07-31 11:09:27 | INFO | PID:26804 | Consumer registered on queue: article-content-request-queue
+2025-07-31 11:09:27 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:09:27 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:09:36 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:09:44 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:09:44 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:09:44 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:09:48 | INFO | PID:27384 | Attempting to verify queue 'article-content-response-queue'
+2025-07-31 11:09:48 | INFO | PID:27384 | RabbitMQ Host: localhost, Port: 15672
+2025-07-31 11:09:48 | INFO | PID:27384 | Successfully created channel
+2025-07-31 11:09:48 | INFO | PID:27384 | Attempting AMQP check for queue 'article-content-response-queue'
+2025-07-31 11:09:48 | INFO | PID:27384 | Queue 'article-content-response-queue' exists (verified via AMQP)
+2025-07-31 11:09:51 | INFO | PID:2596 | Starting worker url_rewriter_content_response_worker for queue article-content-response-queue
+2025-07-31 11:09:51 | INFO | PID:2596 | Created new channel
+2025-07-31 11:09:51 | INFO | PID:2596 | Declared queue: article-content-response-queue
+2025-07-31 11:09:51 | INFO | PID:2596 | Available workers: ['testworker', 'url_rewriter_content_request_worker', 'url_rewriter_content_response_worker', 'url_rewriter_para_request_worker', 'url_rewriter_para_response_worker']
+2025-07-31 11:09:51 | INFO | PID:2596 | Found worker class: UrlRewriterParallelWorker
+2025-07-31 11:09:51 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:09:51 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:09:51 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:09:51 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:09:51 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:09:51 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:09:51 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:09:51 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:09:51 | INFO | PID:2596 | Worker instance created
+2025-07-31 11:09:51 | INFO | PID:2596 | Got process ID: 2596
+2025-07-31 11:09:51 | INFO | PID:2596 | Registered worker process 2596 in registry with tag url_rewriter_content_response_worker_2596_1753940391
+2025-07-31 11:09:51 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:09:52 | INFO | PID:2596 | Started url_rewriter_content_response_worker on queue: article-content-response-queue
+2025-07-31 11:09:52 | INFO | PID:2596 | Started url_rewriter_content_response_worker with PID: 2596, queue: article-content-response-queue
+2025-07-31 11:09:54 | WARNING | PID:2596 | Attempt 1: Worker not found in RabbitMQ consumers
+2025-07-31 11:09:56 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:09:57 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:09:57 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:09:57 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:09:58 | INFO | PID:2596 | Worker url_rewriter_content_response_worker_2596_1753940391 verified in RabbitMQ consumers
+2025-07-31 11:10:04 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:10:04 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/86643945-e1f6-439c-92d8-834af334bf4c/26b24e87-b93e-49a1-8a6d-307b2b2c8e53/
+2025-07-31 11:10:04 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:10:04 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/86643945-e1f6-439c-92d8-834af334bf4c/26b24e87-b93e-49a1-8a6d-307b2b2c8e53/ (Attempt 1/3)
+2025-07-31 11:10:04 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:10:04 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:10:04 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:10:04 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:10:05 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:10:05 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:10:05 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:10:05 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:10:05 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:10:05 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:10:05 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:10:05 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:10:05 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:10:05 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:10:05 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:10:17 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/750eeebc-3fe6-4af8-9f41-750fa240eb00/12979540-64f2-402c-af9a-452ac2d3a412/
+2025-07-31 11:10:17 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/750eeebc-3fe6-4af8-9f41-750fa240eb00/12979540-64f2-402c-af9a-452ac2d3a412/ (Attempt 1/3)
+2025-07-31 11:10:17 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:10:17 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:10:20 | INFO | PID:26804 | Message processed in 52.10 seconds
+2025-07-31 11:10:20 | INFO | PID:26804 | Message acknowledged
+2025-07-31 11:10:20 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:10:24 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/86643945-e1f6-439c-92d8-834af334bf4c
+2025-07-31 11:10:25 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:10:25 | INFO | PID:2596 | Making PATCH request to /api/article/update/86643945-e1f6-439c-92d8-834af334bf4c (Attempt 1/3)
+2025-07-31 11:10:28 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:10:33 | INFO | PID:2596 | Message processed in 29.14 seconds
+2025-07-31 11:10:33 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:10:35 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:10:36 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:10:36 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:10:38 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:10:38 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:10:38 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:10:38 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:11:06 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:11:06 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/750eeebc-3fe6-4af8-9f41-750fa240eb00/04d922c4-c467-4226-ac25-b417fcff466e/
+2025-07-31 11:11:06 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/750eeebc-3fe6-4af8-9f41-750fa240eb00/04d922c4-c467-4226-ac25-b417fcff466e/ (Attempt 1/3)
+2025-07-31 11:11:07 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:11:07 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:11:07 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:11:07 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:11:07 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:11:07 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:11:07 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:11:07 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:11:07 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:11:07 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:11:07 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:11:07 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:11:07 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:11:08 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:11:08 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:11:27 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/750eeebc-3fe6-4af8-9f41-750fa240eb00
+2025-07-31 11:11:27 | INFO | PID:2596 | Making PATCH request to /api/article/update/750eeebc-3fe6-4af8-9f41-750fa240eb00 (Attempt 1/3)
+2025-07-31 11:11:33 | INFO | PID:2596 | Message processed in 27.08 seconds
+2025-07-31 11:11:33 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:11:38 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:11:39 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:11:39 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:11:39 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:12:08 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/49850307-9e7f-455c-9fd7-7178860889ce/
+2025-07-31 11:12:08 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/49850307-9e7f-455c-9fd7-7178860889ce/ (Attempt 1/3)
+2025-07-31 11:12:08 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:12:09 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:12:11 | ERROR | PID:26804 | Message processing failed for data:. Error: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2025-07-31 11:12:11 | ERROR | PID:26804 | Error in callback: Channel is closed.
+2025-07-31 11:12:11 | WARNING | PID:26804 | Channel wrong state: Channel is closed.
+2025-07-31 11:12:16 | WARNING | PID:26804 | No open connection/channel: connecting...
+2025-07-31 11:12:16 | INFO | PID:26804 | Successfully connected on attempt 1
+2025-07-31 11:12:16 | INFO | PID:26804 | Consumer registered on queue: article-content-request-queue
+2025-07-31 11:12:16 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:12:16 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:12:25 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:12:32 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:12:32 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:12:32 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:12:44 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:12:44 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/d2301ab4-3d8f-4b7c-b1b2-379c36006a35/
+2025-07-31 11:12:44 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/d2301ab4-3d8f-4b7c-b1b2-379c36006a35/ (Attempt 1/3)
+2025-07-31 11:12:44 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:12:44 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:12:44 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:12:44 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:12:44 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:12:44 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:12:44 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:12:44 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:12:44 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:12:44 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:12:44 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:12:45 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:12:45 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:12:45 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:12:45 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:13:04 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/5c480ced-33eb-4067-904d-0475e1cc0770
+2025-07-31 11:13:04 | INFO | PID:2596 | Making PATCH request to /api/article/update/5c480ced-33eb-4067-904d-0475e1cc0770 (Attempt 1/3)
+2025-07-31 11:13:05 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/49850307-9e7f-455c-9fd7-7178860889ce/
+2025-07-31 11:13:05 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/49850307-9e7f-455c-9fd7-7178860889ce/ (Attempt 1/3)
+2025-07-31 11:13:05 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:13:05 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:13:08 | INFO | PID:26804 | Message processed in 51.96 seconds
+2025-07-31 11:13:08 | INFO | PID:26804 | Message acknowledged
+2025-07-31 11:13:12 | INFO | PID:2596 | Message processed in 28.14 seconds
+2025-07-31 11:13:12 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:13:13 | WARNING | PID:26804 | No open connection/channel: connecting...
+2025-07-31 11:13:13 | INFO | PID:26804 | Successfully connected on attempt 1
+2025-07-31 11:13:13 | INFO | PID:26804 | Consumer registered on queue: article-content-request-queue
+2025-07-31 11:13:13 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:13:13 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:13:17 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:13:17 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:13:17 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:13:17 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:13:22 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:13:29 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:13:29 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:13:29 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:13:38 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:13:38 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/d2301ab4-3d8f-4b7c-b1b2-379c36006a35/
+2025-07-31 11:13:38 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/5c480ced-33eb-4067-904d-0475e1cc0770/d2301ab4-3d8f-4b7c-b1b2-379c36006a35/ (Attempt 1/3)
+2025-07-31 11:13:38 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:13:39 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:13:39 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:13:39 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:13:39 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:13:39 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:13:39 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:13:39 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:13:39 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:13:39 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:13:39 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:13:39 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:13:39 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:13:40 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:13:40 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:13:58 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/5c480ced-33eb-4067-904d-0475e1cc0770
+2025-07-31 11:13:58 | INFO | PID:2596 | Making PATCH request to /api/article/update/5c480ced-33eb-4067-904d-0475e1cc0770 (Attempt 1/3)
+2025-07-31 11:14:02 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/f108194c-e1bd-40c6-8c2f-ff726985325b/3cd6cd8c-fdfa-488e-8733-09dfeba8c9cc/
+2025-07-31 11:14:02 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/f108194c-e1bd-40c6-8c2f-ff726985325b/3cd6cd8c-fdfa-488e-8733-09dfeba8c9cc/ (Attempt 1/3)
+2025-07-31 11:14:02 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:02 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:14:04 | INFO | PID:26804 | Message processed in 51.34 seconds
+2025-07-31 11:14:04 | INFO | PID:26804 | Message acknowledged
+2025-07-31 11:14:04 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:14:05 | INFO | PID:2596 | Message processed in 26.79 seconds
+2025-07-31 11:14:05 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:14:10 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:14:10 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:14:10 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:14:10 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:14:13 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:14:20 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:14:20 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:20 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:14:29 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:14:29 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/f108194c-e1bd-40c6-8c2f-ff726985325b/bcdcbc35-960f-4d4a-9d1a-6aa5f7e26f99/
+2025-07-31 11:14:29 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/f108194c-e1bd-40c6-8c2f-ff726985325b/bcdcbc35-960f-4d4a-9d1a-6aa5f7e26f99/ (Attempt 1/3)
+2025-07-31 11:14:29 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:14:29 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:29 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:30 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:30 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:30 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:14:30 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:14:30 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:14:30 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:14:30 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:14:30 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:14:30 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:14:30 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:14:30 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:14:30 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:14:50 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/f108194c-e1bd-40c6-8c2f-ff726985325b
+2025-07-31 11:14:50 | INFO | PID:2596 | Making PATCH request to /api/article/update/f108194c-e1bd-40c6-8c2f-ff726985325b (Attempt 1/3)
+2025-07-31 11:14:53 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/3e29965e-f08a-47d5-8903-514ecc5c49f2/
+2025-07-31 11:14:53 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/3e29965e-f08a-47d5-8903-514ecc5c49f2/ (Attempt 1/3)
+2025-07-31 11:14:53 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:14:53 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:14:55 | ERROR | PID:26804 | Message processing failed for data:. Error: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2025-07-31 11:14:55 | ERROR | PID:26804 | Error in callback: Channel is closed.
+2025-07-31 11:14:55 | WARNING | PID:26804 | Channel wrong state: Channel is closed.
+2025-07-31 11:14:57 | INFO | PID:2596 | Message processed in 27.93 seconds
+2025-07-31 11:14:57 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:15:00 | WARNING | PID:26804 | No open connection/channel: connecting...
+2025-07-31 11:15:00 | INFO | PID:26804 | Successfully connected on attempt 1
+2025-07-31 11:15:00 | INFO | PID:26804 | Consumer registered on queue: article-content-request-queue
+2025-07-31 11:15:00 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:15:00 | INFO | PID:26804 | Processing message from queue: article-content-request-queue
+2025-07-31 11:15:02 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:15:02 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:15:02 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:15:02 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:15:08 | INFO | PID:26804 | Making GET request to /api/article-type/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:15:15 | INFO | PID:26804 | Making GET request to /api/supportive-prompt/replace-output-variable/ (Attempt 1/3)
+2025-07-31 11:15:15 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:15:15 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:15:30 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:15:30 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/7bb95c68-1035-4a77-bab0-81a7d618fe47/
+2025-07-31 11:15:30 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/7bb95c68-1035-4a77-bab0-81a7d618fe47/ (Attempt 1/3)
+2025-07-31 11:15:30 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:15:30 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:15:30 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:15:30 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:15:31 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:15:31 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:15:31 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:15:31 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:15:31 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:15:31 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:15:31 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:15:31 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:15:31 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:15:32 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:15:32 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:15:48 | INFO | PID:26804 | Making update request to endpoint: /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/3e29965e-f08a-47d5-8903-514ecc5c49f2/
+2025-07-31 11:15:48 | INFO | PID:26804 | Making PATCH request to /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/3e29965e-f08a-47d5-8903-514ecc5c49f2/ (Attempt 1/3)
+2025-07-31 11:15:48 | INFO | PID:26804 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:15:49 | INFO | PID:26804 | Making POST request to /message-service-api/ai-message/add/ (Attempt 1/3)
+2025-07-31 11:15:51 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/b7bcced9-02a2-46e5-925c-8d525485950f
+2025-07-31 11:15:51 | INFO | PID:2596 | Making PATCH request to /api/article/update/b7bcced9-02a2-46e5-925c-8d525485950f (Attempt 1/3)
+2025-07-31 11:15:51 | INFO | PID:26804 | Message processed in 50.65 seconds
+2025-07-31 11:15:51 | INFO | PID:26804 | Message acknowledged
+2025-07-31 11:15:56 | WARNING | PID:26804 | No open connection/channel: connecting...
+2025-07-31 11:15:56 | INFO | PID:26804 | Successfully connected on attempt 1
+2025-07-31 11:15:56 | INFO | PID:26804 | Consumer registered on queue: article-content-request-queue
+2025-07-31 11:15:56 | INFO | PID:26804 | Starting consuming on article-content-request-queue
+2025-07-31 11:15:58 | INFO | PID:2596 | Message processed in 28.22 seconds
+2025-07-31 11:15:58 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:16:03 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:16:03 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:16:03 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:16:03 | INFO | PID:2596 | Starting consuming on article-content-response-queue
+2025-07-31 11:16:23 | INFO | PID:2596 | Processing message from queue: article-content-response-queue
+2025-07-31 11:16:23 | INFO | PID:2596 | Making update request to endpoint: /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/7bb95c68-1035-4a77-bab0-81a7d618fe47/
+2025-07-31 11:16:23 | INFO | PID:2596 | Making PATCH request to /message-service-api/ai-message/update/b7bcced9-02a2-46e5-925c-8d525485950f/7bb95c68-1035-4a77-bab0-81a7d618fe47/ (Attempt 1/3)
+2025-07-31 11:16:23 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:16:24 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:16:24 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:16:24 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:16:24 | INFO | PID:2596 | Making GET request to /message-service-api/ai-messages/ (Attempt 1/3)
+2025-07-31 11:16:24 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:16:24 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:16:25 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:16:25 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:16:25 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:16:25 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:16:25 | WARNING | PID:2596 | Detected localhost connection - disabling SSL verification for development
+2025-07-31 11:16:25 | WARNING | PID:2596 | ⚠️  SSL verification is disabled - DO NOT use this in production!
+2025-07-31 11:16:25 | INFO | PID:2596 | Successfully authenticated with API
+2025-07-31 11:16:25 | INFO | PID:2596 | Making GET request to /message-service-api/article-input-json/ (Attempt 1/3)
+2025-07-31 11:16:43 | INFO | PID:2596 | Making update request to endpoint: /api/article/update/b7bcced9-02a2-46e5-925c-8d525485950f
+2025-07-31 11:16:43 | INFO | PID:2596 | Making PATCH request to /api/article/update/b7bcced9-02a2-46e5-925c-8d525485950f (Attempt 1/3)
+2025-07-31 11:16:50 | INFO | PID:2596 | Message processed in 26.96 seconds
+2025-07-31 11:16:50 | INFO | PID:2596 | Message acknowledged
+2025-07-31 11:16:55 | WARNING | PID:2596 | No open connection/channel: connecting...
+2025-07-31 11:16:55 | INFO | PID:2596 | Successfully connected on attempt 1
+2025-07-31 11:16:55 | INFO | PID:2596 | Consumer registered on queue: article-content-response-queue
+2025-07-31 11:16:55 | INFO | PID:2596 | Starting consuming on article-content-response-queue

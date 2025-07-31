@@ -126,19 +126,20 @@ class PublishArticle:
 
     def publish_article(self, final_formatted_article_content_data, all_stored_wp_message_data, temp_article_id):
         try:
-            all_stored_wp_message_datas = all_stored_wp_message_data["data"]
-
+            
             generated_article_title = final_formatted_article_content_data['generated_title']
             generated_article_content = final_formatted_article_content_data['generated_content']
 
             wp_excerpt = generated_article_title
             wp_slug = generated_article_title
+            if all_stored_wp_message_data is not None and "data" in all_stored_wp_message_data:
+                all_stored_wp_message_datas = all_stored_wp_message_data["data"]
 
-            wp_datas = None
-            try:
-                wp_datas = self.get_slug_ids_by_type(all_stored_wp_message_datas)
-            except Exception as e:
-                print({"status": "error", "step": "get_slug_ids_by_type", "message": str(e)})
+                wp_datas = None
+                try:
+                    wp_datas = self.get_slug_ids_by_type(all_stored_wp_message_datas)
+                except Exception as e:
+                    print({"status": "error", "step": "get_slug_ids_by_type", "message": str(e)})
 
             try:
                 from app.workers.url_rewriter_para_response_helpers.get_input_json_data import GetInputJson
@@ -161,10 +162,10 @@ class PublishArticle:
             wp_status = input_data.get("wp_status")
             article_slug_id = input_data.get("article_slug_id")
 
-            # Default fallback values from AI response
-            default_author_slug_ids = wp_datas.get('author', []) if wp_datas else []
-            default_tag_slug_ids = wp_datas.get('tag', []) if wp_datas else []
-            default_category_slug_ids = wp_datas.get('category', []) if wp_datas else []
+            # # Default fallback values from AI response
+            # default_author_slug_ids = wp_datas.get('author', []) if wp_datas else []
+            # default_tag_slug_ids = wp_datas.get('tag', []) if wp_datas else []
+            # default_category_slug_ids = wp_datas.get('category', []) if wp_datas else []
 
             # Input JSON values
             wp_author = input_data.get("wp_author")
@@ -179,21 +180,21 @@ class PublishArticle:
 
             # Use input if available, else fallback to AI-generated
             # author_slug_ids = ensure_list(wp_author) or default_author_slug_ids
-            author_slug_ids = ensure_list(wp_author)
-            if not author_slug_ids:
-                author_slug_ids = ensure_list(default_author_slug_ids)
+            # author_slug_ids = ensure_list(wp_author)
+            # if not author_slug_ids:
+            #     author_slug_ids = ensure_list(default_author_slug_ids)
 
-            category_slug_ids = ensure_list(wp_category) or default_category_slug_ids
-            tag_slug_ids = ensure_list(wp_tag) or default_tag_slug_ids
+            # category_slug_ids = ensure_list(wp_category) or default_category_slug_ids
+            # tag_slug_ids = ensure_list(wp_tag) or default_tag_slug_ids
 
             # Prepare request payload
             request_data = {
                 "article_slug_id": article_slug_id,
                 "article_type_slug_id": article_type_slug_id,
-                "author_slug_id": author_slug_ids,
+                # "author_slug_id": '',
                 "domain_slug_id": domain_slug_id,
-                "category_slug_id": category_slug_ids,
-                "tag_slug_id": tag_slug_ids,
+                # "category_slug_id": '',
+                # "tag_slug_id": '',
                 "workspace_slug_id": workspace_slug_id,
                 "wp_title": generated_article_title,
                 "wp_content": generated_article_content,

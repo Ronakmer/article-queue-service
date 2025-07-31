@@ -4,7 +4,7 @@ import os
 import json
 from app.workers.url_rewriter_para_request_helpers.ai_message_request_send import AIRateLimiterService
 from app.workers.core.selector_lambda.selector_lambda import ArticleSelectorService
-from app.workers.core.article_innovator_api_call.wordpress.fetch_category.fetch_category import FetchCategory
+# from app.workers.core.article_innovator_api_call.wordpress.fetch_category.fetch_category import FetchCategory
 from app.workers.core.article_innovator_api_call.fetch_supportive_prompt.fetch_supportive_prompt import FetchSupportivePrompt
 from app.workers.core.scraper_lmabda.scraper_lmabda import ArticleScraperService  # ensure it's the class version
 from app.workers.core.article_innovator_api_call.fetch_base_prompt_data.fetch_base_prompt_data import FetchBasePromptData
@@ -32,7 +32,7 @@ class UrlRewriterParallelWorker(BaseWorker):
         self.selector_service = ArticleSelectorService()
         self.scraper_service = ArticleScraperService()
         self.ai_rate_limiter_service = AIRateLimiterService()
-        self.fetch_category_service = FetchCategory()
+        # self.fetch_category_service = FetchCategory()
         self.fetch_supportive_prompt_service = FetchSupportivePrompt()
         self.fetch_base_prompt_data_service = FetchBasePromptData()
         self.send_single_ai_request_service = SendSingleAiRequest()
@@ -112,8 +112,8 @@ class UrlRewriterParallelWorker(BaseWorker):
             except Exception as e:
                 print({"status": "error", "step": "fetch_base_prompt_data", "message": str(e)})
                 # return {"status": "error", "step": "fetch_base_prompt_data", "message": str(e)}
-
-
+            
+            print(ai_flags, '----------------------ai_flags----------------------')
             if ai_flags.get("is_primary_keyword_generated_by_ai", False):
                 supportive_prompt_data = {}                
                 try:
@@ -271,7 +271,7 @@ class UrlRewriterParallelWorker(BaseWorker):
             ch.basic_ack(delivery_tag=method.delivery_tag)
             return True
         except Exception as e:
-            self.logger.error(f"Message processing failed for data: {body}. Error: {str(e)}")
+            self.logger.error(f"Message processing failed for data:. Error: {str(e)}")
             # Negative acknowledge the message and requeue it
             ch.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
             return False

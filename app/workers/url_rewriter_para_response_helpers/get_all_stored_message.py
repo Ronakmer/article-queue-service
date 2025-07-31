@@ -169,11 +169,12 @@ class StoredMessageFetcher:
 
                 # Save filtered messages to file
                 with open('demo_json/final_all_message_data.json', 'w', encoding='utf-8') as f:
-                    json.dump(successful_messages, f, ensure_ascii=False, indent=4)
-
+                    json.dump(all_messages, f, ensure_ascii=False, indent=4)
+                print(int(len(all_messages)),'all_messages from get_all_stored_wp_message')
+                print(int(len(successful_messages)),'successful_messages from get_all_stored_wp_message')
                 return {
                     "success": True,
-                    "total_messages": int(len(all_messages)),
+                    "total_messages": int(len(all_messages["data"])),
                     "data": successful_messages,
                     "total_successful_messages": int(len(successful_messages))
                 }
